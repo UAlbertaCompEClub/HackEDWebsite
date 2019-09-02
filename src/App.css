@@ -1,0 +1,19 @@
+.ui.hackedred.button {
+  background-color: #d02120;
+  color: #fff;
+}
+
+a.whiteLink {
+  color: #FFF;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* a, a:link, a:visited {
+  color: #FFF;
+  text-decoration: none;
+} */
+
+.ui.grid {
+  margin: 0rem;
+}

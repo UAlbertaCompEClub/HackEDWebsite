@@ -1,0 +1,40 @@
+{
+  "name": "hack-ed-site",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "es6-object-assign": "^1.1.0",
+    "es6-promise": "^4.2.5",
+    "gh-pages": "^2.0.1",
+    "google-maps-react": "^2.0.2",
+    "react": "^16.9.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "semantic-ui-css": "^2.4.0",
+    "semantic-ui-react": "^0.82.5"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
