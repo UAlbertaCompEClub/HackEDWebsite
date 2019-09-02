@@ -3,14 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "es6-object-assign": "^1.1.0",
     "es6-promise": "^4.2.5",
     "gh-pages": "^2.0.1",
     "google-maps-react": "^2.0.2",
+    "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1",
+    "reactstrap": "^8.0.1",
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5"
   },

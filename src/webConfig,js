@@ -1,0 +1,17 @@
+//File is used for most configuration of the web app.
+//Anything that is specific to HackED 20XX or HackED Beta 20XX exclusively should probably be here.
+//The idea is to have most changes made here so that it is easy to configure the site without having to change every file.
+//This should include but not limited to:
+//Logo directories (both event logo and sponsor logos), color palette, google map location, events, presentations, etc.
+
+//COLOR PALETTE
+
+//HERO CONFIG
+
+//SPONSOR LOGOS
+
+//SCHEDULE EVENTS
+
+//PRESENTATIONS
+
+//MISC

@@ -9,11 +9,11 @@ import Sponsors from './Components/Sponsors'
 import Header from './Components/NavigationBar'
 import Schedule from './Components/Schedule'
 import PresentationSchedule from './Components/PresentationSchedule'
-import './App.css';
+import './App.scss';
 
 class App extends Component {
 
-  redirectToExternalUrl(url, e) {
+  redirectToExternalUrl(url) {
     window.open(url, '_blank');
   };
 
@@ -28,9 +28,9 @@ class App extends Component {
           <Grid.Row>
             <Grid.Column mobile={12} tablet={12} computer={10} textAlign='center' style={{paddingTop: "10vh"}}>
               <Image src={HackEDLogo} fluid />
-              <br></br>
-              <br></br>
-              <br></br>
+              <br/>
+              <br/>
+              <br/>
               <h2>Alberta's Largest Student Run Hackathon</h2>
               <h3>January 18 - 19 @ The Donadeo Innovation Centre for Engineering</h3>
               <Button onClick={(e) => this.redirectToExternalUrl('https://docs.google.com/forms/d/e/1FAIpQLSer_0IBKa5O0EFz4uLUtYa6tA5AqZcTpAFgfOxytpPU80HRoQ/viewform', e)} color='red' size='huge'>Pre-Register Here!</Button>

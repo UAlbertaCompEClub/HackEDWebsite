@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
-import { Grid, Icon } from 'semantic-ui-react';
+import React, { Component } from 'react';
+import { Grid } from 'semantic-ui-react';
 
 import { Container } from 'semantic-ui-react'
 
-const PRESENTATION_SCHEDULE_NUM_COLUMNS = 5;
+// const PRESENTATION_SCHEDULE_NUM_COLUMNS = 5;
 
 const presentationSchedule = [
     // [
@@ -398,35 +398,35 @@ class PresentationSchedule extends Component {
     //     }
     // }
 
-    renderPresentationScheduleItem(rows){
+    renderPresentationScheduleItem(rows) {
         return (
-                    <li className="list-group-item">
-                    <Grid columns={4} divided>
-                        {rows.map(item => this.renderPresentationScheduleItemCol(item))}
-                    </Grid>
-                </li>
+            <li className="list-group-item">
+                <Grid columns={4} divided>
+                    {rows.map(item => this.renderPresentationScheduleItemCol(item))}
+                </Grid>
+            </li>
         );
     }
 
-    renderPresentationScheduleItemCol(column){
-        if (column.header && column.room){
+    renderPresentationScheduleItemCol(column) {
+        if (column.header && column.room) {
             return (
                 <Grid.Column style={this.presSchedueHeader} >
                     <p><b>{column.room}</b></p>
-                </Grid.Column> 
+                </Grid.Column>
             )
         }
-        else if (column.header && column.time){
+        else if (column.header && column.time) {
             return (
                 <Grid.Column style={this.presSchedueHeader} >
                     <p><b>{column.time}</b></p>
-                </Grid.Column> 
+                </Grid.Column>
             )
         }
         return (
-                <Grid.Column>
-                    <p>{column.team}</p>
-               </Grid.Column>
+            <Grid.Column>
+                <p>{column.team}</p>
+            </Grid.Column>
         );
     }
 
@@ -437,20 +437,20 @@ class PresentationSchedule extends Component {
                     margin: 0,
                     paddingBottom: 40,
                 }}
-                stackable
-                relaxed='very'
-                >   
-                </Grid>             
-                        <Container>
-                            <br/>
-                            <h1 style={{textAlign: 'center'}}>PRESENTATION SCHEDULE</h1>
-                            <p style={{textAlign: 'center'}}>You will have 2 minutes to present, and 2 minutes to answer questions</p>
-                            <br/>
-                            <ul className="list-group"> 
-                                {presentationSchedule.map(item => this.renderPresentationScheduleItem(item))}
-                            </ul>
+                    stackable
+                    relaxed='very'
+                >
+                </Grid>
+                <Container>
+                    <br />
+                    <h1 style={{ textAlign: 'center' }}>PRESENTATION SCHEDULE</h1>
+                    <p style={{ textAlign: 'center' }}>You will have 2 minutes to present, and 2 minutes to answer questions</p>
+                    <br />
+                    <ul className="list-group">
+                        {presentationSchedule.map(item => this.renderPresentationScheduleItem(item))}
+                    </ul>
 
-                        </Container>
+                </Container>
             </div>
         );
     }
