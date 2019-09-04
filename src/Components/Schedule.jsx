@@ -193,19 +193,9 @@ const scheduleItems = [
 ];
 
 class Schedule extends Component {
-
-    dateHeaderStyle = {
-        backgroundColor: '#D02120',
-        color: 'white'
-    };
-
-    dateStyle = {
-        color: '#D02120'
-    };
-
     renderScheduleItem(item){
         if (item.fullDate){
-            return <li style={this.dateHeaderStyle} className="list-group-item" key={item.fullDate}><b>{item.fullDate}</b></li>;
+            return <li className="list-group-item text-white bg-primary" key={item.fullDate}><b>{item.fullDate}</b></li>;
         }
         else if (item.description && item.location){
             return (
@@ -218,7 +208,7 @@ class Schedule extends Component {
                             <b>{item.title}</b>
                             <p>{item.date}</p>
                             <p>{item.description}</p>
-                            <p style={this.dateStyle}>{item.location}</p>
+                            <p className="bg-primary">{item.location}</p>
                         </Grid.Column>
                     </Grid>
                 </li>
@@ -250,7 +240,7 @@ class Schedule extends Component {
                         <Grid.Column mobile={13} tablet={13} computer={15}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            <p style={this.dateStyle}>{item.location}</p>
+                            <p className="text-white">{item.location}</p>
                         </Grid.Column>
                     </Grid>
                 </li>

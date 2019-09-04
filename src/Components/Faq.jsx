@@ -199,11 +199,12 @@ class Faq extends Component {
 
     render() {
         return (
-            <Grid id="FAQ" style={{
-                background: "#d02120",
+            <Grid id="FAQ"
+            style={{
                 margin: 0,
                 paddingBottom: 40,
             }}
+            className = "bg-primary"
             columns={3}
             stackable
             relaxed='very'

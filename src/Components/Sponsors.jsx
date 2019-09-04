@@ -39,7 +39,7 @@ class Sponsors extends Component {
       >
         <Grid.Row centered>
           <Grid.Column>
-            <h1 style={{ textAlign: "center", color: "#d02120" }}>
+            <h1 style={{ textAlign: "center"}} className="text-primary">
               LAST YEAR'S SPONSORS
             </h1>
           </Grid.Column>

@@ -355,12 +355,6 @@ const presentationSchedule = [
 ];
 
 class PresentationSchedule extends Component {
-
-
-    presSchedueHeader = {
-        color: '#D02120'
-    };
-
     // renderPresentationScheduleItem(item){
     //     if (item.header){
     //         return (
@@ -411,14 +405,14 @@ class PresentationSchedule extends Component {
     renderPresentationScheduleItemCol(column) {
         if (column.header && column.room) {
             return (
-                <Grid.Column style={this.presSchedueHeader} >
+                <Grid.Column className="bg-primary">
                     <p><b>{column.room}</b></p>
                 </Grid.Column>
             )
         }
         else if (column.header && column.time) {
             return (
-                <Grid.Column style={this.presSchedueHeader} >
+                <Grid.Column className="bg-primary">
                     <p><b>{column.time}</b></p>
                 </Grid.Column>
             )
@@ -433,12 +427,13 @@ class PresentationSchedule extends Component {
     render() {
         return (
             <div>
-                <Grid id="presentationSchedule" style={{
+                <Grid id="presentationSchedule"
+                style={{
                     margin: 0,
                     paddingBottom: 40,
                 }}
-                    stackable
-                    relaxed='very'
+                stackable
+                relaxed='very'
                 >
                 </Grid>
                 <Container>
@@ -449,7 +444,6 @@ class PresentationSchedule extends Component {
                     <ul className="list-group">
                         {presentationSchedule.map(item => this.renderPresentationScheduleItem(item))}
                     </ul>
-
                 </Container>
             </div>
         );

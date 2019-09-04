@@ -8,10 +8,8 @@ class Footer extends Component {
     render() {
         return (
             <Grid 
-                centered
-                style={{
-                background: "#FFFFFF"
-            }}
+            centered
+            className = "bg-white"
             columns={4}
             container
             stackable
