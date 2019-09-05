@@ -24,9 +24,13 @@ class App extends Component {
         <Container className="bg-primary-gradient hero" fluid={true}>
           <Row style={{paddingTop: "10vh"}}>
             <Col>
+            </Col>
+            <Col sm={10} md={10} lg={8} xl={6}>
               <div className="hero-logo">
                 <Image src={HackEDLogo} fluid />
               </div>
+            </Col>
+            <Col>
             </Col>
           </Row>
           <Row>
