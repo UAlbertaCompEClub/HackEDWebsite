@@ -25,15 +25,15 @@ const generalPanels = [
     },
     {
         key: 'organizes-hacked',
-        title: 'Who organizes  '+{EVENT_NAME}+' ?',
+        title: 'Who organizes  '+EVENT_NAME+' ?',
         content: [
-            {EVENT_NAME}+' is an event by the Computer Engineering Club of the University of Alberta!',
+            EVENT_NAME+' is an event by the Computer Engineering Club of the University of Alberta!',
             'This will be the sixth time running this event and the eight hackathon organized overall.'
         ].join(' '),
       },
       {
         key: 'do-i-have-to-present',
-        title: {EVENT_NAME}+' is a competition but do I have to compete and present?',
+        title: EVENT_NAME+' is a competition but do I have to compete and present?',
         content: [
             'After hacking ends, judges will ask you to demo your work. However it is not mandatory,',
             'You can opt out before presentations begin on Sunday. That being said, presenting is highly',
@@ -123,7 +123,7 @@ const generalPanels = [
       {
         key: 'reimburse-travel',
         title: 'Will I be reimbursed travel expenses?',
-        content: "Unfortunately, '+{EVENT_NAME}+' will not be reimbursing travel expenses this year.",
+        content: "Unfortunately, '+EVENT_NAME+' will not be reimbursing travel expenses this year.",
       }
   ];
 
@@ -182,7 +182,7 @@ const generalPanels = [
       content: [
             'If you and your company are interested in getting your APIs in hackers hand’s, face-to-face',
             'mentorship with students and general outreach with swag, prizes and/or traditional sponsorship,',
-            'please reach out to us at hacked@compeclub.com and we can work out how '+{EVENT_NAME}+' can benefit you!'
+            'please reach out to us at hacked@compeclub.com and we can work out how '+EVENT_NAME+' can benefit you!'
         ].join(' '),
     },
     {
