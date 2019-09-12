@@ -19,7 +19,7 @@ const generalPanels = [
       title: 'Do I need to know programming?',
       content: [
         'Not at all! The hackathon’s purpose is to create a welcoming and supportive environment to learn.',
-        'That works for any experience level, and any type of learning. The hackathon has plenty of mentors and',
+        'This hackathon is specifically made for beginner hackers who have participated in no more than one prior hackathon. The hackathon has plenty of mentors and',
         'resources to help you work on your hack. It’s the best place to try something new.'
       ].join(' '),
     },
@@ -28,7 +28,7 @@ const generalPanels = [
         title: 'Who organizes  '+EVENT_NAME+' ?',
         content: [
             EVENT_NAME+' is an event by the Computer Engineering Club of the University of Alberta!',
-            'This will be the sixth time running this event and the eight hackathon organized overall.'
+            'This will be the fourth time running this event and the ninth hackathon organized overall.'
         ].join(' '),
       },
       {
@@ -113,17 +113,21 @@ const generalPanels = [
     {
         key: 'who-can-apply',
         title: 'Who can apply?',
-        content: 'Any student, new grads of up to 1 year, and graduate students.',
+        content: `To make this specifically a beginner targeted event,
+        we allow any student who is in highschool or in their first or second year of university, 
+        and has participated in no more than one previous hackathon. Rarely, exceptions can be made if students
+        are in their third year of study so long as they have not attended more than one previous hackathon.
+        Contact hacked@compeclub.com for any questions regarding this.`,
       },
       {
         key: 'are-there-any-fees',
-        title: 'Is this free?',
-        content: "Yeah!",
+        title: 'How much is the event?',
+        content: "The event price is provided in the Eventbrite section below. This price is heavily subsidized thanks to our sponsors",
       },
       {
         key: 'reimburse-travel',
         title: 'Will I be reimbursed travel expenses?',
-        content: "Unfortunately, '+EVENT_NAME+' will not be reimbursing travel expenses this year.",
+        content: "Unfortunately, "+EVENT_NAME+" will not be reimbursing travel expenses this year.",
       }
   ];
 
@@ -173,7 +177,7 @@ const generalPanels = [
       content: 
         [
             <span key='volunteer-text'>'Of course! All help is throughly appreciated. Reach out to us at at hacked@compeclub.com or fill out </span>,
-            <a key='volunteer-link' className='whiteLink' href="https://docs.google.com/forms/d/e/1FAIpQLScM3ggG6FtYT0prlH5F4p892FNoMFG_zgeela8HM2MTNoLXNA/viewform">this form.</a>
+            <a key='volunteer-link' className='whiteLink' href="https://docs.google.com/forms/d/e/1FAIpQLSe07E5OUYiw41SzKsHdtTOeY6YdTFQCxB6MA58Us58X4-JEJA/viewform?usp=sf_link">this form.</a>
         ],
     },
     {
