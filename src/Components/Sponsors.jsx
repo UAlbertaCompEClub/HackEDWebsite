@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 import { Grid, Image, Divider } from "semantic-ui-react";
 
-import PlaceholderLogo from "../logos/Placeholder.png";
-
 import IntuitLogo from "../logos/Intuit.png";
 
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";

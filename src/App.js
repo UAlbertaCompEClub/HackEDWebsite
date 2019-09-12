@@ -10,6 +10,7 @@ import Sponsors from './Components/Sponsors'
 import Header from './Components/NavigationBar'
 import Schedule from './Components/Schedule'
 import PresentationSchedule from './Components/PresentationSchedule'
+import EventbriteRegistration from "./Components/EventbriteRegistration";
 
 class App extends Component {
 
@@ -56,6 +57,7 @@ class App extends Component {
         <Faq/>
         <PresentationSchedule/>
         <Schedule/>
+        <EventbriteRegistration/>
         <Sponsors/>
         <Footer/>
       </div>

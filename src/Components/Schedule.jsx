@@ -3,7 +3,7 @@ import { Grid, Icon } from 'semantic-ui-react';
 
 import { Container } from 'semantic-ui-react'
 
-const PRESENTATION_SCHEDULE_NUM_COLUMNS = 4;
+// const PRESENTATION_SCHEDULE_NUM_COLUMNS = 4;
 
 const scheduleItems = [
     {
