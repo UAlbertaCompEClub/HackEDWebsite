@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a850100b.chunk.css",
+    "main.js": "/static/js/main.1398d2b7.chunk.js",
+    "main.js.map": "/static/js/main.1398d2b7.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.d27b2669.js",
+    "runtime~main.js.map": "/static/js/runtime~main.d27b2669.js.map",
+    "static/css/2.621b5bde.chunk.css": "/static/css/2.621b5bde.chunk.css",
+    "static/js/2.1b8d238c.chunk.js": "/static/js/2.1b8d238c.chunk.js",
+    "static/js/2.1b8d238c.chunk.js.map": "/static/js/2.1b8d238c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e680a9538674d010a954dae487893d70.js": "/precache-manifest.e680a9538674d010a954dae487893d70.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.621b5bde.chunk.css.map": "/static/css/2.621b5bde.chunk.css.map",
+    "static/css/main.a850100b.chunk.css.map": "/static/css/main.a850100b.chunk.css.map",
+    "static/media/Amii.png": "/static/media/Amii.e2f07f78.png",
+    "static/media/BrandMakers.png": "/static/media/BrandMakers.9eec68a9.png",
+    "static/media/CityOfEdmonton.png": "/static/media/CityOfEdmonton.4e0c304f.png",
+    "static/media/DevFacto.png": "/static/media/DevFacto.63739d07.png",
+    "static/media/FacultyOfEngineering.jpg": "/static/media/FacultyOfEngineering.15c8062d.jpg",
+    "static/media/HackED.png": "/static/media/HackED.01a8c879.png",
+    "static/media/Jobber.jpg": "/static/media/Jobber.359e7a42.jpg",
+    "static/media/Servus.jpg": "/static/media/Servus.0db5e6cc.jpg",
+    "static/media/StartupEdmonton.png": "/static/media/StartupEdmonton.a196f615.png",
+    "static/media/StickerMule.png": "/static/media/StickerMule.037f4766.png",
+    "static/media/Telus.JPG": "/static/media/Telus.0d506e0e.JPG",
+    "static/media/ThePod.png": "/static/media/ThePod.1bf0d337.png",
+    "static/media/WillowglenSystems.jpg": "/static/media/WillowglenSystems.a2ab4acb.jpg",
+    "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff"
+  }
+}
