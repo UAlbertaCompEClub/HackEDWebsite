@@ -161,7 +161,7 @@ var silverMapStyles = [
       }
     ]
   }
-]
+];
  
 export class HackEDMap extends Component {
 
