@@ -2,7 +2,7 @@
   "name": "hack-ed-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ualbertacompeclub.github.io/HackEDWebsite/",
+  "homepage": "https://ualbertacompeclub.github.io/HackEDWebsiteBetaPage/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "es6-object-assign": "^1.1.0",
