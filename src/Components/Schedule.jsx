@@ -2,16 +2,17 @@ import React, {Component} from 'react';
 import { Grid, Icon } from 'semantic-ui-react';
 
 import { Container } from 'semantic-ui-react'
+import {EVENT_START_TIME, EVENT_END_TIME} from "../constants";
 
-const PRESENTATION_SCHEDULE_NUM_COLUMNS = 4;
+// const PRESENTATION_SCHEDULE_NUM_COLUMNS = 4;
 
 const scheduleItems = [
     {
-        fullDate: "January 18, 2020 (Saturday)"
+        fullDate: EVENT_START_TIME.format("MMMM Do, YYYY (dddd)")
     },
     {
         title: "Doors open for Hackers",
-        date: "Saturday 10:00am - Saturday 11:00am",
+        date: EVENT_START_TIME.format("dddd h:mma"),
         icon: "lock open"
     },
     {
@@ -142,7 +143,7 @@ const scheduleItems = [
     //     icon: 'gamepad'
     // },
     {
-        fullDate: "January 19, 2020 (Sunday)"
+        fullDate: EVENT_END_TIME.format("MMMM Do, YYYY (dddd)")
     },
     // {
     //     title: "Ice Cream Sundays Presented by Intuit",
@@ -187,25 +188,15 @@ const scheduleItems = [
     },
     {
         title: "Venue Closes For Participants",
-        date: "Sunday 5:30pm",
+        date: EVENT_END_TIME.format("dddd h:mma"),
         icon: 'lock'
     },
 ];
 
 class Schedule extends Component {
-
-    dateHeaderStyle = {
-        backgroundColor: '#D02120',
-        color: 'white'
-    };
-
-    dateStyle = {
-        color: '#D02120'
-    };
-
     renderScheduleItem(item){
         if (item.fullDate){
-            return <li style={this.dateHeaderStyle} className="list-group-item" key={item.fullDate}><b>{item.fullDate}</b></li>;
+            return <li className="list-group-item text-white bg-primary" key={item.fullDate}><b>{item.fullDate}</b></li>;
         }
         else if (item.description && item.location){
             return (
@@ -218,7 +209,7 @@ class Schedule extends Component {
                             <b>{item.title}</b>
                             <p>{item.date}</p>
                             <p>{item.description}</p>
-                            <p style={this.dateStyle}>{item.location}</p>
+                            <p className="bg-primary">{item.location}</p>
                         </Grid.Column>
                     </Grid>
                 </li>
@@ -250,7 +241,7 @@ class Schedule extends Component {
                         <Grid.Column mobile={13} tablet={13} computer={15}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            <p style={this.dateStyle}>{item.location}</p>
+                            <p className="text-white">{item.location}</p>
                         </Grid.Column>
                     </Grid>
                 </li>

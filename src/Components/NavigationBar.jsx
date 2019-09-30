@@ -1,32 +1,35 @@
 import React from 'react';
-import { Navbar, Nav, NavItem } from 'react-bootstrap';
 
 class Header extends React.Component {
-
     render() {
         return (
-            <Navbar>    
-                <Nav>
-                    <NavItem eventKey={1} href="#about">
-                    About
-                    </NavItem>
-                    <NavItem eventKey={2} href="#FAQ">
-                    FAQ
-                    </NavItem>
-                    <NavItem eventKey={3} href="#presentationSchedule">
-                    Presentation Schedule
-                    </NavItem>
-                    <NavItem eventKey={3} href="#Schedule">
-                    Schedule 
-                    </NavItem>
-                    <NavItem eventKey={3} href="#Sponsors">
-                    Sponsors
-                    </NavItem>
-                </Nav>
-            </Navbar>
+              <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+                  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                      <span className="navbar-toggler-icon"/>
+                  </button>
+                  <div className="collapse navbar-collapse" id="navbarText">
+                      <ul className="navbar-nav mr-auto">
+                          <li className="nav-item">
+                              <a className="nav-link" href="#about">About</a>
+                          </li>
+                          <li className="nav-item">
+                              <a className="nav-link" href="#FAQ">FAQ</a>
+                          </li>
+                          <li className="nav-item">
+                              <a className="nav-link" href="#presentationSchedule">Presentation Schedule</a>
+                          </li>
+                          <li className="nav-item">
+                              <a className="nav-link" href="#Schedule">Schedule</a>
+                          </li>
+                          <li className="nav-item">
+                              <a className="nav-link" href="#Sponsors">Sponsors</a>
+                          </li>
+                      </ul>
+                  </div>
+              </nav>
         );
     }
-
 }
 
 export default Header;

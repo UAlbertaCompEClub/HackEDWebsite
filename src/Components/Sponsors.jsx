@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 import { Grid, Image, Divider } from "semantic-ui-react";
 
-import PlaceholderLogo from "../logos/Placeholder.png";
-
 import IntuitLogo from "../logos/Intuit.png";
 
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
@@ -20,6 +18,7 @@ import FacultyOfEngineeringLogo from "../logos/FacultyOfEngineering.jpg";
 
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
+import {EVENT_NAME} from "../constants";
 
 class Sponsors extends Component {
   render() {
@@ -39,7 +38,7 @@ class Sponsors extends Component {
       >
         <Grid.Row centered>
           <Grid.Column>
-            <h1 style={{ textAlign: "center", color: "#d02120" }}>
+            <h1 style={{ textAlign: "center"}} className="text-primary">
               LAST YEAR'S SPONSORS
             </h1>
           </Grid.Column>
@@ -185,7 +184,7 @@ class Sponsors extends Component {
               our hackers to build something they're proud of.
               <br />
               <br />
-              The HackED sponsorship team can be reached at:{" "}
+              The {EVENT_NAME} sponsorship team can be reached at:{" "}
               <a href="mailto:hacked@compeclub.com">hacked@compeclub.com</a>
             </h4>
           </Grid.Column>

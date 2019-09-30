@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import 'semantic-ui-css/semantic.min.css';
+//import the custom bootstrap
+import './webConfig.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 // For IE

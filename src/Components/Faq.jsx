@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 
 import { Grid, Accordion } from 'semantic-ui-react'
+import {EVENT_NAME} from "../constants";
 
 const generalPanels = [
     {
@@ -24,15 +25,15 @@ const generalPanels = [
     },
     {
         key: 'organizes-hacked',
-        title: 'Who organizes HackED?',
+        title: 'Who organizes  '+EVENT_NAME+' ?',
         content: [
-            'HackED is an event by the Computer Engineering Club of the University of Alberta!',
+            EVENT_NAME+' is an event by the Computer Engineering Club of the University of Alberta!',
             'This will be the sixth time running this event and the eight hackathon organized overall.'
         ].join(' '),
       },
       {
         key: 'do-i-have-to-present',
-        title: 'HackED is a competition but do I have to compete and present?',
+        title: EVENT_NAME+' is a competition but do I have to compete and present?',
         content: [
             'After hacking ends, judges will ask you to demo your work. However it is not mandatory,',
             'You can opt out before presentations begin on Sunday. That being said, presenting is highly',
@@ -40,7 +41,7 @@ const generalPanels = [
             'is that you come out of it having tried something new.'
         ].join(' '),
       },
-  ]
+  ];
 
   const logisticsPanels = [
     {
@@ -96,7 +97,7 @@ const generalPanels = [
             'You can have a max group size of 5, but we recommend 4 hackers.'
         ].join(' '),
       },
-  ]
+  ];
 
   const applicationPanels = [
     {
@@ -122,9 +123,9 @@ const generalPanels = [
       {
         key: 'reimburse-travel',
         title: 'Will I be reimbursed travel expenses?',
-        content: "Unfortunately, HackED will not be reimbursing travel expenses this year.",
+        content: "Unfortunately, '+EVENT_NAME+' will not be reimbursing travel expenses this year.",
       }
-  ]
+  ];
 
   const hackingPanels = [
     {
@@ -163,7 +164,7 @@ const generalPanels = [
             'to event.'
         ].join(' '),
       },
-  ]
+  ];
 
   const helpPanels = [
     {
@@ -181,7 +182,7 @@ const generalPanels = [
       content: [
             'If you and your company are interested in getting your APIs in hackers hand’s, face-to-face',
             'mentorship with students and general outreach with swag, prizes and/or traditional sponsorship,',
-            'please reach out to us at hacked@compeclub.com and we can work out how HackED can benefit you!'
+            'please reach out to us at hacked@compeclub.com and we can work out how '+EVENT_NAME+' can benefit you!'
         ].join(' '),
     },
     {
@@ -192,18 +193,19 @@ const generalPanels = [
             'We hope to help you be the best hacker you can be.'
         ].join(' '),
       },
-  ]
+  ];
 
 class Faq extends Component {
     
 
     render() {
         return (
-            <Grid id="FAQ" style={{
-                background: "#d02120",
+            <Grid id="FAQ"
+            style={{
                 margin: 0,
                 paddingBottom: 40,
             }}
+            className = "bg-primary"
             columns={3}
             stackable
             relaxed='very'
