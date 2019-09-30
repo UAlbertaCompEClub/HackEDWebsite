@@ -84,6 +84,14 @@ const generalPanels = [
         ].join(' '),
       },
       {
+        key: 'will-there-be-prizes',
+        title: 'Will there be prizes?',
+        content: [
+          'Yes! There will be various prizes given out from the event, including trivia prizes, prizes for winning hacks, and possibly even prizes given out by sponsors. ' +
+          'Just keep in mind that the prizes for winning hacks are based on teams of 4. 😉'
+        ].join(' '),
+      },
+      {
         key: 'can-i-work-remotely',
         title: 'Can I work remotely?',
         content: [
@@ -94,16 +102,22 @@ const generalPanels = [
         key: 'whats-the-best-group',
         title: 'What’s the best group size?',
         content: [
-            'You can have a max group size of 5, but we recommend 4 hackers.'
+            'You can have a max group size of 5, but we recommend 4 hackers, as the prizes are based on a team of 4.'
         ].join(' '),
       },
+
   ];
 
   const applicationPanels = [
     {
       key: 'where-do-i-apply',
       title: 'Where do I apply?',
-      content: 'TBD'
+      content: 'You can use the section down below or follow this link (Coming Soon) to purchase tickets.'
+    },
+    {
+        key: 'how-much-is-the-event',
+        title: 'How much is the event?',
+        content: 'The price of HackEd Beta is currently being determined.',
     },
     {
       key: 'when-is-the-deadline',
