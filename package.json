@@ -24,7 +24,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "addRemote": "git remote add beta https://github.com/UAlbertaCompEClub/HackEDWebsiteBetaPage.git"
+    "addBetaRemote": "git remote add beta HackEDWebsiteBetaRemote",
+    "addPrimeRemote": "git remote add prime HackEDWebsitePrimeRemote",
+    "addRemotes": "npm run addBetaRemote addPrimeRemote"
   },
   "eslintConfig": {
     "extends": "react-app"
