@@ -24,7 +24,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "addBetaRemote": "git remote add beta HackEDWebsiteBetaRemote",
+    "addPrimeRemote": "git remote add prime HackEDWebsitePrimeRemote",
+    "addRemotes": "npm run addBetaRemote addPrimeRemote",
+    "deploybeta": "gh-pages -d -o build"
   },
   "eslintConfig": {
     "extends": "react-app"
