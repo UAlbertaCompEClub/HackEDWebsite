@@ -2,11 +2,11 @@
   "name": "hack-ed-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ualbertacompeclub.github.io/HackEDWebsiteBetaPage/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "es6-object-assign": "^1.1.0",
     "es6-promise": "^4.2.5",
-    "gh-pages": "^2.0.1",
     "google-maps-react": "^2.0.2",
     "moment": "^2.24.0",
     "node-sass": "^4.12.0",
@@ -24,9 +24,11 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "addBetaRemote": "git remote add beta HackEDWebsiteBetaRemote",
-    "addPrimeRemote": "git remote add prime HackEDWebsitePrimeRemote",
-    "addRemotes": "npm run addBetaRemote addPrimeRemote"
+    "addBetaRemote": "git remote add beta https://github.com/UAlbertaCompEClub/HackEDWebsiteBetaRemote.git",
+    "addPrimeRemote": "git remote add prime https://github.com/UAlbertaCompEClub/HackEDWebsitePrimeRemote.git",
+    "addRemotes": "npm run addBetaRemote && npm run addPrimeRemote",
+    "deploybeta": "gh-pages -d build -o beta"
+
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }

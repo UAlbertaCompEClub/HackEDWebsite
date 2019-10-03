@@ -16,17 +16,17 @@ class About extends Component {
                       This event is for hackers who choose to learn because they can, and build because they love it.
                       Bring your creativity and create solutions to the problems that you deem important and that you want to work towards.
                       Bring your team (up to five) and work together to overcome challenges, whether that’s in software, hardware, design or strategy.
-                      {EVENT_NAME} is about working together and applying yourself, your skills and your creativity.</p>
+                      {" "+EVENT_NAME} is about working together and applying yourself, your skills and your creativity.</p>
                     <br/>
                 </Container>
                 <Container>
                     <h2>WE GOT YOU</h2>
                     <p>
                       To help your journey, we take care of the details.
-                      {EVENT_NAME_FULL} features more food, more space, more prizes and more swag.
+                      {" "+EVENT_NAME_FULL} features more food, more space, more prizes and more swag.
                       We provide you with three meals and a ton of snacks to power you through your hack.
-                      We’re expanding into the eighth floor of Donadeo ICE to give your team more room to think and collaborate.
-                      We’re spending over $1k on prizes, split between winning at the end, trivia throughout the night and some surprises too.
+                      Tons of new prizes will be given out, be it for winning the hackathon, winning a round of lightning trivia,
+                      or even winning in an all new coding challenge.
                     </p>
                     <br/>
                 </Container>
