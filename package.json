@@ -27,8 +27,8 @@
     "addBetaRemote": "git remote add beta https://github.com/UAlbertaCompEClub/HackEDWebsiteBetaRemote.git",
     "addPrimeRemote": "git remote add prime https://github.com/UAlbertaCompEClub/HackEDWebsitePrimeRemote.git",
     "addRemotes": "npm run addBetaRemote && npm run addPrimeRemote",
-    "deploybeta": "gh-pages -d build -o beta"
-
+    "deploybeta": "gh-pages -d build -o beta",
+    "deployprime": "gh-pages -d build -o prime"
   },
   "eslintConfig": {
     "extends": "react-app"
