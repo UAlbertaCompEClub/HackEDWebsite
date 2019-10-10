@@ -46,7 +46,7 @@ class App extends Component {
             <Col>
             </Col>
             <Col className={"text-center"} md={8}>
-              <Button onClick={(e) => this.redirectToExternalUrl('https://docs.google.com/forms/d/e/1FAIpQLSfFvuc4CQpiJuq9NeqGmiNJkAWPzo1jLt0pnUEScjcCzdek3w/viewform?usp=sf_link', e)} color='primary' size='lg'>Pre-Register Here!</Button>
+              <Button onClick={(e) => this.redirectToExternalUrl('https://www.eventbrite.ca/e/hacked-beta-2019-tickets-75763084425', e)} color='primary' size='lg'>Register Here!</Button>
               <Button onClick={(e) => this.redirectToExternalUrl('https://docs.google.com/forms/d/e/1FAIpQLSe07E5OUYiw41SzKsHdtTOeY6YdTFQCxB6MA58Us58X4-JEJA/viewform?usp=sf_link', e)} color='primary' size='lg' className={"mx-2"}>Volunteer Here!</Button>
               <Button onClick={(e) => this.redirectToExternalUrl('https://docs.google.com/forms/d/e/1FAIpQLSeExeBNJJ_AG7qhs-vtMcJTPRd7inX1siUKX410SXjTcAHyEw/viewform?usp=sf_link', e)} color='primary' size='lg'>Mentor Here!</Button>
             </Col>

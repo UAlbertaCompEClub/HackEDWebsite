@@ -112,7 +112,7 @@ const generalPanels = [
     {
       key: 'where-do-i-apply',
       title: 'Where do I apply?',
-      content: 'You can use the section down below or follow this link (Coming Soon) to purchase tickets.'
+      content: 'You can use the section down below or follow this link https://www.eventbrite.ca/e/hacked-beta-2019-tickets-75763084425 to purchase tickets.'
     },
     {
         key: 'how-much-is-the-event',
