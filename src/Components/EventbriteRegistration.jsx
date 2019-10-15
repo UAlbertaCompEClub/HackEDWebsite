@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Row,Col,Container} from "reactstrap";
+import React, { Component } from "react";
+import { Row, Col, Container } from "reactstrap";
 
 class EventbriteRegistration extends Component {
   //Uses scripts which are loaded in the index.html file
@@ -13,7 +13,7 @@ class EventbriteRegistration extends Component {
         </Row>
         <Row>
           <Col>
-            <p className="text-center">
+            {/* <p className="text-center">
               Remember that you must be in highschool or in your first or second year of university, and have been in no more than one prior hackathon in order to participate.
             </p>
             <p className="text-center">
@@ -23,8 +23,11 @@ class EventbriteRegistration extends Component {
           </Col>
         </Row>
         <Row>
-          <Col>
-            <div id="eventbrite-widget-container-75763084425" className="mt-5"/>
+          <Col> */}
+            <div
+              id="eventbrite-widget-container-75763084425"
+              className="mt-5"
+            />
           </Col>
         </Row>
       </Container>
