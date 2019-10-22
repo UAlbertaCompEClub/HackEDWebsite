@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 
 import { Grid, Accordion } from "semantic-ui-react";
-import { EVENT_NAME } from "../constants";
+import {
+  EVENT_NAME,
+  EVENT_LOCATION,
+  EVENT_LOCATION_ADDRESS
+} from "../constants";
 
 const generalPanels = [
   {
@@ -12,6 +16,13 @@ const generalPanels = [
       "Teams can work on hardware or software projects. There is no limit on creativity. This hackathon",
       "acts as a sort of incubator to your mini projects as it provides a focused time to work on your idea",
       "with mentors and workshops to help you along."
+    ].join(" ")
+  },
+  {
+    key: "where-is-the-hackathon",
+    title: "Where is " + EVENT_NAME + "hosted??",
+    content: [
+      `${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
     ].join(" ")
   },
   {
@@ -58,7 +69,7 @@ const logisticsPanels = [
     title: "How’s the wifi situation?",
     content: [
       "The wifi situation is very good. We recommend you download your tools before hand just to avoid any",
-      "potential network overloading."
+      "potential network slowdowns."
     ].join(" ")
   },
   {
@@ -106,7 +117,7 @@ const logisticsPanels = [
     key: "whats-the-best-group",
     title: "What’s the best group size?",
     content: [
-      "We recommend that you form a group of four, but teams can be anywhere from one to six people. Keep in mind that prizes are designed with groups of four in mind, so larger groups will have to decide how to split them up."
+      "You can have a max group size of 5, but we recommend 4 hackers, as the prizes are based on a team of 4."
     ].join(" ")
   }
 ];
@@ -116,31 +127,33 @@ const applicationPanels = [
     key: "where-do-i-apply",
     title: "Where do I apply?",
     content:
-      "You can use the section down below or follow this link https://www.eventbrite.ca/e/hacked-beta-2019-tickets-75763084425 to purchase tickets."
+      "You can use the section down below or follow this link (Coming Soon) to purchase tickets."
   },
   {
     key: "how-much-is-the-event",
     title: "How much is the event?",
-    content:
-      "10$ Canadian. This low price is only possible thanks to our sponsors."
+    content: "The price of HackEd Beta is currently being determined."
   },
   {
     key: "when-is-the-deadline",
     title: "When is the application deadline?",
-    content: "Until the event either fills up or starts"
+    content: "TBD"
   },
   {
     key: "who-can-apply",
     title: "Who can apply?",
-    content: `Any student who is in highschool or in their first three years of university, 
-        and has participated in no more than one previous hackathon. However, being a beginner is the most important aspect, so if you think you should qualify send an email to hacked@compeclub.com to get your ticket.`
+    content: `To make this specifically a beginner targeted event,
+        we allow any student who is in highschool or in their first or second year of university, 
+        and has participated in no more than one previous hackathon. Rarely, exceptions can be made if students
+        are in their third year of study so long as they have not attended more than one previous hackathon.
+        Contact hacked@compeclub.com for any questions regarding this.`
   },
-  // {
-  //   key: "are-there-any-fees",
-  //   title: "How much is the event?",
-  //   content:
-  //     "The event price is provided in the Eventbrite section below. This price is heavily subsidized thanks to our sponsors"
-  // },
+  {
+    key: "are-there-any-fees",
+    title: "How much is the event?",
+    content:
+      "The event price is provided in the Eventbrite section below. This price is heavily subsidized thanks to our sponsors"
+  },
   {
     key: "reimburse-travel",
     title: "Will I be reimbursed travel expenses?",
@@ -184,8 +197,8 @@ const hackingPanels = [
     key: "judging-work",
     title: "How will judging work?",
     content: [
-      "Judging will be done by hand picked Judges from industry. Judging criteria will be announced closer",
-      "to the event."
+      "Judging will be done by hand picked Judges from industry. The criteria will be released closer",
+      "to event."
     ].join(" ")
   }
 ];
