@@ -20,7 +20,7 @@ const generalPanels = [
   },
   {
     key: "where-is-the-hackathon",
-    title: "Where is " + EVENT_NAME + "hosted??",
+    title: "Where is " + EVENT_NAME + " hosted?",
     content: [
       `${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
     ].join(" ")
