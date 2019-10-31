@@ -248,8 +248,8 @@ class Faq extends Component {
       <Grid
         id="FAQ"
         style={{
-          margin: 0,
-          paddingBottom: 40
+          paddingTop: 60,
+          paddingBottom: 60
         }}
         className="bg-primary"
         columns={3}

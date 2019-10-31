@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Image } from 'semantic-ui-react';
 import { Container, Row, Col, Button } from 'reactstrap';
-import HackEDLogo from './logos/HackED.png';
+import HackEDLogo from './Logos/HackED.png';
 import About from './Components/About'
 import WhereToGo from './Components/WhereToGo'
 import Faq from './Components/Faq'
@@ -9,7 +9,7 @@ import Footer from './Components/Footer'
 import Sponsors from './Components/Sponsors'
 import Header from './Components/NavigationBar'
 import Schedule from './Components/Schedule'
-import PresentationSchedule from './Components/PresentationSchedule'
+// import PresentationSchedule from './Components/PresentationSchedule'
 import EventbriteRegistration from "./Components/EventbriteRegistration";
 import "./constants";
 import {EVENT_LOCATION, EVENT_START_TIME, EVENT_END_TIME} from "./constants";
@@ -22,7 +22,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="App" id="top">
         <Header/>
         <Container className="bg-primary-gradient hero" fluid={true}>
           <Row style={{paddingTop: "10vh"}}>
@@ -57,7 +57,7 @@ class App extends Component {
         <About/>
         <WhereToGo/>
         <Faq/>
-        <PresentationSchedule/>
+        {/* <PresentationSchedule/> */}
         <Schedule/>
         <EventbriteRegistration/>
         <Sponsors/>

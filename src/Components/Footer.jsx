@@ -7,7 +7,7 @@ class Footer extends Component {
         return (
             <Grid 
             centered
-            className = "bg-white"
+            className="bg-white"
             columns={4}
             container
             stackable
