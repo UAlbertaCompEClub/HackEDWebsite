@@ -2,22 +2,22 @@ import React, { Component } from "react";
 
 import { Grid, Image, Divider } from "semantic-ui-react";
 
-import IntuitLogo from "../logos/Intuit.png";
+import IntuitLogo from "../Logos/Intuit.png";
 
-import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
-import ServusLogo from "../logos/Servus.jpg";
-import DevFactoLogo from "../logos/DevFacto.png";
-import WillowglenLogo from "../logos/WillowglenSystems.jpg";
-import TelusLogo from "../logos/Telus.JPG";
-import CityOfEdmontonLogo from "../logos/CityOfEdmonton.png";
+import StartupEdmontonLogo from "../Logos/StartupEdmonton.png";
+import ServusLogo from "../Logos/Servus.jpg";
+import DevFactoLogo from "../Logos/DevFacto.png";
+import WillowglenLogo from "../Logos/WillowglenSystems.jpg";
+import TelusLogo from "../Logos/Telus.JPG";
+import CityOfEdmontonLogo from "../Logos/CityOfEdmonton.png";
 
-import JobberLogo from "../logos/Jobber.jpg";
-import ThePodLogo from "../logos/ThePod.png";
-import AmiiLogo from "../logos/Amii.png";
-import FacultyOfEngineeringLogo from "../logos/FacultyOfEngineering.jpg";
+import JobberLogo from "../Logos/Jobber.jpg";
+import ThePodLogo from "../Logos/ThePod.png";
+import AmiiLogo from "../Logos/Amii.png";
+import FacultyOfEngineeringLogo from "../Logos/FacultyOfEngineering.jpg";
 
-import StickerMuleLogo from "../logos/StickerMule.png";
-import BrandMakersLogo from "../logos/BrandMakers.png";
+import StickerMuleLogo from "../Logos/StickerMule.png";
+import BrandMakersLogo from "../Logos/BrandMakers.png";
 import {EVENT_NAME} from "../constants";
 
 class Sponsors extends Component {
@@ -28,8 +28,8 @@ class Sponsors extends Component {
         centered
         style={{
           background: "#FFFFFF",
-          marginTop: 40,
-          marginBottom: 40
+          paddingTop: 60,
+          paddingBottom: 60
         }}
         columns={3}
         container
@@ -37,7 +37,7 @@ class Sponsors extends Component {
         relaxed="very"
       >
         <Grid.Row centered>
-          <Grid.Column>
+          <Grid.Column width={16}>
             <h1 style={{ textAlign: "center"}} className="text-primary">
               LAST YEAR'S SPONSORS
             </h1>
