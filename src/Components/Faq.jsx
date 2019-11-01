@@ -132,12 +132,12 @@ const applicationPanels = [
   {
     key: "how-much-is-the-event",
     title: "How much is the event?",
-    content: "The price of HackEd Beta is currently being determined."
+    content: "Entry is $10 CAD."
   },
   {
     key: "when-is-the-deadline",
     title: "When is the application deadline?",
-    content: "TBD"
+    content: "You can apply up until Nov 8th."
   },
   {
     key: "who-can-apply",
@@ -147,12 +147,6 @@ const applicationPanels = [
         and has participated in no more than one previous hackathon. Rarely, exceptions can be made if students
         are in their third year of study so long as they have not attended more than one previous hackathon.
         Contact hacked@compeclub.com for any questions regarding this.`
-  },
-  {
-    key: "are-there-any-fees",
-    title: "How much is the event?",
-    content:
-      "The event price is provided in the Eventbrite section below. This price is heavily subsidized thanks to our sponsors"
   },
   {
     key: "reimburse-travel",
@@ -209,16 +203,9 @@ const helpPanels = [
     title: "Can I volunteer instead?",
     content: [
       <span key="volunteer-text">
-        'Of course! All help is throughly appreciated. Reach out to us at at
-        hacked@compeclub.com or fill out{" "}
-      </span>,
-      <a
-        key="volunteer-link"
-        className="whiteLink"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSe07E5OUYiw41SzKsHdtTOeY6YdTFQCxB6MA58Us58X4-JEJA/viewform?usp=sf_link"
-      >
-        this form.
-      </a>
+        Of course! You can apply to volunteer with the link at the top of the
+        page.
+      </span>
     ]
   },
   {
