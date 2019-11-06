@@ -4,15 +4,14 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 
 import IntuitLogo from "../logos/Intuit.png";
 import ServusLogo from "../logos/Servus.jpg";
+import StartupLogo from "../logos/StartupEdmonton.png";
 
 import ThePodLogo from "../logos/ThePod.png";
 import AmiiLogo from "../logos/Amii.png";
 import ScopeARLogo from "../logos/ScopeAR.jpeg";
 import DrugbankLogo from "../logos/Drugbank.png";
 
-
-
-import {EVENT_NAME} from "../constants";
+import { EVENT_NAME } from "../constants";
 
 class Sponsors extends Component {
   render() {
@@ -32,7 +31,7 @@ class Sponsors extends Component {
       >
         <Grid.Row centered>
           <Grid.Column>
-            <h1 style={{ textAlign: "center"}} className="text-primary">
+            <h1 style={{ textAlign: "center" }} className="text-primary">
               SPONSORS
             </h1>
           </Grid.Column>
@@ -51,6 +50,15 @@ class Sponsors extends Component {
         {/*</Grid.Row>*/}
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
+          <Grid.Column>
+            <Image
+              src={StartupLogo}
+              fluid
+              as="a"
+              href="https://www.startupedmonton.com/"
+              target="_blank"
+            />
+          </Grid.Column>
           <Grid.Column>
             <Image
               src={IntuitLogo}
@@ -108,7 +116,6 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-
         </Grid.Row>
         {/*<Divider horizontal>STICKERS PROVIDED BY</Divider>*/}
         {/*<Grid.Row verticalAlign="middle" centered>*/}
