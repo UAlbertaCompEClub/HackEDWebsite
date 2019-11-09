@@ -17,7 +17,7 @@ const scheduleItems = [
     },
     {
         title: "Opening Ceremonies Begin",
-        date: "Saturday 11:00am - Saturday 12:00am",
+        date: "Saturday 11:00am",
         icon: 'star'
     },
     {
@@ -25,13 +25,13 @@ const scheduleItems = [
         date: "Saturday 12:00pm",
         icon: 'hourglass start'
     },
-    // {
-    //     title: "SciKit Learn Workshop",
-    //     date: "Saturday 1:00pm - Saturday 1:50pm",
-    //     icon: 'pencil alternate',
-    //     location: "ETLC E2-001",
-    //     description: "Get a primer on classification as well as SciKit Learn. Great for those interested in AI. Part 1 in a 2 part series."
-    // },
+    {
+        title: "Intro to Git Workshop",
+        date: "Saturday 12:30am",
+        icon: 'pencil alternate',
+        location: "",
+        description: "Intro to Git"
+    },
     // {
     //     title: "Intro to Git",
     //     date: "Saturday 1:00pm - Saturday 1:50pm",
@@ -39,73 +39,27 @@ const scheduleItems = [
     //     location: "ETLC E2-002",
     //     description: "Highly recommended for anyone who doesn't know git."
     // },
-    // {
-    //     title: "Team Finding Workshop",
-    //     date: "Saturday 1:00pm - Saturday 1:50pm",
-    //     icon: 'pencil alternate',
-    //     location: "DICE 8-207",
-    //     description: "For students who don't have teams yet to find a group."
-    // },
-    // {
-    //     title: "Natural Language Processing Primer",
-    //     date: "Saturday 2:00pm - Saturday 3:30pm",
-    //     location: "ETLC E2-001",
-    //     icon: 'pencil alternate',
-    //     description: "Builds off of material covered in the SciKit Learn workshop. Part 2 of the 2 part series."
-    // },
-    // {
-    //     title: "Intro to React",
-    //     date: "Saturday 2:00pm - Saturday 3:30pm",
-    //     location: "ETLC E2-002",
-    //     icon: 'pencil alternate',
-    //     description: "Great primer for anyone who wants to learn about React."
-    // },
-    // {
-    //     title: "Intro to Android",
-    //     date: "Saturday 2:00pm - Saturday 3:30pm",
-    //     location: "DICE 8-207",
-    //     icon: 'pencil alternate',
-    //     description: "Great primer for anyone who wants to learn about Android."
-    // },
-    // {
-    //     title: "JavaScript Basics",
-    //     date: "Saturday 2:00pm - Saturday 3:30pm",
-    //     location: "ETLC Solarium",
-    //     icon: 'pencil alternate',
-    //     description: "Great primer for anyone who wants to learn about JavaScript."
-    // },
-    // {
-    //     title: "Pitching a Hackathon",
-    //     date: "Saturday 3:30pm - Saturday 4:20pm",
-    //     location: "DICE 8-207",
-    //     icon: 'pencil alternate',
-    //     description: "Getting serious about a hack? Learn how to pitch it to judges!"
-    // },
-    // {
-    //     title: "How To Not Lose a Billion Dollars",
-    //     date: "Saturday 4:30pm - Saturday 6:00pm",
-    //     location: "ETLC E2-001",
-    //     icon: 'pencil alternate',
-    //     description: "A behind the scenes look of industrial SCADA systems"
-    // },
-    // {
-    //     title: "Realtime Traffic Sign Detection Using YOLO",
-    //     date: "Saturday 4:30pm - Saturday 6:00pm",
-    //     location: "ETLC E2-002",
-    //     icon: 'pencil alternate',
-    // },
-    // {
-    //     title: "Introduction to Rx Java",
-    //     date: "Saturday 4:30pm - Saturday 6:00pm",
-    //     location: "DICE 8-207",
-    //     icon: 'pencil alternate',
-    // },
-    // {
-    //     title: "Coding Quality",
-    //     date: "Saturday 4:30pm - Saturday 6:00pm",
-    //     location: "ETLC Solarium",
-    //     icon: 'pencil alternate',
-    // },
+    {
+        title: "Hack your First Hackathon",
+        date: "Saturday 12:30am",
+        icon: 'pencil alternate',
+        location: "",
+        description: "Tips and tricks to survive your first hackathon"
+    },
+    {
+        title: "Intro to React",
+        date: "Saturday 2:00pm",
+        icon: 'pencil alternate',
+        location: "",
+        description: "Introduction to the React Framework"
+    },
+    {
+        title: "Machine Learning on the Raspberry Pi",
+        date: "Saturday 3:30pm",
+        icon: 'pencil alternate',
+        location: "",
+        description: "Machine Learning on the Raspberry Pi - More Practice than Theory"
+    },
     {
         title: "Dinner",
         date: "Saturday 5:30pm",
