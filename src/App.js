@@ -10,9 +10,17 @@ import Sponsors from './Components/Sponsors'
 import Header from './Components/NavigationBar'
 import Schedule from './Components/Schedule'
 import PresentationSchedule from './Components/PresentationSchedule'
+import PresSchedule from "./Components/PresScedule";
 import EventbriteRegistration from "./Components/EventbriteRegistration";
 import "./constants";
-import {EVENT_LOCATION, EVENT_START_TIME, EVENT_END_TIME} from "./constants";
+import {
+  EVENT_LOCATION,
+  EVENT_START_TIME,
+  EVENT_END_TIME,
+  LINK_REGISTER,
+  LINK_VOLUNTEER,
+  LINK_MENTOR
+} from "./constants";
 
 class App extends Component {
 
@@ -38,7 +46,7 @@ class App extends Component {
           </Row>
           <Row>
             <Col className="pt-4 pb-4">
-              <h2 className="text-center">Alberta's Friendliest Student Run Beginner Hackathon</h2>
+              <h2 className="text-center">Alberta's Largest Student Run Beginner Hackathon</h2>
               <h3 className="text-center">{EVENT_START_TIME.format('MMMM')} {EVENT_START_TIME.format('Do')}-{EVENT_END_TIME.format('Do')} @ {EVENT_LOCATION}</h3>
             </Col>
           </Row>
@@ -46,9 +54,9 @@ class App extends Component {
             <Col>
             </Col>
             <Col className={"text-center"} md={8}>
-              <Button onClick={(e) => this.redirectToExternalUrl('https://docs.google.com/forms/d/e/1FAIpQLSer_0IBKa5O0EFz4uLUtYa6tA5AqZcTpAFgfOxytpPU80HRoQ/viewform', e)} color='primary' size='lg'>Pre-Register Here!</Button>
-              <Button onClick={(e) => this.redirectToExternalUrl('https://docs.google.com/forms/d/e/1FAIpQLScM3ggG6FtYT0prlH5F4p892FNoMFG_zgeela8HM2MTNoLXNA/viewform', e)} color='primary' size='lg' className={"mx-2"}>Volunteer Here!</Button>
-              <Button onClick={(e) => this.redirectToExternalUrl('https://docs.google.com/forms/d/e/1FAIpQLSeDlrVsFObjqKottNynGyRhRkxc7tehxwqMYy1T4QNTb9jSlQ/viewform', e)} color='primary' size='lg'>Mentor Here!</Button>
+              <Button onClick={(e) => this.redirectToExternalUrl(LINK_REGISTER, e)} color='primary' size='lg'>Register Here!</Button>
+              <Button onClick={(e) => this.redirectToExternalUrl(LINK_VOLUNTEER, e)} color='primary' size='lg' className={"mx-2"}>Volunteer Here!</Button>
+              <Button onClick={(e) => this.redirectToExternalUrl(LINK_MENTOR, e)} color='primary' size='lg'>Mentor Here!</Button>
             </Col>
             <Col>
             </Col>
@@ -57,10 +65,10 @@ class App extends Component {
         <About/>
         <WhereToGo/>
         <Faq/>
-        <PresentationSchedule/>
-        <Schedule/>
-        <EventbriteRegistration/>
-        <Sponsors/>
+        {/*<PresSchedule/>*/}
+        {/*<Schedule/>*/}
+        {/*<EventbriteRegistration/>*/}
+        {/*<Sponsors/>*/}
         <Footer/>
       </div>
     );

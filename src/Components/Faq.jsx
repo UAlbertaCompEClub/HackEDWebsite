@@ -123,7 +123,7 @@ const generalPanels = [
       {
         key: 'reimburse-travel',
         title: 'Will I be reimbursed travel expenses?',
-        content: "Unfortunately, '+EVENT_NAME+' will not be reimbursing travel expenses this year.",
+        content: "Unfortunately, "+EVENT_NAME+" will not be reimbursing travel expenses this year.",
       }
   ];
 
