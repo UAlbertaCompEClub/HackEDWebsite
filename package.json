@@ -2,6 +2,7 @@
   "name": "hack-ed-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hacked.compeclub.com/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "es6-object-assign": "^1.1.0",
@@ -23,7 +24,12 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "addBetaRemote": "git remote add beta https://github.com/UAlbertaCompEClub/HackEDWebsiteBetaRemote.git",
+    "addPrimeRemote": "git remote add prime https://github.com/UAlbertaCompEClub/HackEDWebsitePrimeRemote.git",
+    "addRemotes": "npm run addBetaRemote && npm run addPrimeRemote",
+    "deploybeta": "gh-pages -d build -o beta",
+    "deployprime": "gh-pages -d build -o prime"
   },
   "eslintConfig": {
     "extends": "react-app"
