@@ -3,7 +3,7 @@ import {Grid, List} from 'semantic-ui-react';
 
 import { Container } from 'semantic-ui-react'
 
-import PresScheduleImage from '../V2.png';
+// import PresScheduleImage from '../V2.png';
 // const PRESENTATION_SCHEDULE_NUM_COLUMNS = 5;
 
 const presentationSchedule = [
@@ -40,7 +40,7 @@ class PresSchedule extends Component {
         <Grid.Row centered>
           <Grid.Column centered>
             <h1>Presentation Schedule</h1>
-            <img src={PresScheduleImage}/>
+            {/*<img src={PresScheduleImage}/>*/}
           </Grid.Column>
         </Grid.Row>
       </Grid>

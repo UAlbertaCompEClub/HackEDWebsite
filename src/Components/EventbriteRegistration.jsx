@@ -9,7 +9,7 @@ class EventbriteRegistration extends Component {
       <Container>
         <Row>
           <Col>
-            <div id="eventbrite-widget-container-71304087445" className="mt-5"/>
+            <div id="eventbrite-widget-container-83186506079"></div>
           </Col>
         </Row>
       </Container>

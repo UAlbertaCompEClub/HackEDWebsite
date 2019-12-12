@@ -13,7 +13,7 @@
     "node-sass": "^4.12.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1",
+    "react-scripts": "^3.3.0",
     "reactstrap": "^8.0.1",
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5"
@@ -28,8 +28,8 @@
     "addBetaRemote": "git remote add beta https://github.com/UAlbertaCompEClub/HackEDWebsiteBetaRemote.git",
     "addPrimeRemote": "git remote add prime https://github.com/UAlbertaCompEClub/HackEDWebsitePrimeRemote.git",
     "addRemotes": "npm run addBetaRemote && npm run addPrimeRemote",
-    "deploybeta": "gh-pages -d build -o beta",
-    "deployprime": "gh-pages -d build -o prime"
+    "deploybeta": "npm run predeploy && gh-pages -d build -o beta",
+    "deployprime": "npm run predeploy && gh-pages -d build -o prime"
   },
   "eslintConfig": {
     "extends": "react-app"

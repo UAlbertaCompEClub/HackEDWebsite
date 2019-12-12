@@ -4,17 +4,16 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 
 import IntuitLogo from "../logos/Intuit.png";
 
+import GeneralDynamicsLogo from "../logos/GeneralDynamics.png";
+import InterDynamixLogo from "../logos/InterDynamix.jpg";
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
+import CanadianWesternBankLogo from "../logos/CWB.png";
 import ServusLogo from "../logos/Servus.jpg";
-import DevFactoLogo from "../logos/DevFacto.png";
-import WillowglenLogo from "../logos/WillowglenSystems.jpg";
-import TelusLogo from "../logos/Telus.JPG";
-import CityOfEdmontonLogo from "../logos/CityOfEdmonton.png";
 
-import JobberLogo from "../logos/Jobber.jpg";
 import ThePodLogo from "../logos/ThePod.png";
 import AmiiLogo from "../logos/Amii.png";
-import FacultyOfEngineeringLogo from "../logos/FacultyOfEngineering.jpg";
+import DrugBankLogo from "../logos/DrugBank.png";
+import DarkHorseLogo from "../logos/DarkhorseAnalytics.png"
 
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
@@ -39,7 +38,7 @@ class Sponsors extends Component {
         <Grid.Row centered>
           <Grid.Column>
             <h1 style={{ textAlign: "center"}} className="text-primary">
-              LAST YEAR'S SPONSORS
+              SPONSORS
             </h1>
           </Grid.Column>
         </Grid.Row>
@@ -59,55 +58,46 @@ class Sponsors extends Component {
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
             <Image
+                src={GeneralDynamicsLogo}
+                fluid
+                as="a"
+                href="https://www.gd.com/"
+                target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <Image
+                src={InterDynamixLogo}
+                fluid
+                as="a"
+                href="http://www.interdynamix.com/"
+                target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <Image
+                src={StartupEdmontonLogo}
+                fluid
+                as="a"
+                href="https://www.startupedmonton.com/"
+                target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <Image
+                src={CanadianWesternBankLogo}
+                fluid
+                as="a"
+                href="https://www.cwbank.com/en/business"
+                target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <Image
               src={ServusLogo}
               fluid
               as="a"
               href="https://www.servus.ca/life"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={StartupEdmontonLogo}
-              fluid
-              as="a"
-              href="https://www.startupedmonton.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={WillowglenLogo}
-              fluid
-              as="a"
-              href="https://www.willowglensystems.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={DevFactoLogo}
-              fluid
-              as="a"
-              href="https://www.devfacto.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={CityOfEdmontonLogo}
-              fluid
-              as="a"
-              href="https://www.edmonton.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={TelusLogo}
-              fluid
-              as="a"
-              href="https://www.telus.com/en/"
               target="_blank"
             />
           </Grid.Column>
@@ -116,20 +106,20 @@ class Sponsors extends Component {
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
             <Image
-              src={JobberLogo}
-              fluid
-              as="a"
-              href="https://getjobber.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
               src={ThePodLogo}
               fluid
               as="a"
               href="https://www.pod-innovation.ca/"
               target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <Image
+                src={DrugBankLogo}
+                fluid
+                as="a"
+                href="https://www.drugbank.ca/"
+                target="_blank"
             />
           </Grid.Column>
           <Grid.Column>
@@ -143,11 +133,11 @@ class Sponsors extends Component {
           </Grid.Column>
           <Grid.Column>
             <Image
-              src={FacultyOfEngineeringLogo}
-              fluid
-              as="a"
-              href="https://www.ualberta.ca/electrical-computer-engineering"
-              target="_blank"
+                src={DarkHorseLogo}
+                fluid
+                as="a"
+                href="https://www.darkhorseanalytics.com/"
+                target="_blank"
             />
           </Grid.Column>
         </Grid.Row>

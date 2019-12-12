@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Image } from 'semantic-ui-react';
 import { Container, Row, Col, Button } from 'reactstrap';
-import HackEDLogo from './logos/HackED.png';
+import HackEDLogo from './logos/HackED.svg';
 import About from './Components/About'
 import WhereToGo from './Components/WhereToGo'
 import Faq from './Components/Faq'
@@ -46,7 +46,7 @@ class App extends Component {
           </Row>
           <Row>
             <Col className="pt-4 pb-4">
-              <h2 className="text-center">Alberta's Largest Student Run Beginner Hackathon</h2>
+              <h2 className="text-center">Alberta's Largest Student Run Hackathon</h2>
               <h3 className="text-center">{EVENT_START_TIME.format('MMMM')} {EVENT_START_TIME.format('Do')}-{EVENT_END_TIME.format('Do')} @ {EVENT_LOCATION}</h3>
             </Col>
           </Row>
@@ -67,8 +67,8 @@ class App extends Component {
         <Faq/>
         {/*<PresSchedule/>*/}
         {/*<Schedule/>*/}
-        {/*<EventbriteRegistration/>*/}
-        {/*<Sponsors/>*/}
+        <EventbriteRegistration/>
+        <Sponsors/>
         <Footer/>
       </div>
     );
