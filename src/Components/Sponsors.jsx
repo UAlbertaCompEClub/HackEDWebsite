@@ -5,14 +5,14 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 import IntuitLogo from "../logos/Intuit.png";
 
 import GeneralDynamicsLogo from "../logos/GeneralDynamics.png";
-import InterDynamixLogo from "../logos/InterDynamix.jpg";
+import InterDynamixLogo from "../logos/InterDynamix.svg";
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import CanadianWesternBankLogo from "../logos/CWB.png";
 import ServusLogo from "../logos/Servus.jpg";
 
 import ThePodLogo from "../logos/ThePod.png";
 import AmiiLogo from "../logos/Amii.png";
-import DrugBankLogo from "../logos/DrugBank.png";
+import DrugBankLogo from "../logos/DrugBank.svg";
 import DarkHorseLogo from "../logos/DarkhorseAnalytics.png"
 
 import StickerMuleLogo from "../logos/StickerMule.png";
