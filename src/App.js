@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Image } from 'semantic-ui-react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import HackEDLogo from './logos/HackED.svg';
+import HackEDLogoSponsor from './logos/HackEDIntuit.svg'
 import About from './Components/About'
 import WhereToGo from './Components/WhereToGo'
 import Faq from './Components/Faq'
@@ -38,7 +39,7 @@ class App extends Component {
             </Col>
             <Col sm={10} md={10} lg={8} xl={6}>
               <div className="hero-logo">
-                <Image src={HackEDLogo} fluid />
+                <Image src={HackEDLogoSponsor} fluid />
               </div>
             </Col>
             <Col>
