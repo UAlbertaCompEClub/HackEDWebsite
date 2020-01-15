@@ -61,7 +61,7 @@ class Sponsors extends Component {
                 src={GeneralDynamicsLogo}
                 fluid
                 as="a"
-                href="https://www.gd.com/"
+                href="https://gdmissionsystems.ca/"
                 target="_blank"
             />
           </Grid.Column>
