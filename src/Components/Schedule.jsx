@@ -26,11 +26,9 @@ const scheduleItems = [
         icon: 'hourglass start'
     },
     {
-        title: "Intro to Git Workshop",
+        title: "Workshops begin",
         date: "Saturday 12:30am",
         icon: 'pencil alternate',
-        location: "",
-        description: "Intro to Git"
     },
     // {
     //     title: "Intro to Git",
@@ -39,32 +37,32 @@ const scheduleItems = [
     //     location: "ETLC E2-002",
     //     description: "Highly recommended for anyone who doesn't know git."
     // },
-    {
-        title: "Hack your First Hackathon",
-        date: "Saturday 2:00pm",
-        icon: 'pencil alternate',
-        location: "",
-        description: "Tips and tricks to survive your first hackathon"
-    },
-    {
-        title: "Intro to React",
-        date: "Saturday 3:30pm",
-        icon: 'pencil alternate',
-        location: "",
-        description: "Introduction to the React Framework"
-    },
+    // {
+    //     title: "Hack your First Hackathon",
+    //     date: "Saturday 2:00pm",
+    //     icon: 'pencil alternate',
+    //     location: "",
+    //     description: "Tips and tricks to survive your first hackathon"
+    // },
+    // {
+    //     title: "Intro to React",
+    //     date: "Saturday 3:30pm",
+    //     icon: 'pencil alternate',
+    //     location: "",
+    //     description: "Introduction to the React Framework"
+    // },
     {
         title: "Dinner",
-        date: "Saturday 5:30pm",
+        date: "Saturday 6:00pm",
         icon: 'food'
     },
-    {
-        title: "Machine Learning on the Raspberry Pi",
-        date: "Saturday 6:30pm",
-        icon: 'pencil alternate',
-        location: "",
-        description: "Machine Learning on the Raspberry Pi - More Practice than Theory"
-    },
+    // {
+    //     title: "Machine Learning on the Raspberry Pi",
+    //     date: "Saturday 6:30pm",
+    //     icon: 'pencil alternate',
+    //     location: "",
+    //     description: "Machine Learning on the Raspberry Pi - More Practice than Theory"
+    // },
     // {
     //     title: "Hardware Debugging - Tips & Tricks",
     //     date: "Saturday 8:00pm - Saturday 9:30pm",
@@ -99,11 +97,11 @@ const scheduleItems = [
     {
         fullDate: EVENT_END_TIME.format("MMMM Do, YYYY (dddd)")
     },
-    // {
-    //     title: "Ice Cream Sundays Presented by Intuit",
-    //     date: "Sunday 12:00am",
-    //     icon: 'food'
-    // },
+    {
+        title: "Midnight Snack Presented by Intuit",
+        date: "Sunday 12:00am",
+        icon: 'food'
+    },
     {
         title: "Breakfast Is Served",
         date: "Sunday 7:30am",
@@ -126,18 +124,23 @@ const scheduleItems = [
         icon: 'food'
     },
     {
-        title: "Judging",
-        date: "Sunday 12:30pm - Sunday 2:30pm",
+        title: "Judging Begins",
+        date: "Sunday 12:30pm",
+        icon: 'winner'
+    },
+    {
+        title: "Judging Ends",
+        date: "Sunday 3:00pm",
         icon: 'winner'
     },
     {
         title: "Closing Ceremony",
-        date: "Sunday 3:00pm - Sunday 4:30pm",
+        date: "Sunday 3:30pm",
         icon: 'star'
     },
     {
         title: "Event Ends",
-        date: "Sunday 4:45pm",
+        date: "Sunday 5:00pm",
         icon: 'clock'
     },
     {
