@@ -23,10 +23,11 @@ class About extends Component {
                     <h2>WE GOT YOU</h2>
                     <p>
                       To help your journey, we take care of the details.
-                      {" "+EVENT_NAME_FULL} features more food, more space, more prizes and more swag.
+                      {" "+EVENT_NAME_FULL} will still feature snacks, prizes, and swag!
+                      {/* {" "+EVENT_NAME_FULL} features more food, more space, more prizes and more swag.
                       We provide you with three meals and a ton of snacks to power you through your hack.
                       Tons of new prizes will be given out, be it for winning the hackathon, winning a round of lightning trivia,
-                      or even winning in an all new coding challenge.
+                      or even winning in an all new coding challenge. */}
                     </p>
                     <br/>
                 </Container>

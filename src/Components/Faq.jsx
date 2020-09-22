@@ -22,7 +22,8 @@ const generalPanels = [
     key: "where-is-the-hackathon",
     title: "Where is " + EVENT_NAME + "hosted??",
     content: [
-      `${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
+      //`${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
+      `Due to Covid-19, you can join ${EVENT_NAME} from the comfort of ${EVENT_LOCATION}`
     ].join(" ")
   },
   {
