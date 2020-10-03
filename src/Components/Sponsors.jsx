@@ -21,7 +21,7 @@ class Sponsors extends Component {
         centered
         style={{
           background: "#FFFFFF",
-          marginTop: 40,
+          marginTop: 200,
           marginBottom: 40
         }}
         columns={3}
@@ -32,7 +32,7 @@ class Sponsors extends Component {
         <Grid.Row centered>
           <Grid.Column>
             <h1 style={{ textAlign: "center" }} className="text-primary">
-              SPONSORS
+              LAST YEAR'S SPONSORS
             </h1>
           </Grid.Column>
         </Grid.Row>
@@ -50,15 +50,6 @@ class Sponsors extends Component {
         {/*</Grid.Row>*/}
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
-            <Image
-              src={StartupLogo}
-              fluid
-              as="a"
-              href="https://www.startupedmonton.com/"
-              target="_blank"
-            />
-          </Grid.Column>
           <Grid.Column>
             <Image
               src={IntuitLogo}
@@ -117,6 +108,18 @@ class Sponsors extends Component {
             />
           </Grid.Column>
         </Grid.Row>
+        <Divider horizontal>BRONZE</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+          <Grid.Column>
+            <Image
+              src={StartupLogo}
+              fluid
+              as="a"
+              href="https://www.startupedmonton.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+          </Grid.Row>
         {/*<Divider horizontal>STICKERS PROVIDED BY</Divider>*/}
         {/*<Grid.Row verticalAlign="middle" centered>*/}
         {/*  <Grid.Column>*/}

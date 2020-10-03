@@ -12,27 +12,31 @@ const scheduleItems = [
         fullDate: EVENT_START_TIME.format("MMMM Do, YYYY (dddd)")
     },
     {
-        title: "Doors open for Hackers",
-        date: EVENT_START_TIME.format("dddd h:mma"),
-        icon: "lock open"
-    },
-    {
-        title: "Opening Ceremonies Begin",
-        date: "Saturday 11:00am",
+        title: "Check back soon for more info!",
         icon: 'star'
-    },
-    {
-        title: "Hacking Begins",
-        date: "Saturday 12:00pm",
-        icon: 'hourglass start'
-    },
-    {
-        title: "Intro to Git Workshop",
-        date: "Saturday 12:30am",
-        icon: 'pencil alternate',
-        location: "",
-        description: "Intro to Git"
-    },
+    }
+    // {
+    //     title: "Doors open for Hackers",
+    //     date: EVENT_START_TIME.format("dddd h:mma"),
+    //     icon: "lock open"
+    // },
+    // {
+    //     title: "Opening Ceremonies Begin",
+    //     date: "Saturday 11:00am",
+    //     icon: 'star'
+    // },
+    // {
+    //     title: "Hacking Begins",
+    //     date: "Saturday 12:00pm",
+    //     icon: 'hourglass start'
+    // },
+    // {
+    //     title: "Intro to Git Workshop",
+    //     date: "Saturday 12:30am",
+    //     icon: 'pencil alternate',
+    //     location: "",
+    //     description: "Intro to Git"
+    // },
     // {
     //     title: "Intro to Git",
     //     date: "Saturday 1:00pm - Saturday 1:50pm",
@@ -40,32 +44,32 @@ const scheduleItems = [
     //     location: "ETLC E2-002",
     //     description: "Highly recommended for anyone who doesn't know git."
     // },
-    {
-        title: "Hack your First Hackathon",
-        date: "Saturday 12:30am",
-        icon: 'pencil alternate',
-        location: "",
-        description: "Tips and tricks to survive your first hackathon"
-    },
-    {
-        title: "Intro to React",
-        date: "Saturday 2:00pm",
-        icon: 'pencil alternate',
-        location: "",
-        description: "Introduction to the React Framework"
-    },
-    {
-        title: "Machine Learning on the Raspberry Pi",
-        date: "Saturday 3:30pm",
-        icon: 'pencil alternate',
-        location: "",
-        description: "Machine Learning on the Raspberry Pi - More Practice than Theory"
-    },
-    {
-        title: "Dinner",
-        date: "Saturday 5:30pm",
-        icon: 'food'
-    },
+    // {
+    //     title: "Hack your First Hackathon",
+    //     date: "Saturday 12:30am",
+    //     icon: 'pencil alternate',
+    //     location: "",
+    //     description: "Tips and tricks to survive your first hackathon"
+    // },
+    // {
+    //     title: "Intro to React",
+    //     date: "Saturday 2:00pm",
+    //     icon: 'pencil alternate',
+    //     location: "",
+    //     description: "Introduction to the React Framework"
+    // },
+    // {
+    //     title: "Machine Learning on the Raspberry Pi",
+    //     date: "Saturday 3:30pm",
+    //     icon: 'pencil alternate',
+    //     location: "",
+    //     description: "Machine Learning on the Raspberry Pi - More Practice than Theory"
+    // },
+    // {
+    //     title: "Dinner",
+    //     date: "Saturday 5:30pm",
+    //     icon: 'food'
+    // },
     // {
     //     title: "Lunch",
     //     date: "Sunday 12:00pm",
@@ -141,7 +145,7 @@ class Schedule extends Component {
                         <Grid.Column mobile={13} tablet={13} computer={15}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            <p className="text-white">{item.location}</p>
+                            <p className="text-black">{item.location}</p>
                         </Grid.Column>
                     </Grid>
                 </li>

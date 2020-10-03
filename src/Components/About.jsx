@@ -22,15 +22,24 @@ class About extends Component {
                 <Container>
                     <h2>WE GOT YOU</h2>
                     <p>
-                      To help your journey, we take care of the details.
-                      {" "+EVENT_NAME_FULL} will still feature snacks, prizes, and swag!
-                      {/* {" "+EVENT_NAME_FULL} features more food, more space, more prizes and more swag.
-                      We provide you with three meals and a ton of snacks to power you through your hack.
-                      Tons of new prizes will be given out, be it for winning the hackathon, winning a round of lightning trivia,
-                      or even winning in an all new coding challenge. */}
+                      {" "+EVENT_NAME_FULL} is happening remotely, but don't worry, it will still feature snacks, prizes, and swag,
+                      delivered to your door!
+                      {}
                     </p>
                     <br/>
                 </Container>
+                {/* <Container>
+                    <h2>WE GOT YOU</h2>
+                    <p>
+                      To help your journey, we take care of the details.
+                      {" "+EVENT_NAME_FULL} will still feature snacks, prizes, and swag!
+                      {" "+EVENT_NAME_FULL} features more food, more space, more prizes and more swag.
+                      We provide you with three meals and a ton of snacks to power you through your hack.
+                      Tons of new prizes will be given out, be it for winning the hackathon, winning a round of lightning trivia,
+                      or even winning in an all new coding challenge.
+                    </p>
+                    <br/>
+                </Container> */}
                 <Container>
                     <h2>BRING IT</h2>
                     <p>Join us over the weekend of {EVENT_START_TIME.format("MMMM Do")} to hack your way to something new, whether you’re learning to code for the first time or flexing your hacking muscle trying to build the next big thing. Bring on the challenge, bring your ideas to life.</p>
