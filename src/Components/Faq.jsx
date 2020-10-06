@@ -173,7 +173,7 @@ const hackingPanels = [
     title: "But I don’t have a team!",
     content: [
       "There will be opportunities for willing participants to look for, make or join a team before and at the",
-      "hackathon through the Slack and after opening ceremonies. If you want to hack as a team, be sure to be",
+      "hackathon through the Discord and after opening ceremonies. If you want to hack as a team, be sure to be",
       "proactive during these opportunities! Alternatively, if you have a team and want to find an additional",
       "member, these are also opportunities for your team."
     ].join(" ")
