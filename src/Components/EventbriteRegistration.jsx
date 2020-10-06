@@ -8,7 +8,7 @@ class EventbriteRegistration extends Component {
       <Container className="my-5">
         <Row>
           <Col>
-            <h2 className="text-center">REGISTER</h2>
+            <h3 className="text-center">REGISTRATION COMING SOON!</h3>
           </Col>
         </Row>
         <Row>
@@ -24,10 +24,10 @@ class EventbriteRegistration extends Component {
         </Row>
         <Row>
           <Col> */}
-            <div
+            {/* <div
               id="eventbrite-widget-container-75763084425"
               className="mt-5"
-            />
+            /> */}
           </Col>
         </Row>
       </Container>

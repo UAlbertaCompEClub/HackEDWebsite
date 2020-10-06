@@ -436,7 +436,7 @@ class PresentationSchedule extends Component {
                 relaxed='very'
                 >
                 </Grid>
-                <Container>
+                {/* <Container>
                     <br />
                     <h1 style={{ textAlign: 'center' }}>PRESENTATION SCHEDULE</h1>
                     <p style={{ textAlign: 'center' }}>You will have 2 minutes to present, and 2 minutes to answer questions</p>
@@ -444,7 +444,7 @@ class PresentationSchedule extends Component {
                     <ul className="list-group">
                         {presentationSchedule.map(item => this.renderPresentationScheduleItem(item))}
                     </ul>
-                </Container>
+                </Container> */}
             </div>
         );
     }
