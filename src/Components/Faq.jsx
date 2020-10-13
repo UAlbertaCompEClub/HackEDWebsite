@@ -141,7 +141,7 @@ const applicationPanels = [
   {
     key: "how-much-is-the-event",
     title: "How much is the event?",
-    content: "Entry is $10 CAD."
+    content: "Entry is $5 CAD."
   },
   {
     key: "when-is-the-deadline",
