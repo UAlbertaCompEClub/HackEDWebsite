@@ -135,8 +135,7 @@ const applicationPanels = [
   {
     key: "where-do-i-apply",
     title: "Where do I apply?",
-    content:
-      "You can use the section down below or follow this link (Coming Soon) to purchase tickets."
+    content: "You can use the section down below to purchase tickets, or follow the link at the top of the page to go to the eventbrite."
   },
   {
     key: "how-much-is-the-event",
@@ -146,7 +145,7 @@ const applicationPanels = [
   {
     key: "when-is-the-deadline",
     title: "When is the application deadline?",
-    content: "You can apply up until Nov 7th."
+    content: "You can apply up until Oct 26th."
   },
   {
     key: "who-can-apply",

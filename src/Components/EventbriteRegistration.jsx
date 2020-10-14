@@ -8,13 +8,13 @@ class EventbriteRegistration extends Component {
       <Container className="my-5">
         <Row>
           <Col>
-            <h3 className="text-center">REGISTRATION COMING SOON!</h3>
+            <h3 className="text-center">REGISTRATION</h3>
           </Col>
         </Row>
         <Row>
           <Col>
-            {/* <p className="text-center">
-              Remember that you must be in highschool or in your first or second year of university, and have been in no more than one prior hackathon in order to participate.
+            <p className="text-center">
+              <br></br>Remember that you must be in highschool or in your first or second year of university, and have been in no more than one prior hackathon in order to participate.
             </p>
             <p className="text-center">
               Rare exceptions can be made if participants have little to no prior experience with hacking or programming in general.
@@ -23,11 +23,11 @@ class EventbriteRegistration extends Component {
           </Col>
         </Row>
         <Row>
-          <Col> */}
-            {/* <div
+          <Col>
+            <div
               id="eventbrite-widget-container-75763084425"
               className="mt-5"
-            /> */}
+            />
           </Col>
         </Row>
       </Container>

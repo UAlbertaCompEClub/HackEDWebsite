@@ -182,7 +182,7 @@ class Schedule extends Component {
                 </Grid>
                 <Container>
                     <br/>
-                    <h1 style={{textAlign: 'center'}}>SCHEDULE</h1>
+                    <h3 style={{textAlign: 'center'}}>SCHEDULE</h3>
                     <br/>
                     <ul className="list-group"> 
                         {scheduleItems.map(item => this.renderScheduleItem(item))}
