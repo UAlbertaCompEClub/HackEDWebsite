@@ -32,7 +32,7 @@ class Sponsors extends Component {
         <Grid.Row centered>
           <Grid.Column>
             <h1 style={{ textAlign: "center" }} className="text-primary">
-              LAST YEAR'S SPONSORS
+              SPONSORS
             </h1>
           </Grid.Column>
         </Grid.Row>
@@ -82,24 +82,6 @@ class Sponsors extends Component {
           </Grid.Column>
           <Grid.Column>
             <Image
-              src={AmiiLogo}
-              fluid
-              as="a"
-              href="https://www.amii.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={ScopeARLogo}
-              fluid
-              as="a"
-              href="https://www.scopear.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
               src={DrugbankLogo}
               fluid
               as="a"
@@ -107,15 +89,25 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row>
-        <Divider horizontal>BRONZE</Divider>
-        <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
             <Image
               src={StartupLogo}
               fluid
               as="a"
               href="https://www.startupedmonton.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+        </Grid.Row>
+        <Divider horizontal>BRONZE</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+
+          <Grid.Column>
+            <Image
+              src={AmiiLogo}
+              fluid
+              as="a"
+              href="https://www.amii.ca/"
               target="_blank"
             />
           </Grid.Column>
