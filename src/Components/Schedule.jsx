@@ -50,7 +50,7 @@ const scheduleItems = [
     },
     {
         title: "Embedded Machine Learning on the Artemis Workshop",
-        date: "Saturday 3:30pm",
+        date: "Saturday 3:00pm",
         icon: 'pencil alternate',
         location: "",
         description: "Use hardware and machine learning to detect a spoken word and trigger an effect!"
