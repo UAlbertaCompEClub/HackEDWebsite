@@ -60,7 +60,7 @@ class App extends Component {
         <Faq/>
         <PresentationSchedule/>
         <Schedule/>
-        <EventbriteRegistration/>
+        {/* <EventbriteRegistration/> */}
         <Sponsors/>
         <Footer/>
       </div>

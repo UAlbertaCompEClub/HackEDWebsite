@@ -2,8 +2,7 @@ import React, {Component} from 'react';
 import { Grid, Icon } from 'semantic-ui-react';
 
 import { Container } from 'semantic-ui-react'
-// import {EVENT_START_TIME, EVENT_END_TIME} from "../constants";
-import {EVENT_START_TIME} from "../constants";
+import {EVENT_START_TIME, EVENT_END_TIME} from "../constants";
 
 // const PRESENTATION_SCHEDULE_NUM_COLUMNS = 4;
 
@@ -12,31 +11,22 @@ const scheduleItems = [
         fullDate: EVENT_START_TIME.format("MMMM Do, YYYY (dddd)")
     },
     {
-        title: "Check back soon for more info!",
+        title: "Opening Ceremonies Begin",
+        date: "Saturday 12:00pm",
         icon: 'star'
-    }
-    // {
-    //     title: "Doors open for Hackers",
-    //     date: EVENT_START_TIME.format("dddd h:mma"),
-    //     icon: "lock open"
-    // },
-    // {
-    //     title: "Opening Ceremonies Begin",
-    //     date: "Saturday 11:00am",
-    //     icon: 'star'
-    // },
-    // {
-    //     title: "Hacking Begins",
-    //     date: "Saturday 12:00pm",
-    //     icon: 'hourglass start'
-    // },
-    // {
-    //     title: "Intro to Git Workshop",
-    //     date: "Saturday 12:30am",
-    //     icon: 'pencil alternate',
-    //     location: "",
-    //     description: "Intro to Git"
-    // },
+    },
+    {
+        title: "Hacking Begins",
+        date: "Saturday 1:00pm",
+        icon: 'hourglass start'
+    },
+    {
+        title: "Intro to Git Workshop",
+        date: "Saturday 1:00pm",
+        icon: 'pencil alternate',
+        location: "",
+        description: "Highly recommended for anyone who doesn't know git."
+},
     // {
     //     title: "Intro to Git",
     //     date: "Saturday 1:00pm - Saturday 1:50pm",
@@ -51,50 +41,49 @@ const scheduleItems = [
     //     location: "",
     //     description: "Tips and tricks to survive your first hackathon"
     // },
-    // {
-    //     title: "Intro to React",
-    //     date: "Saturday 2:00pm",
-    //     icon: 'pencil alternate',
-    //     location: "",
-    //     description: "Introduction to the React Framework"
-    // },
-    // {
-    //     title: "Machine Learning on the Raspberry Pi",
-    //     date: "Saturday 3:30pm",
-    //     icon: 'pencil alternate',
-    //     location: "",
-    //     description: "Machine Learning on the Raspberry Pi - More Practice than Theory"
-    // },
-    // {
-    //     title: "Dinner",
-    //     date: "Saturday 5:30pm",
-    //     icon: 'food'
-    // },
-    // {
-    //     title: "Lunch",
-    //     date: "Sunday 12:00pm",
-    //     icon: 'food'
-    // },
-    // {
-    //     title: "Judging",
-    //     date: "Sunday 12:30pm - Sunday 2:30pm",
-    //     icon: 'winner'
-    // },
-    // {
-    //     title: "Closing Ceremony",
-    //     date: "Sunday 3:00pm - Sunday 4:30pm",
-    //     icon: 'star'
-    // },
-    // {
-    //     title: "Event Ends",
-    //     date: "Sunday 4:45pm",
-    //     icon: 'clock'
-    // },
-    // {
-    //     title: "Venue Closes For Participants",
-    //     date: EVENT_END_TIME.format("dddd h:mma"),
-    //     icon: 'lock'
-    // },
+    {
+        title: "Intro to React Workshop",
+        date: "Saturday 2:00pm",
+        icon: 'pencil alternate',
+        location: "",
+        description: "Create a simple app and get it to fetch data from an API"
+    },
+    {
+        title: "Embedded Machine Learning on the Artemis Workshop",
+        date: "Saturday 3:30pm",
+        icon: 'pencil alternate',
+        location: "",
+        description: "Use hardware and machine learning to detect a spoken word and trigger an effect!"
+    },
+    {
+        title: "Game Time",
+        date: "Saturday 6:00pm",
+        icon: 'gamepad',
+        location: "",
+        description: "A little break from coding to play some games and catch up with other groups"
+    },
+    {
+        title: "Snack Time",
+        date: "Saturday 11:00pm",
+        icon: 'food',
+        location: "",
+        description: "Kick back and relax with a mug cake, or try some games and contests"
+    },
+    {
+        title: "Closing Ceremonies",
+        date: "Sunday 12:00",
+        icon: 'star'
+    },
+    {
+        title: "Judging",
+        date: "Sunday 12:30pm - Sunday 3:00pm",
+        icon: 'edit'
+    },
+    {
+        title: "Winner Announcement",
+        date: "Sunday 3:30pm",
+        icon: 'winner'
+    },
 ];
 
 class Schedule extends Component {
