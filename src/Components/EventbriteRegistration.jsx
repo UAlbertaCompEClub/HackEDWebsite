@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {Row,Col,Container} from "reactstrap";
+import React, { Component } from 'react';
+import { Row, Col, Container } from "reactstrap";
 
 class EventbriteRegistration extends Component {
   //Uses scripts which are loaded in the index.html file
@@ -13,7 +13,8 @@ class EventbriteRegistration extends Component {
         </Row>
         <Row>
           <Col>
-            <div id="eventbrite-widget-container-83186506079"></div>
+            empty
+            {/* <div id="eventbrite-widget-container-83186506079"></div> */}
           </Col>
         </Row>
       </Container>
