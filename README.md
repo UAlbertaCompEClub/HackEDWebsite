@@ -21,4 +21,5 @@ If the change alters the structure or logic of the website, it should probably g
 2. 'npm install' to download node packages
 3. 'npm run addRemotes' to add the two site remotes
 4. Switch to the branch of the site you want to deploy
-5. 'npm run deploy\[beta/prime\] to deploy to gh-pages
+5. 'npm run build' to create a build to deploy
+6. 'npm run deploy\[beta/prime\] to deploy to gh-pages
