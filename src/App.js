@@ -32,9 +32,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header/>
+        <Header />
         <Container className="bg-primary-gradient hero" fluid={true}>
-          <Row style={{paddingTop: "10vh"}}>
+          <Row style={{ paddingTop: "10vh" }}>
             <Col>
             </Col>
             <Col sm={10} md={10} lg={8} xl={6}>
@@ -48,14 +48,14 @@ class App extends Component {
           <Row>
             <Col className="pt-4 pb-4">
               <h2 className="text-center">Alberta's Largest Student Run Hackathon</h2>
-              <h3 className="text-center">{EVENT_START_TIME.format('MMMM')} {EVENT_START_TIME.format('Do')}-{EVENT_END_TIME.format('Do')} @ {EVENT_LOCATION}</h3>
+              <h3 className="text-center">A virtual event from {EVENT_START_TIME.format('MMMM')} {EVENT_START_TIME.format('Do')}-{EVENT_END_TIME.format('Do')}</h3>
             </Col>
           </Row>
-          <Row style={{paddingBottom: "20vh"}}>
+          <Row style={{ paddingBottom: "20vh" }}>
             <Col>
             </Col>
             <Col className={"text-center"} md={8}>
-              <Button onClick={(e) => this.redirectToExternalUrl(LINK_REGISTER, e)} color='primary' size='lg'>Register Here!</Button>
+              <Button onClick={(e) => this.redirectToExternalUrl(LINK_REGISTER, e)} color='primary' size='lg'>Registrations Open Soon!</Button>
               <Button onClick={(e) => this.redirectToExternalUrl(LINK_VOLUNTEER, e)} color='primary' size='lg' className={"mx-2"}>Volunteer Here!</Button>
               <Button onClick={(e) => this.redirectToExternalUrl(LINK_MENTOR, e)} color='primary' size='lg'>Mentor Here!</Button>
             </Col>
@@ -63,14 +63,14 @@ class App extends Component {
             </Col>
           </Row>
         </Container>
-        <About/>
-        <WhereToGo/>
-        <Faq/>
+        <About />
+        <WhereToGo />
+        <Faq />
         {/*<PresSchedule/>*/}
-        <Schedule/>
-        <EventbriteRegistration/>
-        <Sponsors/>
-        <Footer/>
+        {/* <Schedule /> */}
+        {/* <EventbriteRegistration /> */}
+        <Sponsors />
+        <Footer />
       </div>
     );
   }

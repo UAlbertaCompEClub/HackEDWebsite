@@ -14,10 +14,10 @@ import ThePodLogo from "../logos/ThePod.png";
 import AmiiLogo from "../logos/Amii.png";
 import DrugBankLogo from "../logos/DrugBank.svg";
 import DarkHorseLogo from "../logos/DarkhorseAnalytics.png"
-
+import DeepMindLogo from "../logos/DeepMind.png"
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
-import {EVENT_NAME} from "../constants";
+import { EVENT_NAME } from "../constants";
 
 class Sponsors extends Component {
   render() {
@@ -37,7 +37,7 @@ class Sponsors extends Component {
       >
         <Grid.Row centered>
           <Grid.Column>
-            <h1 style={{ textAlign: "center"}} className="text-primary">
+            <h1 style={{ textAlign: "center" }} className="text-primary">
               SPONSORS
             </h1>
           </Grid.Column>
@@ -58,14 +58,14 @@ class Sponsors extends Component {
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
             <Image
-                src={GeneralDynamicsLogo}
-                fluid
-                as="a"
-                href="https://gdmissionsystems.ca/"
-                target="_blank"
+              src={GeneralDynamicsLogo}
+              fluid
+              as="a"
+              href="https://gdmissionsystems.ca/"
+              target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          {/* <Grid.Column>
             <Image
                 src={InterDynamixLogo}
                 fluid
@@ -73,25 +73,34 @@ class Sponsors extends Component {
                 href="http://www.interdynamix.com/"
                 target="_blank"
             />
-          </Grid.Column>
+          </Grid.Column> */}
           <Grid.Column>
             <Image
-                src={StartupEdmontonLogo}
-                fluid
-                as="a"
-                href="https://www.startupedmonton.com/"
-                target="_blank"
+              src={AmiiLogo}
+              fluid
+              as="a"
+              href="https://www.amii.ca/"
+              target="_blank"
             />
           </Grid.Column>
           <Grid.Column>
             <Image
-                src={CanadianWesternBankLogo}
-                fluid
-                as="a"
-                href="https://www.cwbank.com/en/business"
-                target="_blank"
+              src={StartupEdmontonLogo}
+              fluid
+              as="a"
+              href="https://www.startupedmonton.com/"
+              target="_blank"
             />
           </Grid.Column>
+          {/* <Grid.Column>
+            <Image
+              src={CanadianWesternBankLogo}
+              fluid
+              as="a"
+              href="https://www.cwbank.com/en/business"
+              target="_blank"
+            />
+          </Grid.Column> */}
           <Grid.Column>
             <Image
               src={ServusLogo}
@@ -104,7 +113,7 @@ class Sponsors extends Component {
         </Grid.Row>
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
+          {/* <Grid.Column>
             <Image
               src={ThePodLogo}
               fluid
@@ -112,34 +121,34 @@ class Sponsors extends Component {
               href="https://www.pod-innovation.ca/"
               target="_blank"
             />
-          </Grid.Column>
+          </Grid.Column> */}
           <Grid.Column>
             <Image
-                src={DrugBankLogo}
-                fluid
-                as="a"
-                href="https://www.drugbank.ca/"
-                target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={AmiiLogo}
+              src={DrugBankLogo}
               fluid
               as="a"
-              href="https://www.amii.ca/"
+              href="https://www.drugbank.ca/"
               target="_blank"
             />
           </Grid.Column>
           <Grid.Column>
             <Image
-                src={DarkHorseLogo}
-                fluid
-                as="a"
-                href="https://www.darkhorseanalytics.com/"
-                target="_blank"
+              src={DeepMindLogo}
+              fluid
+              as="a"
+              href="https://deepmind.com/"
+              target="_blank"
             />
           </Grid.Column>
+          {/* <Grid.Column>
+            <Image
+              src={DarkHorseLogo}
+              fluid
+              as="a"
+              href="https://www.darkhorseanalytics.com/"
+              target="_blank"
+            />
+          </Grid.Column> */}
         </Grid.Row>
         <Divider horizontal>STICKERS PROVIDED BY</Divider>
         <Grid.Row verticalAlign="middle" centered>

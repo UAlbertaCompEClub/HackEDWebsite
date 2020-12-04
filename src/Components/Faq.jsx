@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import { Grid, Accordion } from "semantic-ui-react";
 import {
   EVENT_NAME,
-  EVENT_LOCATION,
-  EVENT_LOCATION_ADDRESS
+  // EVENT_LOCATION,
+  // EVENT_LOCATION_ADDRESS
 } from "../constants";
 
 const generalPanels = [
@@ -20,9 +20,9 @@ const generalPanels = [
   },
   {
     key: "where-is-the-hackathon",
-    title: "Where is " + EVENT_NAME + "hosted??",
+    title: "Where is " + EVENT_NAME + " hosted??",
     content: [
-      `${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
+      `${EVENT_NAME} will be hosted online using discord this year.`
     ].join(" ")
   },
   {
@@ -39,7 +39,7 @@ const generalPanels = [
     title: "Who organizes  " + EVENT_NAME + " ?",
     content: [
       EVENT_NAME +
-        " is an event by the Computer Engineering Club of the University of Alberta!",
+      " is an event by the Computer Engineering Club of the University of Alberta!",
       "This will be the fourth time running this event and the ninth hackathon organized overall."
     ].join(" ")
   },
@@ -56,90 +56,106 @@ const generalPanels = [
   }
 ];
 
-  const logisticsPanels = [
-    {
-      key: 'do-i-have-to-be-compe',
-      title: 'Do I have to be in Computer Engineering/Computer Science to participate in this hackathon?',
-      content: 'Not at all! Any student interested in participating, regardless of skill, faculty or school is welcome to join.'
-    },
-    {
-      key: 'hows-wifi',
-      title: 'How’s the wifi situation?',
-      content: [
-        'The wifi situation is very good. We recommend you download your tools before hand just to avoid any',
-        'potential network slowdowns.'
-      ].join(' '),
-    },
-      {
-        key: 'what-should-i-bring',
-        title: 'What should I bring?',
-        content: [
-            'Make sure to bring your laptop, charger and any other required tech you’ll need for your hack.',
-            'You will find it helpful to bring along key items you would bring to a sleepover: pillows, blanket,',
-            'toothbrush/toothpaste, deodorant, earphones, etc.'
-        ].join(' '),
-      },
-      {
-        key: 'what-shouldnt-i-bring',
-        title: 'What shouldn’t I bring?',
-        content: [
-            'Please do not bring any drugs or alcohol. If you are not sure about bringing a certain item,',
-            'please send us a message ahead of time.'
-        ].join(' '),
-      },
-      {
-        key: 'will-there-be-food',
-        title: 'Will there be food?',
-        content: [
-            'Of course! We will provide snacks and drinks (coffee is key!) throughout the event. Dinner will be',
-            'provided saturday evening, as well as breakfast and lunch on Sunday. Please let us know if you have',
-            'dietary restrictions - we’ll ensure you’re covered.'
-        ].join(' '),
-      },
-      {
-        key: 'can-i-work-remotely',
-        title: 'Can I work remotely?',
-        content: [
-            'Each team is allowed to have one remote participant contingent that the team has another team member physically present at the event.'
-        ].join(' '),
-      },
-      {
-        key: 'whats-the-best-group',
-        title: 'What’s the best group size?',
-        content: [
-            'You can have a max group size of 5, but we recommend 4 hackers.',
-            'Please note that prizes are designed for groups of 4, so larger groups may have to share.'
-        ].join(' '),
-      },
-  ];
+const logisticsPanels = [
+  {
+    key: 'do-i-have-to-be-compe',
+    title: 'Do I have to be in Computer Engineering/Computer Science to participate in this hackathon?',
+    content: 'Not at all! Any student interested in participating, regardless of skill, faculty or school is welcome to join.'
+  },
+  // {
+  //   key: 'hows-wifi',
+  //   title: 'How’s the wifi situation?',
+  //   content: [
+  //     'The wifi situation is very good. We recommend you download your tools before hand just to avoid any',
+  //     'potential network slowdowns.'
+  //   ].join(' '),
+  // },
+  // {
+  //   key: 'what-should-i-bring',
+  //   title: 'What should I bring?',
+  //   content: [
+  //     'Make sure to bring your laptop, charger and any other required tech you’ll need for your hack.',
+  //     'You will find it helpful to bring along key items you would bring to a sleepover: pillows, blanket,',
+  //     'toothbrush/toothpaste, deodorant, earphones, etc.'
+  //   ].join(' '),
+  // },
+  // {
+  //   key: 'what-shouldnt-i-bring',
+  //   title: 'What shouldn’t I bring?',
+  //   content: [
+  //     'Please do not bring any drugs or alcohol. If you are not sure about bringing a certain item,',
+  //     'please send us a message ahead of time.'
+  //   ].join(' '),
+  // },
+  {
+    key: 'how-should-i-prepare',
+    title: 'How should I prepare?',
+    content: [
+      'Make sure that you have a Discord account ready for the day of the event and get a team and project',
+      'idea together if you can. If not, we will have time for team building on the day of the event'
+    ].join(' '),
+  },
+  {
+    key: 'what-will-be-in-the-swag-box',
+    title: 'What will be in the swag box?',
+    content: [
+      'The swag box from HackED Beta 2021 had chocolate, tea, sickers, notebooks, socks, a drawstring bag',
+      'and other treats. For the main event we\'re hoping to top that!'
+    ].join(' '),
+  },
+  // {
+  //   key: 'will-there-be-food',
+  //   title: 'Will there be food?',
+  //   content: [
+  //     'Of course! We will provide snacks and drinks (coffee is key!) throughout the event. Dinner will be',
+  //     'provided saturday evening, as well as breakfast and lunch on Sunday. Please let us know if you have',
+  //     'dietary restrictions - we’ll ensure you’re covered.'
+  //   ].join(' '),
+  // },
+  // {
+  //   key: 'can-i-work-remotely',
+  //   title: 'Can I work remotely?',
+  //   content: [
+  //     'Each team is allowed to have one remote participant contingent that the team has another team member physically present at the event.'
+  //   ].join(' '),
+  // },
+  {
+    key: 'whats-the-best-group',
+    title: 'What’s the best group size?',
+    content: [
+      'You can have a max group size of 5, but we recommend 4 hackers.',
+      'Please note that prizes are designed for groups of 4, so larger groups may have to share.'
+    ].join(' '),
+  },
+];
 
-  const applicationPanels = [
-    {
-      key: 'where-do-i-apply',
-      title: 'Where do I apply?',
-      content: 'TBD'
-    },
-    {
-      key: 'when-is-the-deadline',
-      title: 'When is the application deadline?',
-      content: 'TBD',
-    },
-    {
-        key: 'who-can-apply',
-        title: 'Who can apply?',
-        content: 'Any student, new grads of up to 1 year, and graduate students.',
-      },
-      {
-        key: 'are-there-any-fees',
-        title: 'Is this free?',
-        content: "Yeah!",
-      },
-      {
-        key: 'reimburse-travel',
-        title: 'Will I be reimbursed travel expenses?',
-        content: "Unfortunately, "+EVENT_NAME+" will not be reimbursing travel expenses this year.",
-      }
-  ];
+const applicationPanels = [
+  {
+    key: 'where-do-i-apply',
+    title: 'Where do I apply?',
+    content: 'TBD'
+  },
+  {
+    key: 'when-is-the-deadline',
+    title: 'When is the application deadline?',
+    content: 'TBD',
+  },
+  {
+    key: 'who-can-apply',
+    title: 'Who can apply?',
+    content: 'Any student, new grads of up to 1 year, and graduate students.',
+  },
+  {
+    key: 'are-there-any-fees',
+    title: 'Is this free?',
+    content: "Yeah!",
+  }
+  // {
+  //   key: 'reimburse-travel',
+  //   title: 'Will I be reimbursed travel expenses?',
+  //   content: "Unfortunately, " + EVENT_NAME + " will not be reimbursing travel expenses this year.",
+  // }
+];
 
 const hackingPanels = [
   {
@@ -161,15 +177,15 @@ const hackingPanels = [
       "that you could potentially solve. Talk to your friends and family to help you!"
     ].join(" ")
   },
-  {
-    key: "any-available-resources",
-    title: "Any available resources?",
-    content: [
-      "We are still determining what hardware resources we can get. Feel free to bring your own hardware",
-      "resources such as monitors, Arduino boards, etc. We hope you can get all the tools necessary to",
-      "complete your hack!"
-    ].join(" ")
-  },
+  // {
+  //   key: "any-available-resources",
+  //   title: "Any available resources?",
+  //   content: [
+  //     "We are still determining what hardware resources we can get. Feel free to bring your own hardware",
+  //     "resources such as monitors, Arduino boards, etc. We hope you can get all the tools necessary to",
+  //     "complete your hack!"
+  //   ].join(" ")
+  // },
   {
     key: "judging-work",
     title: "How will judging work?",
@@ -189,13 +205,15 @@ const helpPanels = [
         'Of course! All help is throughly appreciated. Reach out to us at at
         hacked@compeclub.com or fill out{" "}
       </span>,
-      <a
-        key="volunteer-link"
-        className="whiteLink"
-        href="https://docs.google.com/forms/d/e/1FAIpQLSe07E5OUYiw41SzKsHdtTOeY6YdTFQCxB6MA58Us58X4-JEJA/viewform?usp=sf_link"
-      >
-        this form.
+      <u>
+        <a
+          key="volunteer-link"
+          className="text-light"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSe07E5OUYiw41SzKsHdtTOeY6YdTFQCxB6MA58Us58X4-JEJA/viewform?usp=sf_link"
+        >
+          this form.
       </a>
+      </u>
     ]
   },
   {
@@ -205,8 +223,8 @@ const helpPanels = [
       "If you and your company are interested in getting your APIs in hackers hand’s, face-to-face",
       "mentorship with students and general outreach with swag, prizes and/or traditional sponsorship,",
       "please reach out to us at hacked@compeclub.com and we can work out how " +
-        EVENT_NAME +
-        " can benefit you!"
+      EVENT_NAME +
+      " can benefit you!"
     ].join(" ")
   },
   {
