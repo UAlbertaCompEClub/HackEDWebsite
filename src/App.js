@@ -12,7 +12,7 @@ import Header from './Components/NavigationBar'
 import Schedule from './Components/Schedule'
 import PresentationSchedule from './Components/PresentationSchedule'
 import PresSchedule from "./Components/PresScedule";
-import EventbriteRegistration from "./Components/EventbriteRegistration";
+// import EventbriteRegistration from "./Components/EventbriteRegistration";
 import "./constants";
 import {
   EVENT_LOCATION,
