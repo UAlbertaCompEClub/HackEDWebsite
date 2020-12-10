@@ -12,7 +12,7 @@ import Header from './Components/NavigationBar'
 import Schedule from './Components/Schedule'
 import PresentationSchedule from './Components/PresentationSchedule'
 import PresSchedule from "./Components/PresScedule";
-// import EventbriteRegistration from "./Components/EventbriteRegistration";
+import EventbriteRegistration from "./Components/EventbriteRegistration";
 import "./constants";
 import {
   EVENT_LOCATION,
@@ -55,7 +55,7 @@ class App extends Component {
             <Col>
             </Col>
             <Col className={"text-center"} md={8}>
-              <Button onClick={(e) => this.redirectToExternalUrl(LINK_REGISTER, e)} color='primary' size='lg'>Registrations Open Soon!</Button>
+              <Button onClick={(e) => this.redirectToExternalUrl(LINK_REGISTER, e)} color='primary' size='lg'>Register!</Button>
               <Button onClick={(e) => this.redirectToExternalUrl(LINK_VOLUNTEER, e)} color='primary' size='lg' className={"mx-2"}>Volunteer Here!</Button>
               <Button onClick={(e) => this.redirectToExternalUrl(LINK_MENTOR, e)} color='primary' size='lg'>Mentor Here!</Button>
             </Col>
@@ -68,7 +68,7 @@ class App extends Component {
         <Faq />
         {/*<PresSchedule/>*/}
         {/* <Schedule /> */}
-        {/* <EventbriteRegistration /> */}
+        <EventbriteRegistration />
         <Sponsors />
         <Footer />
       </div>

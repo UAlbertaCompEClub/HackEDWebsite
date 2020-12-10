@@ -8,7 +8,9 @@ class WhereToGo extends Component {
     render() {
         return (
             <div>
-                <h1 style={{ textAlign: 'center', padding: 50 }}>Due to the ongoing COVID-19 pandemic, HackED 2021 will be hosted online with Discord</h1>
+                <h1 style={{ textAlign: 'center', padding: 50 }}>ALL ONLINE</h1>
+                <h4 style={{ textAlign: 'center', paddingBottom: 50 }}>To keep everyone safe, HackED Beta will be held remotely in 2020.</h4>
+
                 {/* <HackEDMap/> */}
             </div>
         );

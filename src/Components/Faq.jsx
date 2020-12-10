@@ -3,8 +3,7 @@ import React, { Component } from "react";
 import { Grid, Accordion } from "semantic-ui-react";
 import {
   EVENT_NAME,
-  // EVENT_LOCATION,
-  // EVENT_LOCATION_ADDRESS
+  LINK_VOLUNTEER
 } from "../constants";
 
 const generalPanels = [
@@ -20,7 +19,7 @@ const generalPanels = [
   },
   {
     key: "where-is-the-hackathon",
-    title: "Where is " + EVENT_NAME + " hosted??",
+    title: "Where is " + EVENT_NAME + " hosted?",
     content: [
       `${EVENT_NAME} will be hosted online using discord this year.`
     ].join(" ")
@@ -30,8 +29,8 @@ const generalPanels = [
     title: "Do I need to know programming?",
     content: [
       "Not at all! The hackathon’s purpose is to create a welcoming and supportive environment to learn.",
-      "This hackathon is specifically made for beginner hackers who have participated in no more than one prior hackathon. The hackathon has plenty of mentors and",
-      "resources to help you work on your hack. It’s the best place to try something new."
+      "The hackathon has plenty of mentors andresources to help you work on your hack. It’s the best place",
+      " to try something new."
     ].join(" ")
   },
   {
@@ -40,7 +39,7 @@ const generalPanels = [
     content: [
       EVENT_NAME +
       " is an event by the Computer Engineering Club of the University of Alberta!",
-      "This will be the fourth time running this event and the ninth hackathon organized overall."
+      "This will be the sixth time running this event and the 12th hackathon organized overall."
     ].join(" ")
   },
   {
@@ -49,7 +48,7 @@ const generalPanels = [
       EVENT_NAME + " is a competition but do I have to compete and present?",
     content: [
       "After hacking ends, judges will ask you to demo your work. However it is not mandatory,",
-      "You can opt out before presentations begin on Sunday. That being said, presenting is highly",
+      "you can opt out before presentations begin on Sunday. That being said, presenting is highly",
       "recommended as part of the hackathon experience. Still, the most important part of this hackathon",
       "is that you come out of it having tried something new."
     ].join(" ")
@@ -172,7 +171,7 @@ const hackingPanels = [
     key: "i-dont-have-any-ideas",
     title: "But I don’t have any ideas!",
     content: [
-      "Don’t let this detract you from participating! There is a lot of time and inspiration at the event!",
+      "Don’t let this deter you from participating! There is a lot of time and inspiration at the event!",
       "A good recommendation for coming up with ideas is to think about annoyances in your everyday life",
       "that you could potentially solve. Talk to your friends and family to help you!"
     ].join(" ")
@@ -209,7 +208,7 @@ const helpPanels = [
         <a
           key="volunteer-link"
           className="text-light"
-          href="https://docs.google.com/forms/d/e/1FAIpQLSe07E5OUYiw41SzKsHdtTOeY6YdTFQCxB6MA58Us58X4-JEJA/viewform?usp=sf_link"
+          href={LINK_VOLUNTEER}
         >
           this form.
       </a>
