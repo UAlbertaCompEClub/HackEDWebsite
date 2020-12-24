@@ -9,7 +9,7 @@ import InterDynamixLogo from "../logos/InterDynamix.svg";
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import CanadianWesternBankLogo from "../logos/CWB.png";
 import ServusLogo from "../logos/Servus.jpg";
-
+import IsaicLogo from "../logos/ISAIC.jpg"
 import ThePodLogo from "../logos/ThePod.png";
 import AmiiLogo from "../logos/Amii.png";
 import DrugBankLogo from "../logos/DrugBank.svg";
@@ -107,6 +107,15 @@ class Sponsors extends Component {
               fluid
               as="a"
               href="https://www.servus.ca/life"
+              target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column>
+            <Image
+              src={IsaicLogo}
+              fluid
+              as="a"
+              href="https://isaic.ece.ualberta.ca/"
               target="_blank"
             />
           </Grid.Column>
