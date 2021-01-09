@@ -56,7 +56,7 @@ class Sponsors extends Component {
         </Grid.Row>
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
+          {/* <Grid.Column>
             <Image
               src={GeneralDynamicsLogo}
               fluid
@@ -64,7 +64,7 @@ class Sponsors extends Component {
               href="https://gdmissionsystems.ca/"
               target="_blank"
             />
-          </Grid.Column>
+          </Grid.Column> */}
           {/* <Grid.Column>
             <Image
                 src={InterDynamixLogo}

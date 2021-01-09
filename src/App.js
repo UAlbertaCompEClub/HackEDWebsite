@@ -67,7 +67,7 @@ class App extends Component {
         <WhereToGo />
         <Faq />
         {/*<PresSchedule/>*/}
-        {/* <Schedule /> */}
+        <Schedule />
         <EventbriteRegistration />
         <Sponsors />
         <Footer />
