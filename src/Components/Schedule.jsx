@@ -25,7 +25,7 @@ const scheduleItems = [
         date: "Saturday 12:00pm",
         icon: 'hourglass start'
     },
-    // {
+    // {-
     //     title: "Workshops begin",
     //     date: "Saturday 12:30am",
     //     icon: 'pencil alternate',
@@ -40,13 +40,15 @@ const scheduleItems = [
         title: "Workshop: ISAIC - Accessing the AI garage",
         date: "Saturday 3:00pm - 3:50pm",
         icon: 'pencil alternate',
-        description: "Join this workshop to learn about and access ISAIC's AI computing resources. Especially recommended for AI training hacks!"
+        description: "Join this workshop to learn about and access ISAIC's AI computing resources. Especially recommended for AI training hacks! If you plan to attend, {{LINK}} to let us know how many to prepare for",
+        link: "https://forms.gle/7YN3iUQWpuMv9XiQ9",
+        link_text: "sign up here"
     },
     {
-        title: "Workshop: Cybersecurity 201",
+        title: "Workshop: CTF Workshop",
         date: "Saturday 4:00pm - 4:50pm",
         icon: 'pencil alternate',
-        description: "Learn about the most common and dangerous security vulnerability, and how not to make the same mistakes"
+        description: "Come learn about Capture the Flag and how to tackle different types of Capture the Flag questions!"
     },
     {
         title: "Workshop: Presenting your hack!",
@@ -171,7 +173,20 @@ const scheduleItems = [
 ];
 
 class Schedule extends Component {
+
     renderScheduleItem(item) {
+
+        // Hello I'm so sorry
+        // Hacky way to get a link to show up
+        // Please dont do it
+        let description
+        if (item.link) {
+            const [front, back] = item.description.split("{{LINK}}")
+            description = <p>{front}<a href={item.link}>{item.link_text}</a>{back}</p>
+        } else {
+            description = <p>{item.description}</p>
+        }
+
         if (item.fullDate) {
             return <li className="list-group-item text-white bg-primary" key={item.fullDate}><b>{item.fullDate}</b></li>;
         }
@@ -185,7 +200,7 @@ class Schedule extends Component {
                         <Grid.Column mobile={13} tablet={13} computer={15}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            <p>{item.description}</p>
+                            {description}
                             <p className="bg-primary">{item.location}</p>
                         </Grid.Column>
                     </Grid>
@@ -202,7 +217,7 @@ class Schedule extends Component {
                         <Grid.Column mobile={13} tablet={13} computer={15}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            <p>{item.description}</p>
+                            {description}
                         </Grid.Column>
                     </Grid>
                 </li>
