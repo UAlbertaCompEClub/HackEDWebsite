@@ -37,6 +37,12 @@ const scheduleItems = [
         description: "Highly recommended for anyone who doesn't know git."
     },
     {
+        title: "Workshop: One on One Early Career Chats",
+        date: "Saturday 2:00pm - 2:50pm",
+        icon: 'pencil alternate',
+        description: "Talk with some experts at Intuit about how to get your career started on the right foot!."
+    },
+    {
         title: "Workshop: ISAIC - Accessing the AI garage",
         date: "Saturday 3:00pm - 3:50pm",
         icon: 'pencil alternate',
