@@ -63,6 +63,12 @@ const scheduleItems = [
         description: "It doesn't matter how cool your hack is, you still gotta present it. Hear from one of our judges how make a great hack into an awesome presentation, and how to apply those skills in the real world."
     },
     {
+        title: "Workshop: How to Create a Team Logo!",
+        date: "Saturday 6:00pm - 6:50pm",
+        icon: 'pencil alternate',
+        description: "A step by step guide to how to create a unique logo using vector graphics/"
+    },
+    {
         title: "Activity: Bob Ross MS Paint Night",
         date: "Saturday 7:00pm - 7:50pm",
         icon: 'paint brush',
@@ -146,7 +152,7 @@ const scheduleItems = [
     // },
     {
         title: "Submissions Due on DevPost",
-        date: "Sunday 11:00pm",
+        date: "Sunday 11:00am",
         icon: 'exclamation triangle',
         description: "Hacking hasn't ended yet!"
     },
