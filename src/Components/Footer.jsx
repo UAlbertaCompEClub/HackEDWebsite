@@ -18,14 +18,14 @@ class Footer extends Component {
             style={{
             background: "#FFFFFF",
             marginTop: 0,
-            marginBottom: 40
+            marginBottom: 20
             }}
             columns={3}
             container
             stackable
             relaxed="very"
             >         
-            <Grid.Row centered>
+            {/* <Grid.Row centered>
                 <Grid.Column width={2}>
                     <Image
                     src={AdasTeamLogo}
@@ -55,7 +55,7 @@ class Footer extends Component {
                         >UACS</h1>
                     </a>
                 </Grid.Column>
-            </Grid.Row>
+            </Grid.Row> */}
         </Grid>
             <Grid 
             centered
@@ -76,7 +76,7 @@ class Footer extends Component {
                 <Grid.Row centered>
                     <Grid.Column>
                         <h4>
-                            ETLC 2-040M (first right in clubs hallway)<br/>
+                            ETLC 2-040M<br/>
                             University of Alberta<br/>
                             Edmonton, AB<br/>
                         </h4>

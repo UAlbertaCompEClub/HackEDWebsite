@@ -21,7 +21,7 @@ class Sponsors extends Component {
         centered
         style={{
           background: "#FFFFFF",
-          marginTop: 200,
+          marginTop: 20,
           marginBottom: 40
         }}
         columns={3}
@@ -30,9 +30,9 @@ class Sponsors extends Component {
         relaxed="very"
       >
         <Grid.Row centered>
-          <Grid.Column>
+          <Grid.Column width={12}>
             <h1 style={{ textAlign: "center" }} className="text-primary">
-              SPONSORS
+              SPONSOR A SPECIAL WEEKEND
             </h1>
           </Grid.Column>
         </Grid.Row>
@@ -48,9 +48,9 @@ class Sponsors extends Component {
         {/*    />*/}
         {/*  </Grid.Column>*/}
         {/*</Grid.Row>*/}
-        <Divider horizontal>GOLD</Divider>
+        {/* <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
+          <Grid.Column width={8}>
             <Image
               src={IntuitLogo}
               fluid
@@ -59,7 +59,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={8}>
             <Image
               src={ServusLogo}
               fluid
@@ -70,8 +70,8 @@ class Sponsors extends Component {
           </Grid.Column>
         </Grid.Row>
         <Divider horizontal>SILVER</Divider>
-        <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
+        <Grid.Row verticalAlign="middle" centered >
+          <Grid.Column width={4}>
             <Image
               src={ThePodLogo}
               fluid
@@ -80,7 +80,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={4}>
             <Image
               src={DrugbankLogo}
               fluid
@@ -89,7 +89,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={4}>
             <Image
               src={StartupLogo}
               fluid
@@ -101,8 +101,7 @@ class Sponsors extends Component {
         </Grid.Row>
         <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
-
-          <Grid.Column>
+          <Grid.Column width={3}>
             <Image
               src={AmiiLogo}
               fluid
@@ -111,7 +110,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          </Grid.Row>
+          </Grid.Row> */}
         {/*<Divider horizontal>STICKERS PROVIDED BY</Divider>*/}
         {/*<Grid.Row verticalAlign="middle" centered>*/}
         {/*  <Grid.Column>*/}
@@ -138,11 +137,11 @@ class Sponsors extends Component {
         {/*</Grid.Row>*/}
         <Grid.Row centered columns={1}>
           <Grid.Column>
-            <h2>SPONSOR A SPECIAL WEEKEND</h2>
+            {/* <h2>SPONSOR A SPECIAL WEEKEND</h2> */}
             <h4>
               Each year, our sponsors help us unite our community of emerging
               developers, designers, makers and learners. Our sponsors empower
-              our hackers to build something they're proud of.
+              our hackers to build something they're proud of!
               <br />
               <br />
               The {EVENT_NAME} sponsorship team can be reached at:{" "}

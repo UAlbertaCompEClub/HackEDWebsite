@@ -6,7 +6,7 @@ class About extends Component {
         return (
             <div id ="about" className="bg-primary text-white py-5">
                 <Container>
-                    <h1 style={{textAlign: 'center'}}>BRING IT!</h1>
+                    <h1  style={{textAlign: 'center', paddingBottom: 50}}>BRING IT!</h1>
                     <h3>Hackathons are for designing, creating, and building awesome projects. {EVENT_NAME} is the premiere annual 24-hour hackathon from the Computer Engineering Club of the University of Alberta.</h3>
                     <br/>
                 </Container>
@@ -41,7 +41,7 @@ class About extends Component {
                     <br/>
                 </Container> */}
                 <Container>
-                    <h2>BRING IT</h2>
+                    <h2>GET READY</h2>
                     <p>Join us over the weekend of {EVENT_START_TIME.format("MMMM Do")} to hack your way to something new, whether you’re learning to code for the first time or flexing your hacking muscle trying to build the next big thing. Bring on the challenge, bring your ideas to life.</p>
                     <br/>
                 </Container>

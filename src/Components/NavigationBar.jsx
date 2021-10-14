@@ -16,14 +16,14 @@ class Header extends React.Component {
                           <li className="nav-item">
                               <a className="nav-link" href="#FAQ">FAQ</a>
                           </li>
-                          <li className="nav-item">
+                          {/* <li className="nav-item">
                               <a className="nav-link" href="#presentationSchedule">Presentation Schedule</a>
                           </li>
                           <li className="nav-item">
                               <a className="nav-link" href="#Schedule">Schedule</a>
-                          </li>
+                          </li> */}
                           <li className="nav-item">
-                              <a className="nav-link" href="#Sponsors">Sponsors</a>
+                              <a className="nav-link" href="#Sponsors">Sponsor Us</a>
                           </li>
                       </ul>
                   </div>

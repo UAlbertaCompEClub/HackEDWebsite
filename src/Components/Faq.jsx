@@ -256,12 +256,12 @@ class Faq extends Component {
 
         <Grid.Row>
           <Grid.Column>
-            <h1 style={{ textAlign: "center", color: "#FFFFFF" }}>FAQ</h1>
+            <h1 style={{ textAlign: "center", color: "#FFFFFF"}}>FAQ</h1>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
           <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>General</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>General</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={generalPanels}
@@ -270,7 +270,7 @@ class Faq extends Component {
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>Logistics</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF" , paddingTop: '20px'}}>Logistics</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={logisticsPanels}
@@ -281,7 +281,7 @@ class Faq extends Component {
           </Grid.Column>
           <Grid.Column width={1} />
           <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px' }}>
               Application
             </h2>
             <Accordion
@@ -292,7 +292,7 @@ class Faq extends Component {
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>Hacking</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px' }}>Hacking</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={hackingPanels}
@@ -301,7 +301,7 @@ class Faq extends Component {
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>Help!</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px' }}>Help!</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={helpPanels}
