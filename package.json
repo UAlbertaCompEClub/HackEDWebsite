@@ -4,16 +4,16 @@
   "private": true,
   "homepage": "https://hackedbeta.compeclub.com/",
   "dependencies": {
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.6.0",
     "es6-object-assign": "^1.1.0",
     "es6-promise": "^4.2.5",
-    "google-maps-react": "^2.0.2",
-    "moment": "^2.24.0",
-    "node-sass": "^4.13.1",
-    "react": "^16.9.0",
-    "react-dom": "^16.9.0",
+    "google-maps-react": "^2.0.6",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-scripts": "3.1.1",
-    "reactstrap": "^8.0.1",
+    "reactstrap": "^8.10.0",
     "semantic-ui-css": "^2.4.0",
     "semantic-ui-react": "^0.82.5"
   },
@@ -46,6 +46,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.2.0"
   }
 }
