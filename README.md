@@ -15,7 +15,7 @@ The only branches that are needed are one for HE and the other for HEB. I don't 
 Currently,both branches should only differ from the main site by palette, logo, style, and sponsor logos.
 If the change alters the structure or logic of the website, it should probably go into the master branch unless if there is a _really_ good reason for one site to have it and not the other. From there, each branch can pull the changes of the master branch. This might be overkill, but I think this will be the most convinient and reliable way to ensure that both versions are consistent and up to date.
 
-Note: currently only tested with Node 12, you may need to `nvm install v12` to get this to work
+Note: currently only tested with Node 14, you may need to `nvm install v14` to get this to work
 
 ## Deployment Instructions
 

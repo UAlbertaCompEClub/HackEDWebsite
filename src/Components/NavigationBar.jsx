@@ -23,7 +23,7 @@ class Header extends React.Component {
                               <a className="nav-link" href="#Schedule">Schedule</a>
                           </li> */}
                           <li className="nav-item">
-                              <a className="nav-link" href="#Sponsors">Sponsor Us</a>
+                              <a className="nav-link" href="#Sponsors">Sponsors</a>
                           </li>
                       </ul>
                   </div>

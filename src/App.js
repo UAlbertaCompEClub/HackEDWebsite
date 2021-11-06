@@ -37,7 +37,7 @@ class App extends Component {
           <Row>
             <Col className="pt-4 pb-4">
               <h2 className="text-center">
-                Alberta's Friendliest Student Run Beginner Hackathon
+                Alberta's Friendliest Beginner Hackathon
               </h2>
               <h3 className="text-center">
                 {EVENT_START_TIME.format("MMMM")}{" "}
@@ -49,7 +49,7 @@ class App extends Component {
           <Row style={{ paddingBottom: "20vh" }}>
             <Col></Col>
             <Col className={"text-center"} md={8}>
-              <Button
+              {/* <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
                     "https://docs.google.com/forms/d/e/1FAIpQLSdpfzrKI-bT5dtun6YfNbphbW8O_xJop_F8hdq2vareK8PoeA/viewform?usp=sf_link",
@@ -60,11 +60,11 @@ class App extends Component {
                 size="lg"
               >
                 Registrations Open Soon!
-              </Button>
-              {/* <Button
+              </Button> */}
+              <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
-                    "https://www.eventbrite.ca/e/hacked-beta-2020-tickets-124198628441",
+                    "https://www.eventbrite.ca/e/hacked-beta-2021-tickets-204820803537",
                     e
                   )
                 }
@@ -72,7 +72,7 @@ class App extends Component {
                 size="lg"
               >
                 Register Here!
-              </Button> */}
+              </Button>
               <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
@@ -107,7 +107,7 @@ class App extends Component {
         <Faq />
         {/* <PresentationSchedule /> */}
         {/* <Schedule /> */}
-        {/* <EventbriteRegistration/> */}
+        <EventbriteRegistration />
         <Sponsors />
         <Footer />
       </div>

@@ -2,14 +2,19 @@ import React, { Component } from "react";
 
 import { Grid, Image, Divider } from "semantic-ui-react";
 
-import IntuitLogo from "../logos/Intuit.png";
-import ServusLogo from "../logos/Servus.jpg";
-import StartupLogo from "../logos/StartupEdmonton.png";
+import CyberaLogo from '../logos/Cybera.png'
+import GarminLogo from '../logos/Garmin.png'
+import RunWithItLogo from '../logos/RunWithItGreyBack.png'
+import UniversityDepartmentLogo from '../logos/UniversityDepartment.png'
 
-import ThePodLogo from "../logos/ThePod.png";
-import AmiiLogo from "../logos/Amii.png";
-import ScopeARLogo from "../logos/ScopeAR.jpeg";
-import DrugbankLogo from "../logos/Drugbank.png";
+// import IntuitLogo from "../logos/Intuit.png";
+// import ServusLogo from "../logos/Servus.jpg";
+// import StartupLogo from "../logos/StartupEdmonton.png";
+
+// import ThePodLogo from "../logos/ThePod.png";
+// import AmiiLogo from "../logos/Amii.png";
+// import ScopeARLogo from "../logos/ScopeAR.jpeg";
+// import DrugbankLogo from "../logos/Drugbank.png";
 
 import { EVENT_NAME } from "../constants";
 
@@ -48,23 +53,33 @@ class Sponsors extends Component {
         {/*    />*/}
         {/*  </Grid.Column>*/}
         {/*</Grid.Row>*/}
-        {/* <Divider horizontal>GOLD</Divider>
+        <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={8}>
+          <Grid.Column width={6}>
             <Image
-              src={IntuitLogo}
+              src={CyberaLogo}
               fluid
               as="a"
-              href="https://www.intuit.com/"
+              href="https://www.cybera.ca/"
               target="_blank"
             />
           </Grid.Column>
           <Grid.Column width={8}>
             <Image
-              src={ServusLogo}
+              src={GarminLogo}
               fluid
               as="a"
-              href="https://www.servus.ca/life"
+              href="https://www.garmin.com/en-CA/"
+              target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column width={8}>
+            <Image
+              src={RunWithItLogo}
+              fluid
+              rounded
+              as="a"
+              href="https://rwisynthetics.com/"
               target="_blank"
             />
           </Grid.Column>
@@ -73,37 +88,19 @@ class Sponsors extends Component {
         <Grid.Row verticalAlign="middle" centered >
           <Grid.Column width={4}>
             <Image
-              src={ThePodLogo}
+              src={UniversityDepartmentLogo}
               fluid
               as="a"
-              href="https://www.pod-innovation.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={4}>
-            <Image
-              src={DrugbankLogo}
-              fluid
-              as="a"
-              href="https://www.drugbank.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={4}>
-            <Image
-              src={StartupLogo}
-              fluid
-              as="a"
-              href="https://www.startupedmonton.com/"
+              href="https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html"
               target="_blank"
             />
           </Grid.Column>
         </Grid.Row>
-        <Divider horizontal>BRONZE</Divider>
+        {/* <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={3}>
             <Image
-              src={AmiiLogo}
+              src={UniversityDepartmentLogo}
               fluid
               as="a"
               href="https://www.amii.ca/"
