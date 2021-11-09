@@ -4,7 +4,7 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 
 import CyberaLogo from '../logos/Cybera.png'
 import GarminLogo from '../logos/Garmin.png'
-import RunWithItLogo from '../logos/RunWithItGreyBack.png'
+import RunWithItLogo from '../logos/RunWithIt.png'
 import UniversityDepartmentLogo from '../logos/UniversityDepartment.png'
 
 // import IntuitLogo from "../logos/Intuit.png";

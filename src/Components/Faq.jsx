@@ -145,7 +145,7 @@ const applicationPanels = [
   {
     key: "when-is-the-deadline",
     title: "When is the application deadline?",
-    content: "You can apply up until Oct 26th."
+    content: "You can apply up until Nov 12th."
   },
   {
     key: "who-can-apply",
