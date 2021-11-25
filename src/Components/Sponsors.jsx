@@ -73,7 +73,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column width={8}>
+          <Grid.Column width={6}>
             <Image
               src={RunWithItLogo}
               fluid
