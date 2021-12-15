@@ -36,13 +36,13 @@ class Sponsors extends Component {
         relaxed="very"
       >
         <Grid.Row centered>
-          <Grid.Column>
+          <Grid.Column width={12}>
             <h1 style={{ textAlign: "center" }} className="text-primary">
-              SPONSORS
+              SPONSOR A SPECIAL WEEKEND
             </h1>
           </Grid.Column>
         </Grid.Row>
-        <Divider horizontal>TITLE</Divider>
+        {/* <Divider horizontal>TITLE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
             <Image
@@ -56,7 +56,7 @@ class Sponsors extends Component {
         </Grid.Row>
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          {/* <Grid.Column>
+          <Grid.Column>
             <Image
               src={GeneralDynamicsLogo}
               fluid
@@ -64,8 +64,8 @@ class Sponsors extends Component {
               href="https://gdmissionsystems.ca/"
               target="_blank"
             />
-          </Grid.Column> */}
-          {/* <Grid.Column>
+          </Grid.Column>
+          <Grid.Column>
             <Image
                 src={InterDynamixLogo}
                 fluid
@@ -73,7 +73,7 @@ class Sponsors extends Component {
                 href="http://www.interdynamix.com/"
                 target="_blank"
             />
-          </Grid.Column> */}
+          </Grid.Column>
           <Grid.Column>
             <Image
               src={AmiiLogo}
@@ -92,7 +92,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          {/* <Grid.Column>
+          <Grid.Column>
             <Image
               src={CanadianWesternBankLogo}
               fluid
@@ -100,7 +100,7 @@ class Sponsors extends Component {
               href="https://www.cwbank.com/en/business"
               target="_blank"
             />
-          </Grid.Column> */}
+          </Grid.Column>
           <Grid.Column>
             <Image
               src={ServusLogo}
@@ -122,7 +122,7 @@ class Sponsors extends Component {
         </Grid.Row>
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          {/* <Grid.Column>
+          <Grid.Column>
             <Image
               src={ThePodLogo}
               fluid
@@ -130,7 +130,7 @@ class Sponsors extends Component {
               href="https://www.pod-innovation.ca/"
               target="_blank"
             />
-          </Grid.Column> */}
+          </Grid.Column>
           <Grid.Column>
             <Image
               src={DrugBankLogo}
@@ -149,7 +149,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          {/* <Grid.Column>
+          <Grid.Column>
             <Image
               src={DarkHorseLogo}
               fluid
@@ -157,7 +157,7 @@ class Sponsors extends Component {
               href="https://www.darkhorseanalytics.com/"
               target="_blank"
             />
-          </Grid.Column> */}
+          </Grid.Column>
         </Grid.Row>
         <Divider horizontal>STICKERS PROVIDED BY</Divider>
         <Grid.Row verticalAlign="middle" centered>
@@ -182,14 +182,13 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row>
+        </Grid.Row> */}
         <Grid.Row centered columns={1}>
           <Grid.Column>
-            <h2>SPONSOR A SPECIAL WEEKEND</h2>
             <h4>
               Each year, our sponsors help us unite our community of emerging
               developers, designers, makers and learners. Our sponsors empower
-              our hackers to build something they're proud of.
+              our hackers to build something they're proud of!
               <br />
               <br />
               The {EVENT_NAME} sponsorship team can be reached at:{" "}

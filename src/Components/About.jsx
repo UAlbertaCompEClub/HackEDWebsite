@@ -27,9 +27,9 @@ class About extends Component {
                     <br />
                 </Container>
                 <Container>
-                    <h2>BRING IT</h2>
+                    <h2>GET READY</h2>
                     <p>Join us over the weekend of {EVENT_START_TIME.format("MMMM Do")} to hack your way to something new, whether you’re learning to code for the first time or flexing your hacking muscle trying to build the next big thing. Bring on the challenge, bring your ideas to life.</p>
-                    <br />
+                    <br/>
                 </Container>
             </div>
         );

@@ -21,7 +21,7 @@ const generalPanels = [
     key: "where-is-the-hackathon",
     title: "Where is " + EVENT_NAME + " hosted?",
     content: [
-      `${EVENT_NAME} will be hosted online using discord this year.`
+      `Due to Covid-19, you can join ${EVENT_NAME} from the comfort of your home.`
     ].join(" ")
   },
   {
@@ -39,7 +39,7 @@ const generalPanels = [
     content: [
       EVENT_NAME +
       " is an event by the Computer Engineering Club of the University of Alberta!",
-      "This will be the sixth time running this event and the 12th hackathon organized overall."
+      "This will be the seventh time running this event and the 14th hackathon organized overall."
     ].join(" ")
   },
   {
@@ -91,15 +91,15 @@ const logisticsPanels = [
     title: 'How should I prepare?',
     content: [
       'Make sure that you have a Discord account ready for the day of the event and get a team and project',
-      'idea together if you can. If not, we will have time for team building on the day of the event'
+      'idea together if you can. If not, we will have time for team building on the day of the event.'
     ].join(' '),
   },
   {
     key: 'what-will-be-in-the-swag-box',
     title: 'What will be in the swag box?',
     content: [
-      'The swag box from HackED Beta 2021 had chocolate, tea, sickers, notebooks, socks, a drawstring bag',
-      'and other treats. For the main event we\'re hoping to top that!'
+      'We\'re planning to provide t-shirts, snacks, stickers, and maybe more swag depending on the number',
+      ' of participants'
     ].join(' '),
   },
   // {
@@ -132,7 +132,7 @@ const applicationPanels = [
   {
     key: 'where-do-i-apply',
     title: 'Where do I apply?',
-    content: 'TBD'
+    content: 'Applications will open in December'
   },
   {
     key: 'when-is-the-deadline',
@@ -162,7 +162,7 @@ const hackingPanels = [
     title: "But I don’t have a team!",
     content: [
       "There will be opportunities for willing participants to look for, make or join a team before and at the",
-      "hackathon through the Slack and after opening ceremonies. If you want to hack as a team, be sure to be",
+      "hackathon through the Discord and after opening ceremonies. If you want to hack as a team, be sure to be",
       "proactive during these opportunities! Alternatively, if you have a team and want to find an additional",
       "member, these are also opportunities for your team."
     ].join(" ")
@@ -253,12 +253,12 @@ class Faq extends Component {
       >
         <Grid.Row>
           <Grid.Column>
-            <h1 style={{ textAlign: "center", color: "#FFFFFF" }}>FAQ</h1>
+            <h1 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>FAQ</h1>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
           <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>General</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>General</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={generalPanels}
@@ -267,7 +267,7 @@ class Faq extends Component {
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>Logistics</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Logistics</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={logisticsPanels}
@@ -278,7 +278,7 @@ class Faq extends Component {
           </Grid.Column>
           <Grid.Column width={1} />
           <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>
               Application
             </h2>
             <Accordion
@@ -289,7 +289,7 @@ class Faq extends Component {
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>Hacking</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Hacking</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={hackingPanels}
@@ -298,7 +298,7 @@ class Faq extends Component {
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF" }}>Help!</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Help!</h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
               panels={helpPanels}
