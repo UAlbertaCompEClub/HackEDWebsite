@@ -5,16 +5,12 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 import IntuitLogo from "../logos/Intuit.png";
 
 import GeneralDynamicsLogo from "../logos/MissionSystems.jpg";
-import InterDynamixLogo from "../logos/InterDynamix.svg";
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
-import CanadianWesternBankLogo from "../logos/CWB.png";
+import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
-import IsaicLogo from "../logos/ISAIC.jpg"
-import ThePodLogo from "../logos/ThePod.png";
 import AmiiLogo from "../logos/Amii.png";
-import DrugBankLogo from "../logos/DrugBank.svg";
-import DarkHorseLogo from "../logos/DarkhorseAnalytics.png"
-import DeepMindLogo from "../logos/DeepMind.png"
+import G2VLogo from "../logos/G2V.png";
+import ECEDepartmentLogo from "../logos/ECEDepartmentLogo.png";
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
 import { EVENT_NAME } from "../constants";
@@ -30,7 +26,7 @@ class Sponsors extends Component {
           marginTop: 40,
           marginBottom: 40
         }}
-        columns={3}
+        columns={2}
         container
         stackable
         relaxed="very"
@@ -42,9 +38,9 @@ class Sponsors extends Component {
             </h1>
           </Grid.Column>
         </Grid.Row>
-        {/* <Divider horizontal>TITLE</Divider>
+        <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
+        <Grid.Column width={7}>
             <Image
               src={IntuitLogo}
               fluid
@@ -53,55 +49,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row>
-        <Divider horizontal>GOLD</Divider>
-        <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
-            <Image
-              src={GeneralDynamicsLogo}
-              fluid
-              as="a"
-              href="https://gdmissionsystems.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-                src={InterDynamixLogo}
-                fluid
-                as="a"
-                href="http://www.interdynamix.com/"
-                target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={AmiiLogo}
-              fluid
-              as="a"
-              href="https://www.amii.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={StartupEdmontonLogo}
-              fluid
-              as="a"
-              href="https://www.startupedmonton.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
-            <Image
-              src={CanadianWesternBankLogo}
-              fluid
-              as="a"
-              href="https://www.cwbank.com/en/business"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={7}>
             <Image
               src={ServusLogo}
               fluid
@@ -110,56 +58,65 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={5}>
             <Image
-              src={IsaicLogo}
+                src={NventLogo}
+                fluid
+                as="a"
+                href="https://www.nvent.com/"
+                target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column width={7}>
+            <Image
+              src={StartupEdmontonLogo}
               fluid
               as="a"
-              href="https://isaic.ece.ualberta.ca/"
+              href="https://www.startupedmonton.com/"
               target="_blank"
             />
           </Grid.Column>
         </Grid.Row>
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
+          <Grid.Column width={6}>
             <Image
-              src={ThePodLogo}
+              src={G2VLogo}
               fluid
               as="a"
-              href="https://www.pod-innovation.ca/"
+              href="https://g2voptics.com/"
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={6}>
             <Image
-              src={DrugBankLogo}
+              src={GeneralDynamicsLogo}
               fluid
               as="a"
-              href="https://www.drugbank.ca/"
+              href="https://www.gd.com/"
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={5}>
             <Image
-              src={DeepMindLogo}
+              src={AmiiLogo}
               fluid
               as="a"
-              href="https://deepmind.com/"
+              href="https://www.amii.ca/"
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column>
+          <Grid.Column width={4}>
             <Image
-              src={DarkHorseLogo}
+              src={ECEDepartmentLogo}
               fluid
               as="a"
-              href="https://www.darkhorseanalytics.com/"
+              href="https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html"
               target="_blank"
             />
           </Grid.Column>
         </Grid.Row>
-        <Divider horizontal>STICKERS PROVIDED BY</Divider>
+        {/* <Divider horizontal>STICKERS PROVIDED BY</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
             <Image
