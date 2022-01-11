@@ -11,6 +11,7 @@ import ServusLogo from "../logos/Servus.jpg";
 import AmiiLogo from "../logos/Amii.png";
 import G2VLogo from "../logos/G2V.png";
 import ECEDepartmentLogo from "../logos/ECEDepartmentLogo.png";
+import IsaicLogo from "../logos/ISAIC.jpg"
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
 import { EVENT_NAME } from "../constants";
@@ -116,19 +117,19 @@ class Sponsors extends Component {
             />
           </Grid.Column>
         </Grid.Row>
-        {/* <Divider horizontal>STICKERS PROVIDED BY</Divider>
+        <Divider horizontal>SPECIAL THANKS TO</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
+          <Grid.Column width={5}>
             <Image
-              src={StickerMuleLogo}
+              src={IsaicLogo}
               fluid
               as="a"
-              href="http://hackp.ac/mlh-stickermule-hackathons"
+              href="https://isaic.ece.ualberta.ca/"
               target="_blank"
             />
           </Grid.Column>
         </Grid.Row>
-        <Divider horizontal>SHIRTS PROVIDED BY</Divider>
+        {/* <Divider horizontal>SHIRTS PROVIDED BY</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
             <Image
