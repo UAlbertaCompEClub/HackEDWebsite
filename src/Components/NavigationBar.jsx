@@ -18,10 +18,10 @@ class Header extends React.Component {
                           </li>
                           {/* <li className="nav-item">
                               <a className="nav-link" href="#presentationSchedule">Presentation Schedule</a>
-                          </li>
+                          </li> */}
                           <li className="nav-item">
                               <a className="nav-link" href="#Schedule">Schedule</a>
-                          </li> */}
+                          </li>
                           <li className="nav-item">
                               <a className="nav-link" href="#Sponsors">Sponsors</a>
                           </li>

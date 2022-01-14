@@ -122,7 +122,7 @@ const logisticsPanels = [
     key: 'whats-the-best-group',
     title: 'What’s the best group size?',
     content: [
-      'You can have a max group size of 5, but we recommend 4 hackers.',
+      'You can have a max group size of 6, but we recommend 4 hackers.',
       'Please note that prizes are designed for groups of 4, so larger groups may have to share.'
     ].join(' '),
   },

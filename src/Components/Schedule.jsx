@@ -8,28 +8,27 @@ import { EVENT_START_TIME, EVENT_END_TIME } from "../constants";
 
 const scheduleItems = [
     {
+        fullDate: "January 14, 2022 (Friday)"
+    },
+    {
+        title: "Team Mingling",
+        date: "Saturday 6:00pm - 7:50pm",
+        icon: 'handshake',
+        description: "Meet other people who need a team, and have a quick chat before you commit!"
+    },
+    {
         fullDate: EVENT_START_TIME.format("MMMM Do, YYYY (dddd)")
     },
-    // {
-    //     title: "Doors open for Hackers",
-    //     date: EVENT_START_TIME.format("dddd h:mma"),
-    //     icon: "lock open"
-    // },
     {
-        title: "Opening Ceremonies Begin",
-        date: "Saturday 11:00am",
+        title: "Opening Ceremonies",
+        date: "Saturday 12:00pm",
         icon: 'star'
     },
     {
         title: "Hacking Begins",
-        date: "Saturday 12:00pm",
+        date: "Saturday 1:00pm",
         icon: 'hourglass start'
     },
-    // {-
-    //     title: "Workshops begin",
-    //     date: "Saturday 12:30am",
-    //     icon: 'pencil alternate',
-    // },
     {
         title: "Workshop: Intro to Git",
         date: "Saturday 1:00pm - 1:50pm",
@@ -37,119 +36,38 @@ const scheduleItems = [
         description: "Highly recommended for anyone who doesn't know git."
     },
     {
-        title: "Workshop: One on One Early Career Chats",
+        title: "Workshop: Intuit React Workshop",
         date: "Saturday 2:00pm - 2:50pm",
         icon: 'pencil alternate',
-        description: "Talk with some experts at Intuit about how to get your career started on the right foot!."
+        description: "Learn the basics of React, one of the most popular frontend frameworks. Intuit is known for their world class web apps, and they're here to show you the ropes!"
     },
     {
-        title: "Workshop: ISAIC - Accessing the AI garage",
-        date: "Saturday 3:00pm - 3:50pm",
-        icon: 'pencil alternate',
-        description: "Join this workshop to learn about and access ISAIC's AI computing resources. Especially recommended for AI training hacks! If you plan to attend, {{LINK}} to let us know how many to prepare for",
-        link: "https://forms.gle/7YN3iUQWpuMv9XiQ9",
-        link_text: "sign up here"
+        title: "Sponsor Booth Event",
+        date: "Saturday 3:00pm - 4:50pm",
+        icon: 'suitcase',
+        description: "Meet and mingle with our sponsors, and chat about career and software stuff! Hosted in virtual \"Wonder.me\" room.",
     },
     {
-        title: "Workshop: CTF Workshop",
-        date: "Saturday 4:00pm - 4:50pm",
-        icon: 'pencil alternate',
-        description: "Come learn about Capture the Flag and how to tackle different types of Capture the Flag questions!"
-    },
-    {
-        title: "Workshop: Presenting your hack!",
-        date: "Saturday 5:00pm - 5:50pm",
-        icon: 'pencil alternate',
-        description: "It doesn't matter how cool your hack is, you still gotta present it. Hear from one of our judges how make a great hack into an awesome presentation, and how to apply those skills in the real world."
-    },
-    {
-        title: "Workshop: How to Create a Team Logo!",
+        title: "Workshop: Servus Credit Union Business Requirements",
         date: "Saturday 6:00pm - 6:50pm",
         icon: 'pencil alternate',
-        description: "A step by step guide to how to create a unique logo using vector graphics/"
+        description: "Learn the five steps to kickstart any project, and some career skills while you're there, from the experts at Servus Credit Union."
     },
     {
-        title: "Activity: Bob Ross MS Paint Night",
+        title: "Workshop: ISAIC Julia",
         date: "Saturday 7:00pm - 7:50pm",
-        icon: 'paint brush',
-        description: "Channel your inner creative and follow along with beloved artist Bob Ross using MS Paint. Remember, there's no such thing as CTRL-Z, just happy accidents."
+        icon: 'pencil alternate',
+        description: "Julia is a high level language with a lot of speed under the hood, and machine learning engineers love it. Learn from the ML experts at ISAIC how to use this powerful language."
     },
     {
-        title: "Activity: Project Swap",
-        date: "Saturday 8:00pm - 8:50pm",
-        icon: 'exchange',
-        description: "Partner up with a team or two and get some real users to test out your project. Or just brag about finally getting that button working"
+        title: "Workshop: Tech Interview Prep Workshop!",
+        date: "Saturday 8:00am - 8:50am",
+        icon: 'pencil alternate',
+        description: "Technical interviews can seem intimidating, but they don't have to be! Learn the skills you need to ace your interview with style from industry experts."
     },
-    {
-        title: "Activity: Among Us Break",
-        date: "Saturday 10:00pm - 10:50pm",
-        icon: 'space shuttle',
-        description: "We're not too proud to hop on this trend. Play Among Us with your fellow hackers. \n Can someone explain how to go in a vent like pink?"
-    },
-    {
-        title: "Activity: JackBox Break",
-        date: "Saturday 12:00pm - 12:50pm",
-        icon: 'tv',
-        description: "It's late, we're all tired, and I just wanna meet some strangers and lie to them. We're going to be running a lobby or two of Jackbox! Even if you dont feel funny, audience members are always welcome."
-    },
-    // {
-    //     title: "Intro to React",
-    //     date: "Saturday 3:30pm",
-    //     icon: 'pencil alternate',
-    //     location: "",
-    //     description: "Introduction to the React Framework"
-    // },
-    // {
-    //     title: "Dinner",
-    //     date: "Saturday 6:00pm",
-    //     icon: 'food'
-    // },
-    // {
-    //     title: "Machine Learning on the Raspberry Pi",
-    //     date: "Saturday 6:30pm",
-    //     icon: 'pencil alternate',
-    //     location: "",
-    //     description: "Machine Learning on the Raspberry Pi - More Practice than Theory"
-    // },
-    // {
-    //     title: "Hardware Debugging - Tips & Tricks",
-    //     date: "Saturday 8:00pm - Saturday 9:30pm",
-    //     location: "ETLC E2-001",
-    //     icon: 'pencil alternate',
-    //     description: "An example driven conversation about how to approach embedded debugging and creative problem solving"
-    // },
-    // {
-    //     title: "Open Data and API Endpoints For your Apps",
-    //     date: "Saturday 8:00pm - Saturday 9:30pm",
-    //     location: "ETLC E2-002",
-    //     icon: 'pencil alternate'
-    // },
-    // {
-    //     title: "Intro to Docker",
-    //     date: "Saturday 8:00pm - Saturday 9:30pm",
-    //     location: "DICE 8-207",
-    //     icon: 'pencil alternate'
-    // },
-    // {
-    //     title: "Design for Delight",
-    //     date: "Saturday 8:00pm - Saturday 9:30pm",
-    //     location: "ETLC Solarium",
-    //     icon: 'pencil alternate'
-    // },
-    // {
-    //     title: "MLH Cup Stacking",
-    //     date: "Saturday 9:00pm",
-    //     location: "ETLC Solarium",
-    //     icon: 'gamepad'
-    // },
     {
         fullDate: EVENT_END_TIME.format("MMMM Do, YYYY (dddd)")
     },
-    // {
-    //     title: "Midnight Snack Presented by Intuit",
-    //     date: "Sunday 12:00am",
-    //     icon: 'food'
-    // },
     {
         title: "Submissions Due on DevPost",
         date: "Sunday 11:00am",
@@ -158,46 +76,30 @@ const scheduleItems = [
     },
     {
         title: "Hacking Ends",
-        date: "Sunday 12:00pm",
+        date: "Sunday 1:00pm",
         icon: 'hourglass end'
     },
     {
         title: "Judging Begins",
-        date: "Sunday 12:30pm",
+        date: "Sunday 1:00pm",
         icon: 'winner'
     },
     {
         title: "Judging Ends",
-        date: "Sunday 3:30pm",
+        date: "Sunday 6:30pm",
         icon: 'winner'
     },
     {
         title: "Closing Ceremony",
-        date: "Sunday 3:30pm",
+        date: "Sunday 7:00pm",
         icon: 'star'
-    },
-    {
-        title: "Event Ends",
-        date: "Sunday 5:00pm",
-        icon: 'clock'
-    },
-
+    }
 ];
 
 class Schedule extends Component {
 
     renderScheduleItem(item) {
 
-        // Hello I'm so sorry
-        // Hacky way to get a link to show up
-        // Please dont do it
-        let description
-        if (item.link) {
-            const [front, back] = item.description.split("{{LINK}}")
-            description = <p>{front}<a href={item.link}>{item.link_text}</a>{back}</p>
-        } else {
-            description = <p>{item.description}</p>
-        }
 
         if (item.fullDate) {
             return <li className="list-group-item text-white bg-primary" key={item.fullDate}><b>{item.fullDate}</b></li>;
@@ -212,7 +114,7 @@ class Schedule extends Component {
                         <Grid.Column mobile={13} tablet={13} computer={15}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            {description}
+                            <p>{item.description}</p>
                             <p className="bg-primary">{item.location}</p>
                         </Grid.Column>
                     </Grid>
@@ -229,7 +131,7 @@ class Schedule extends Component {
                         <Grid.Column mobile={13} tablet={13} computer={15}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            {description}
+                            <p>{item.description}</p>
                         </Grid.Column>
                     </Grid>
                 </li>
