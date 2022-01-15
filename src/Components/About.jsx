@@ -22,7 +22,7 @@ class About extends Component {
                 <Container>
                     <h2>WE GOT YOU</h2>
                     <p>
-                        A box full of swag for each participant will be sent to each participant in Alberta, full of swag from our sponsors, and some special treats from us to keep you coding all night! There will be challenges, games, and trivia questions, and the winners will be eligible for mini prizes too!
+                        A box full of swag for each participant will be available to each participant, able to be picked up at the CompE clubroom, full of swag from our sponsors, and some special treats from us to keep you coding all night! There will be challenges, games, and trivia questions, and the winners will be eligible for mini prizes too!
                     </p>
                     <br />
                 </Container>
