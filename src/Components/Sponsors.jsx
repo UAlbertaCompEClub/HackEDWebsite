@@ -12,6 +12,7 @@ import AmiiLogo from "../logos/Amii.png";
 import G2VLogo from "../logos/G2V.png";
 import ECEDepartmentLogo from "../logos/ECEDepartmentLogo.png";
 import IsaicLogo from "../logos/ISAIC.jpg"
+import InnovateEdmontonLogo from "../logos/InnovateEdmonton.png"
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
 import { EVENT_NAME } from "../constants";
@@ -125,6 +126,15 @@ class Sponsors extends Component {
               fluid
               as="a"
               href="https://isaic.ece.ualberta.ca/"
+              target="_blank"
+            />
+          </Grid.Column>
+          <Grid.Column width={5}>
+            <Image
+              src={InnovateEdmontonLogo}
+              fluid
+              as="a"
+              href="https://innovateedmonton.com/"
               target="_blank"
             />
           </Grid.Column>

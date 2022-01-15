@@ -59,14 +59,21 @@ const scheduleItems = [
         icon: 'pencil alternate',
         description: "Julia is a high level language with a lot of speed under the hood, and machine learning engineers love it. Learn from the ML experts at ISAIC how to use this powerful language."
     },
+
+    {
+        fullDate: EVENT_END_TIME.format("MMMM Do, YYYY (dddd)")
+    },
     {
         title: "Workshop: Tech Interview Prep Workshop!",
-        date: "Saturday 8:00am - 8:50am",
+        date: "Sunday 8:00am - 8:50am",
         icon: 'pencil alternate',
         description: "Technical interviews can seem intimidating, but they don't have to be! Learn the skills you need to ace your interview with style from industry experts."
     },
     {
-        fullDate: EVENT_END_TIME.format("MMMM Do, YYYY (dddd)")
+        title: "Bob Ross MS Paint Night",
+        date: "Sunday 10:00am - 10:50am",
+        icon: 'paint brush',
+        description: "Bring out your inner artist as we all work together to draw one big picture!"
     },
     {
         title: "Submissions Due on DevPost",
