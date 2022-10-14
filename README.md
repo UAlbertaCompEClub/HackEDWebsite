@@ -12,8 +12,10 @@ The branching should now allow for easy upgrades to both sites.
 
 The only branches that are needed are one for HE and the other for HEB. I don't currently think that new branches for HE and HEB need to be made every year, but this could be an oversite.
 
-Currently,both branches should only differ from the main site by palette, logo, style, and sponsor logos.
-If the change alters the structure or logic of the website, it should probably go into the master branch unless if there is a _really_ good reason for one site to have it and not the other. From there, each branch can pull the changes of the master branch. This might be overkill, but I think this will be the most convinient and reliable way to ensure that both versions are consistent and up to date.
+~~Currently,both branches should only differ from the main site by palette, logo, style, and sponsor logos.
+If the change alters the structure or logic of the website, it should probably go into the master branch unless if there is a _really_ good reason for one site to have it and not the other. From there, each branch can pull the changes of the master branch. This might be overkill, but I think this will be the most convinient and reliable way to ensure that both versions are consistent and up to date.~~
+
+Currently we only really use the master branch for updating the package.json since most changes are content changes (sponsors, schedules, times, FAQs, taglines, ticket sale URLs etc), and therefore must be different between branches.
 
 ## Deployment Instructions
 
@@ -21,4 +23,5 @@ If the change alters the structure or logic of the website, it should probably g
 2. 'npm install' to download node packages
 3. 'npm run addRemotes' to add the two site remotes
 4. Switch to the branch of the site you want to deploy
-5. 'npm run deploy\[beta/prime\] to deploy to gh-pages
+5. 'npm run build' to create a build to deploy
+6. 'npm run deploy\[beta/prime\] to deploy to gh-pages
