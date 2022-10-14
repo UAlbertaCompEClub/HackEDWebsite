@@ -1,4 +1,4 @@
-import { EVENT_START_TIME, EVENT_END_TIME } from "../../constants";
+import { EVENT_START_TIME, EVENT_END_TIME } from "primeConstants";
 
 export const primeEventItems = [
   {

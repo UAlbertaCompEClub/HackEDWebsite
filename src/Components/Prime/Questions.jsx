@@ -1,4 +1,4 @@
-import { EVENT_NAME, LINK_VOLUNTEER } from "constants";
+import { EVENT_NAME, LINK_VOLUNTEER } from "primeConstants";
 
 export const generalPanels = [
   {

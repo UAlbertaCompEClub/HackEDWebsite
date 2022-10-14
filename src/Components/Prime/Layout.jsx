@@ -21,7 +21,7 @@ import {
   LINK_VOLUNTEER,
   LINK_MENTOR,
   EVENTBRITE_EVENT_CODE,
-} from "constants";
+} from "primeConstants";
 // import { primePresentationSchedule } from "Components/Prime/Presentations";
 import { primeEventItems } from "./Events";
 

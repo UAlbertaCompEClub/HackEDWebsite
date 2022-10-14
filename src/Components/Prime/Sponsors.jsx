@@ -15,7 +15,7 @@ import IsaicLogo from "logos/ISAIC.jpg";
 import InnovateEdmontonLogo from "logos/InnovateEdmonton.png";
 // import StickerMuleLogo from "logos/StickerMule.png";
 // import BrandMakersLogo from "logos/BrandMakers.png";
-import { EVENT_NAME } from "constants";
+import { EVENT_NAME } from "primeConstants";
 
 class Sponsors extends Component {
   render() {
