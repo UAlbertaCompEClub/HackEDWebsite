@@ -4,7 +4,7 @@ import {
   hackingPanels,
   helpPanels,
   logisticsPanels,
-} from "Components/Prime/PrimeFaq";
+} from "Components/Prime/Questions";
 import React, { Component } from "react";
 
 import { Grid, Accordion } from "semantic-ui-react";

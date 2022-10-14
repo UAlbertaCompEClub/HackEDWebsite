@@ -2,18 +2,17 @@ import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
 import { Container, Row, Col, Button } from "reactstrap";
 import HackEDLogo from "logos/HackED.svg";
-import HackEDLogoSponsor from "logos/HackEDIntuit.svg";
+// import HackEDLogoSponsor from "logos/HackEDIntuit.svg";
 import About from "Components/Prime/About";
 import Badge from "Components/Prime/Badge";
-import WhereToGo from "Components/WhereToGo";
+import WhereToGo from "Components/Prime/WhereToGo";
 import Faq from "Components/Common/Faq";
-import Footer from "Components/Footer";
+import Footer from "Components/Common/Footer";
 import Sponsors from "Components/Prime/Sponsors";
-import Header from "Components/NavigationBar";
-import Schedule from "Components/Schedule";
-import PresentationSchedule from "Components/PresentationSchedule";
-import PresSchedule from "Components/PresScedule";
-import EventbriteRegistration from "Components/EventbriteRegistration";
+import Header from "Components/Prime/NavigationBar";
+import EventSchedule from "Components/Common/EventSchedule";
+// import PresentationSchedule from "Components/Common/PresentationSchedule";
+import EventbriteRegistration from "Components/Common/EventbriteRegistration";
 import {
   EVENT_LOCATION,
   EVENT_START_TIME,
@@ -23,6 +22,8 @@ import {
   LINK_MENTOR,
   EVENTBRITE_EVENT_CODE,
 } from "constants";
+// import { primePresentationSchedule } from "Components/Prime/Presentations";
+import { primeEventItems } from "./Events";
 
 class PrimeLayout extends Component {
   redirectToExternalUrl(url) {
@@ -87,9 +88,9 @@ class PrimeLayout extends Component {
         <About />
         <WhereToGo />
         <Faq />
-        {/*<PresSchedule/>*/}
-        <Schedule />
+        {/* <PresentationSchedule schedule={primePresentationSchedule} /> */}
         <EventbriteRegistration eventbrite_event_code={EVENTBRITE_EVENT_CODE} />
+        <EventSchedule events={primeEventItems} />
         <Sponsors />
         <Footer />
       </div>

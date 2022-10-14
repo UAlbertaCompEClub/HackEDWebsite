@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import PrimeLayout from "Components/Prime/PrimeLayout";
+import PrimeLayout from "Components/Prime/Layout";
 
 class App extends Component {
   redirectToExternalUrl(url) {
