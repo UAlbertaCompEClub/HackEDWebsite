@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
-import { EVENT_NAME, EVENT_NAME_FULL, EVENT_START_TIME } from "../constants";
+import { EVENT_NAME, EVENT_NAME_FULL, EVENT_START_TIME } from "constants";
 class About extends Component {
   render() {
     return (

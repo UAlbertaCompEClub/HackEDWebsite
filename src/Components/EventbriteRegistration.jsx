@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Row, Col, Container } from "reactstrap";
-import { EVENTBRITE_EVENT_CODE } from "../constants";
 
 class EventbriteRegistration extends Component {
   //Uses scripts which are loaded in the index.html file
@@ -8,8 +7,9 @@ class EventbriteRegistration extends Component {
     window.EBWidgets.createWidget({
       // Required
       widgetType: "checkout",
-      eventId: EVENTBRITE_EVENT_CODE,
-      iframeContainerId: "eventbrite-widget-container-" + EVENTBRITE_EVENT_CODE,
+      eventId: this.props.eventbrite_event_code,
+      iframeContainerId:
+        "eventbrite-widget-container-" + this.props.eventbrite_event_code,
 
       // Optional
       iframeContainerHeight: 425, // Widget height in pixels. Defaults to a minimum of 425px if not provided
@@ -24,7 +24,10 @@ class EventbriteRegistration extends Component {
         <Row>
           <Col>
             <div
-              id={"eventbrite-widget-container-" + EVENTBRITE_EVENT_CODE}
+              id={
+                "eventbrite-widget-container-" +
+                this.props.eventbrite_event_code
+              }
             ></div>
           </Col>
         </Row>

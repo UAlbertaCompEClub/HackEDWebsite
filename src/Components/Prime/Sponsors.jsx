@@ -2,20 +2,20 @@ import React, { Component } from "react";
 
 import { Grid, Image, Divider } from "semantic-ui-react";
 
-import IntuitLogo from "../logos/Intuit.png";
+import IntuitLogo from "logos/Intuit.png";
 
-import GeneralDynamicsLogo from "../logos/MissionSystems.jpg";
-import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
-import NventLogo from "../logos/Nvent.png";
-import ServusLogo from "../logos/Servus.jpg";
-import AmiiLogo from "../logos/Amii.png";
-import G2VLogo from "../logos/G2V.png";
-import ECEDepartmentLogo from "../logos/ECEDepartmentLogo.png";
-import IsaicLogo from "../logos/ISAIC.jpg"
-import InnovateEdmontonLogo from "../logos/InnovateEdmonton.png"
-import StickerMuleLogo from "../logos/StickerMule.png";
-import BrandMakersLogo from "../logos/BrandMakers.png";
-import { EVENT_NAME } from "../constants";
+import GeneralDynamicsLogo from "logos/MissionSystems.jpg";
+import StartupEdmontonLogo from "logos/StartupEdmonton.png";
+import NventLogo from "logos/Nvent.png";
+import ServusLogo from "logos/Servus.jpg";
+import AmiiLogo from "logos/Amii.png";
+import G2VLogo from "logos/G2V.png";
+import ECEDepartmentLogo from "logos/ECEDepartmentLogo.png";
+import IsaicLogo from "logos/ISAIC.jpg";
+import InnovateEdmontonLogo from "logos/InnovateEdmonton.png";
+// import StickerMuleLogo from "logos/StickerMule.png";
+// import BrandMakersLogo from "logos/BrandMakers.png";
+import { EVENT_NAME } from "constants";
 
 class Sponsors extends Component {
   render() {
@@ -26,7 +26,7 @@ class Sponsors extends Component {
         style={{
           background: "#FFFFFF",
           marginTop: 40,
-          marginBottom: 40
+          marginBottom: 40,
         }}
         columns={2}
         container
@@ -42,7 +42,7 @@ class Sponsors extends Component {
         </Grid.Row>
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-        <Grid.Column width={7}>
+          <Grid.Column width={7}>
             <Image
               src={IntuitLogo}
               fluid
@@ -62,11 +62,11 @@ class Sponsors extends Component {
           </Grid.Column>
           <Grid.Column width={5}>
             <Image
-                src={NventLogo}
-                fluid
-                as="a"
-                href="https://www.nvent.com/"
-                target="_blank"
+              src={NventLogo}
+              fluid
+              as="a"
+              href="https://www.nvent.com/"
+              target="_blank"
             />
           </Grid.Column>
           <Grid.Column width={7}>

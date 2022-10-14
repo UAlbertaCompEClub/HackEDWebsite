@@ -1,12 +1,6 @@
-import React, { Component } from "react";
+import { EVENT_NAME, LINK_VOLUNTEER } from "constants";
 
-import { Grid, Accordion } from "semantic-ui-react";
-import {
-  EVENT_NAME,
-  LINK_VOLUNTEER
-} from "../constants";
-
-const generalPanels = [
+export const generalPanels = [
   {
     key: "what-happens-at-a-hackathon",
     title: "What happens at a hackathon?",
@@ -14,15 +8,15 @@ const generalPanels = [
       "For 24 hours, participants work together in teams of 1 to 5 people to build a project.",
       "Teams can work on hardware or software projects. There is no limit on creativity. This hackathon",
       "acts as a sort of incubator to your mini projects as it provides a focused time to work on your idea",
-      "with mentors and workshops to help you along."
-    ].join(" ")
+      "with mentors and workshops to help you along.",
+    ].join(" "),
   },
   {
     key: "where-is-the-hackathon",
     title: "Where is " + EVENT_NAME + " hosted?",
     content: [
-      `Due to Covid-19, you can join ${EVENT_NAME} from the comfort of your home.`
-    ].join(" ")
+      `Due to Covid-19, you can join ${EVENT_NAME} from the comfort of your home.`,
+    ].join(" "),
   },
   {
     key: "know-programing",
@@ -30,17 +24,17 @@ const generalPanels = [
     content: [
       "Not at all! The hackathon’s purpose is to create a welcoming and supportive environment to learn.",
       "The hackathon has plenty of mentors andresources to help you work on your hack. It’s the best place",
-      " to try something new."
-    ].join(" ")
+      " to try something new.",
+    ].join(" "),
   },
   {
     key: "organizes-hacked",
     title: "Who organizes  " + EVENT_NAME + " ?",
     content: [
       EVENT_NAME +
-      " is an event by the Computer Engineering Club of the University of Alberta!",
-      "This will be the seventh time running this event and the 14th hackathon organized overall."
-    ].join(" ")
+        " is an event by the Computer Engineering Club of the University of Alberta!",
+      "This will be the seventh time running this event and the 14th hackathon organized overall.",
+    ].join(" "),
   },
   {
     key: "do-i-have-to-present",
@@ -50,16 +44,18 @@ const generalPanels = [
       "After hacking ends, judges will ask you to demo your work. However it is not mandatory,",
       "you can opt out before presentations begin on Sunday. That being said, presenting is highly",
       "recommended as part of the hackathon experience. Still, the most important part of this hackathon",
-      "is that you come out of it having tried something new."
-    ].join(" ")
-  }
+      "is that you come out of it having tried something new.",
+    ].join(" "),
+  },
 ];
 
-const logisticsPanels = [
+export const logisticsPanels = [
   {
-    key: 'do-i-have-to-be-compe',
-    title: 'Do I have to be in Computer Engineering/Computer Science to participate in this hackathon?',
-    content: 'Not at all! Any student interested in participating, regardless of skill, faculty or school is welcome to join.'
+    key: "do-i-have-to-be-compe",
+    title:
+      "Do I have to be in Computer Engineering/Computer Science to participate in this hackathon?",
+    content:
+      "Not at all! Any student interested in participating, regardless of skill, faculty or school is welcome to join.",
   },
   // {
   //   key: 'hows-wifi',
@@ -69,7 +65,8 @@ const logisticsPanels = [
   //     'potential network slowdowns.'
   //   ].join(' '),
   // },
-  // {
+  // {import React, { Component } from "react";
+
   //   key: 'what-should-i-bring',
   //   title: 'What should I bring?',
   //   content: [
@@ -87,20 +84,20 @@ const logisticsPanels = [
   //   ].join(' '),
   // },
   {
-    key: 'how-should-i-prepare',
-    title: 'How should I prepare?',
+    key: "how-should-i-prepare",
+    title: "How should I prepare?",
     content: [
-      'Make sure that you have a Discord account ready for the day of the event and get a team and project',
-      'idea together if you can. If not, we will have time for team building on the day of the event.'
-    ].join(' '),
+      "Make sure that you have a Discord account ready for the day of the event and get a team and project",
+      "idea together if you can. If not, we will have time for team building on the day of the event.",
+    ].join(" "),
   },
   {
-    key: 'what-will-be-in-the-swag-box',
-    title: 'What will be in the swag box?',
+    key: "what-will-be-in-the-swag-box",
+    title: "What will be in the swag box?",
     content: [
-      'We\'re planning to provide t-shirts, snacks, stickers, and maybe more swag depending on the number',
-      ' of participants'
-    ].join(' '),
+      "We're planning to provide t-shirts, snacks, stickers, and maybe more swag depending on the number",
+      " of participants",
+    ].join(" "),
   },
   // {
   //   key: 'will-there-be-food',
@@ -119,36 +116,36 @@ const logisticsPanels = [
   //   ].join(' '),
   // },
   {
-    key: 'whats-the-best-group',
-    title: 'What’s the best group size?',
+    key: "whats-the-best-group",
+    title: "What’s the best group size?",
     content: [
-      'You can have a max group size of 6, but we recommend 4 hackers.',
-      'Please note that prizes are designed for groups of 4, so larger groups may have to share.'
-    ].join(' '),
+      "You can have a max group size of 6, but we recommend 4 hackers.",
+      "Please note that prizes are designed for groups of 4, so larger groups may have to share.",
+    ].join(" "),
   },
 ];
 
-const applicationPanels = [
+export const applicationPanels = [
   {
-    key: 'where-do-i-apply',
-    title: 'Where do I apply?',
-    content: 'Applications will open in December'
+    key: "where-do-i-apply",
+    title: "Where do I apply?",
+    content: "Applications will open in December",
   },
   {
-    key: 'when-is-the-deadline',
-    title: 'When is the application deadline?',
-    content: 'TBD',
+    key: "when-is-the-deadline",
+    title: "When is the application deadline?",
+    content: "TBD",
   },
   {
-    key: 'who-can-apply',
-    title: 'Who can apply?',
-    content: 'Any student, new grads of up to 1 year, and graduate students.',
+    key: "who-can-apply",
+    title: "Who can apply?",
+    content: "Any student, new grads of up to 1 year, and graduate students.",
   },
   {
-    key: 'are-there-any-fees',
-    title: 'Is this free?',
+    key: "are-there-any-fees",
+    title: "Is this free?",
     content: "Yeah!",
-  }
+  },
   // {
   //   key: 'reimburse-travel',
   //   title: 'Will I be reimbursed travel expenses?',
@@ -156,7 +153,7 @@ const applicationPanels = [
   // }
 ];
 
-const hackingPanels = [
+export const hackingPanels = [
   {
     key: "i-dont-have-a-team",
     title: "But I don’t have a team!",
@@ -164,8 +161,8 @@ const hackingPanels = [
       "There will be opportunities for willing participants to look for, make or join a team before and at the",
       "hackathon through the Discord and after opening ceremonies. If you want to hack as a team, be sure to be",
       "proactive during these opportunities! Alternatively, if you have a team and want to find an additional",
-      "member, these are also opportunities for your team."
-    ].join(" ")
+      "member, these are also opportunities for your team.",
+    ].join(" "),
   },
   {
     key: "i-dont-have-any-ideas",
@@ -173,8 +170,8 @@ const hackingPanels = [
     content: [
       "Don’t let this deter you from participating! There is a lot of time and inspiration at the event!",
       "A good recommendation for coming up with ideas is to think about annoyances in your everyday life",
-      "that you could potentially solve. Talk to your friends and family to help you!"
-    ].join(" ")
+      "that you could potentially solve. Talk to your friends and family to help you!",
+    ].join(" "),
   },
   // {
   //   key: "any-available-resources",
@@ -190,12 +187,12 @@ const hackingPanels = [
     title: "How will judging work?",
     content: [
       "Judging will be done by hand picked Judges from industry. The criteria will be released closer",
-      "to event."
-    ].join(" ")
-  }
+      "to event.",
+    ].join(" "),
+  },
 ];
 
-const helpPanels = [
+export const helpPanels = [
   {
     key: "can-i-volunteer",
     title: "Can I volunteer instead?",
@@ -205,15 +202,11 @@ const helpPanels = [
         hacked@compeclub.com or fill out{" "}
       </span>,
       <u>
-        <a
-          key="volunteer-link"
-          className="text-light"
-          href={LINK_VOLUNTEER}
-        >
+        <a key="volunteer-link" className="text-light" href={LINK_VOLUNTEER}>
           this form.
-      </a>
-      </u>
-    ]
+        </a>
+      </u>,
+    ],
   },
   {
     key: "how-can-i-sponsor-this",
@@ -222,95 +215,16 @@ const helpPanels = [
       "If you and your company are interested in getting your APIs in hackers hand’s, face-to-face",
       "mentorship with students and general outreach with swag, prizes and/or traditional sponsorship,",
       "please reach out to us at hacked@compeclub.com and we can work out how " +
-      EVENT_NAME +
-      " can benefit you!"
-    ].join(" ")
+        EVENT_NAME +
+        " can benefit you!",
+    ].join(" "),
   },
   {
     key: "ive-got-another-question",
     title: "I’ve got another question...",
     content: [
       "Please reach out to us at hacked@compeclub.com! We’re always willing to answer your needs :)",
-      "We hope to help you be the best hacker you can be."
-    ].join(" ")
-  }
+      "We hope to help you be the best hacker you can be.",
+    ].join(" "),
+  },
 ];
-
-class Faq extends Component {
-  render() {
-    return (
-      <Grid
-        id="FAQ"
-        style={{
-          margin: 0,
-          paddingBottom: 40
-        }}
-        className="bg-primary"
-        columns={3}
-        stackable
-        relaxed="very"
-        centered
-      >
-        <Grid.Row>
-          <Grid.Column>
-            <h1 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>FAQ</h1>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>General</h2>
-            <Accordion
-              style={{ color: "#f2f2f2" }}
-              panels={generalPanels}
-              exclusive={false}
-              inverted
-              fluid
-            />
-
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Logistics</h2>
-            <Accordion
-              style={{ color: "#f2f2f2" }}
-              panels={logisticsPanels}
-              exclusive={false}
-              inverted
-              fluid
-            />
-          </Grid.Column>
-          <Grid.Column width={1} />
-          <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>
-              Application
-            </h2>
-            <Accordion
-              style={{ color: "#f2f2f2" }}
-              panels={applicationPanels}
-              exclusive={false}
-              inverted
-              fluid
-            />
-
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Hacking</h2>
-            <Accordion
-              style={{ color: "#f2f2f2" }}
-              panels={hackingPanels}
-              exclusive={false}
-              inverted
-              fluid
-            />
-
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Help!</h2>
-            <Accordion
-              style={{ color: "#f2f2f2" }}
-              panels={helpPanels}
-              exclusive={false}
-              inverted
-              fluid
-            />
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    );
-  }
-}
-
-export default Faq;
