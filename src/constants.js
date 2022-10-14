@@ -9,6 +9,8 @@ export const EVENT_LOCATION_ADDRESS = "116 St NW, Edmonton, AB T6G 2E1";
 export const PARTICIPANT_COUNT = "400";
 export const LINK_REGISTER =
   "https://www.eventbrite.ca/e/hacked-2022-registration-230093153817";
+  export const EVENTBRITE_EVENT_CODE =
+  "230093153817";
 export const LINK_VOLUNTEER =
   "https://docs.google.com/forms/d/e/1FAIpQLSev7C5i0lfR-2aMtDkXsLgDrtEpillDKJ_ZYt9ALbx5BU7xNw/viewform?usp=sf_link";
 export const LINK_MENTOR =

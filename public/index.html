@@ -30,7 +30,6 @@
     You need to enable JavaScript to run this app.
   </noscript>
   <!--MLH Trusted badge. Only enable if this is an MLH event-->
-  <a id="mlh-trust-badge" style="display:block;max-width:100px;min-width:60px;position:fixed;right:50px;top:0;width:10%;z-index:10000" href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=red" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-red.svg" alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
   <div id="root"></div>
   <!--
       This HTML file is a template.
@@ -55,24 +54,6 @@
     crossorigin="anonymous"></script>
 
   <script src="https://www.eventbrite.ca/static/widgets/eb_widgets.js"></script>
-
-  <!--Required Eventbrite scripts-->
-  <script type="text/javascript">
-    var exampleCallback = function () {
-      console.log('Order complete!');
-    };
-
-    window.EBWidgets.createWidget({
-      // Required
-      widgetType: 'checkout',
-      eventId: '230093153817',
-      iframeContainerId: 'eventbrite-widget-container-230093153817',
-
-      // Optional
-      iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-      onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-    });
-  </script>
 </body>
 
 </html>

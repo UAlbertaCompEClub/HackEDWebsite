@@ -4,6 +4,7 @@ import { Container, Row, Col, Button } from "reactstrap";
 import HackEDLogo from "./logos/HackED.svg";
 import HackEDLogoSponsor from "./logos/HackEDIntuit.svg";
 import About from "./Components/About";
+import Badge from "./Components/Badge";
 import WhereToGo from "./Components/WhereToGo";
 import Faq from "./Components/Faq";
 import Footer from "./Components/Footer";
@@ -32,6 +33,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Badge />
         <Container className="bg-primary-gradient hero" fluid={true}>
           <Row style={{ paddingTop: "10vh" }}>
             <Col></Col>
