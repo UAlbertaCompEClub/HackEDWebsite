@@ -3,7 +3,7 @@ import { Grid, Icon } from "semantic-ui-react";
 
 import { Container } from "semantic-ui-react";
 
-class Schedule extends Component {
+class EventSchedule extends Component {
   renderScheduleItem(item) {
     if (item.fullDate) {
       return (
@@ -104,4 +104,4 @@ class Schedule extends Component {
   }
 }
 
-export default Schedule;
+export default EventSchedule;

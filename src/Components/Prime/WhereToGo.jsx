@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container } from "semantic-ui-react";
 
-// import Map from "../Common/Map";
+// import HackEDMap from "../Common/HackEDMap";
 
 class WhereToGo extends Component {
   render() {
@@ -16,8 +16,7 @@ class WhereToGo extends Component {
             using their ticket.
           </h4>
         </Container>
-
-        {/* <Map lat={53.545882} lng={-113.499052} /> */}
+        {/* <HackEDMap lat={53.5282269372635} lng={-113.52978332973774} /> */}
       </div>
     );
   }

@@ -88,9 +88,9 @@ class PrimeLayout extends Component {
         <About />
         <WhereToGo />
         <Faq />
-        {/* <PresentationSchedule schedule={primePresentationSchedule} /> */}
-        <EventbriteRegistration eventbrite_event_code={EVENTBRITE_EVENT_CODE} />
         <EventSchedule events={primeEventItems} />
+        {/* <PresentationSchedule presentations={primePresentationSchedule} /> */}
+        <EventbriteRegistration eventbrite_event_code={EVENTBRITE_EVENT_CODE} />
         <Sponsors />
         <Footer />
       </div>

@@ -11,8 +11,11 @@ import Header from "Components/Beta/NavigationBar";
 // import Schedule from "Components/Schedule";
 // import PresentationSchedule from "Components/PresentationSchedule";
 import EventbriteRegistration from "Components/Common/EventbriteRegistration";
-import "constants";
 import { EVENT_START_TIME, EVENT_END_TIME } from "constants";
+import EventSchedule from "Components/Common/EventSchedule";
+import { betaEventItems } from "./Events";
+// import PresentationSchedule from "Components/Common/PresentationSchedule";
+// import { betaPresentationSchedule } from "./Presentations";
 
 class App extends Component {
   redirectToExternalUrl(url) {
@@ -104,9 +107,9 @@ class App extends Component {
         <About />
         <WhereToGo />
         <Faq />
-        <EventbriteRegistration />
-        {/* <PresentationSchedule /> */}
-        {/* <Schedule /> */}
+        <EventSchedule events={betaEventItems} />
+        {/* <PresentationSchedule presentations={betaPresentationSchedule} /> */}
+        <EventbriteRegistration eventbrite_event_code={204820803537} />
         <Sponsors />
         <Footer />
       </div>

@@ -60,7 +60,7 @@ class PresentationSchedule extends Component {
           </p>
           <br />
           <ul className="list-group">
-            {this.props.schedule.map((item) =>
+            {this.props.presentations.map((item) =>
               this.renderPresentationScheduleItem(item)
             )}
           </ul>
