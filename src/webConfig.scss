@@ -4,7 +4,8 @@
 
 // Override default variables before the import
 //$body-bg: #000;
-$primary:#4854a4;
+$primary:#000000;
+$secondary:#09b7ae;
 //$secondary:#eed75a;
 //$tertiary:#86C246;
 //$success:#FEC100;
@@ -25,7 +26,7 @@ $primary:#4854a4;
 
 //Create new classes after bootstrap import
 .bg-primary-gradient{
-  background: linear-gradient($white 70%, $primary 100%);
+  background: linear-gradient($black 70%, $black 100%);
 }
 
 .hero-logo{

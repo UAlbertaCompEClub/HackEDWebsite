@@ -19,13 +19,13 @@ class EventbriteRegistration extends Component {
             <p className="text-center">
               Rare exceptions can be made if participants have little to no prior experience with hacking or programming in general.
               If you believe you are a novice hacker despite not meeting these requirements, contact hacked@compeclub.com for more information.
-            </p>
+              </p>
           </Col>
         </Row>
         <Row>
           <Col>
             <div
-              id="eventbrite-widget-container-204820803537"
+              id="eventbrite-widget-container-443859875837"
               className="mt-5"
             />
           </Col>

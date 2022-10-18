@@ -13,7 +13,7 @@ import PresentationSchedule from "./Components/PresentationSchedule";
 import EventbriteRegistration from "./Components/EventbriteRegistration";
 import "./constants";
 import { EVENT_START_TIME, EVENT_END_TIME } from "./constants";
-//import {EVENT_LOCATION} from "./constants";
+import {EVENT_LOCATION} from "./constants";
 
 class App extends Component {
   redirectToExternalUrl(url) {
@@ -27,7 +27,7 @@ class App extends Component {
         <Container className="bg-primary-gradient hero" fluid={true}>
           <Row style={{ paddingTop: "10vh" }}>
             <Col></Col>
-            <Col sm={10} md={10} lg={8} xl={6}>
+            <Col sm={15} md={15} lg={12} xl={9}>
               <div className="hero-logo">
                 <Image src={HackEDLogo} fluid />
               </div>
@@ -36,13 +36,15 @@ class App extends Component {
           </Row>
           <Row>
             <Col className="pt-4 pb-4">
-              <h2 className="text-center">
+              <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
                 Alberta's Friendliest Beginner Hackathon
               </h2>
-              <h3 className="text-center">
+              <br />
+              <h3 style={{ textAlign: "center", color: "#FFFFFF"}}>
                 {EVENT_START_TIME.format("MMMM")}{" "}
                 {EVENT_START_TIME.format("Do")}-{EVENT_END_TIME.format("Do")}
-                {/*  @ {EVENT_LOCATION} */}
+                <br />
+                {EVENT_LOCATION}
               </h3>
             </Col>
           </Row>
@@ -64,11 +66,11 @@ class App extends Component {
               <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
-                    "https://www.eventbrite.ca/e/hacked-beta-2021-tickets-204820803537",
+                    "https://www.eventbrite.ca/e/hacked-beta-2022-tickets-443859875837",
                     e
                   )
                 }
-                color="primary"
+                color="secondary"
                 size="lg"
               >
                 Register Here!
@@ -80,7 +82,7 @@ class App extends Component {
                     e
                   )
                 }
-                color="primary"
+                color="secondary"
                 size="lg"
                 className={"mx-2"}
               >
@@ -93,7 +95,7 @@ class App extends Component {
                     e
                   )
                 }
-                color="primary"
+                color="secondary"
                 size="lg"
               >
                 Mentor Here!

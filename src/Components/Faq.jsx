@@ -3,8 +3,8 @@ import React, { Component } from "react";
 import { Grid, Accordion, Divider } from "semantic-ui-react";
 import {
   EVENT_NAME,
-//  EVENT_LOCATION,
-//  EVENT_LOCATION_ADDRESS
+  EVENT_LOCATION,
+  EVENT_LOCATION_ADDRESS
 } from "../constants";
 
 const generalPanels = [
@@ -22,8 +22,8 @@ const generalPanels = [
     key: "where-is-the-hackathon",
     title: "Where is " + EVENT_NAME + " hosted?",
     content: [
-      //`${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
-      `Due to Covid-19, you can join ${EVENT_NAME} from the comfort of your home.`
+      `${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
+      //`Due to Covid-19, you can join ${EVENT_NAME} from the comfort of your home.`
     ].join(" ")
   },
   {
@@ -65,39 +65,39 @@ const logisticsPanels = [
     content:
       "Not at all! Any student interested in participating, regardless of skill, faculty or school is welcome to join."
   },
-  // {
-  //   key: "hows-wifi",
-  //   title: "How’s the wifi situation?",
-  //   content: [
-  //     "The wifi situation is very good. We recommend you download your tools before hand just to avoid any",
-  //     "potential network slowdowns."
-  //   ].join(" ")
-  // },
-  // {
-  //   key: "what-should-i-bring",
-  //   title: "What should I bring?",
-  //   content: [
-  //     "Make sure to bring your laptop, charger and any other required tech you’ll need for your hack.",
-  //     "You will find it helpful to bring along key items you would bring to a sleepover: pillows, blanket,",
-  //     "toothbrush/toothpaste, deodorant, earphones, etc."
-  //   ].join(" ")
-  // },
-  // {
-  //   key: "what-shouldnt-i-bring",
-  //   title: "What shouldn’t I bring?",
-  //   content: [
-  //     "Please do not bring any drugs or alcohol. If you are not sure about bringing a certain item,",
-  //     "please send us a message ahead of time."
-  //   ].join(" ")
-  // },
   {
-    key: "what-do-i-need",
-    title: "What do I need?",
+    key: "hows-wifi",
+    title: "How’s the wifi situation?",
     content: [
-      "All you need is a computer you can work from and an internet connection!"
-    ]
-
+      "The wifi situation is very good. We recommend you download your tools before hand just to avoid any",
+      "potential network slowdowns."
+    ].join(" ")
   },
+  {
+    key: "what-should-i-bring",
+    title: "What should I bring?",
+    content: [
+      "Make sure to bring your laptop, charger and any other required tech you’ll need for your hack.",
+      "You will find it helpful to bring along key items you would bring to a sleepover: pillows, blanket,",
+      "toothbrush/toothpaste, deodorant, earphones, etc."
+    ].join(" ")
+  },
+  {
+    key: "what-shouldnt-i-bring",
+    title: "What shouldn’t I bring?",
+    content: [
+      "Please do not bring any drugs or alcohol. If you are not sure about bringing a certain item,",
+      "please send us a message ahead of time."
+    ].join(" ")
+  },
+  // {
+  //   key: "what-do-i-need",
+  //   title: "What do I need?",
+  //   content: [
+  //     "All you need is a computer you can work from and an internet connection!"
+  //   ]
+
+  // },
   // {
   //   key: "will-there-be-food",
   //   title: "Will there be food?",
@@ -115,13 +115,13 @@ const logisticsPanels = [
         "Just keep in mind that the prizes for winning hacks are based on teams of 4. 😉"
     ].join(" ")
   },
-  // {
-  //   key: "can-i-work-remotely",
-  //   title: "Can I work remotely?",
-  //   content: [
-  //     "Each team is allowed to have one remote participant contingent that the team has another team member physically present at the event."
-  //   ].join(" ")
-  // },
+  {
+    key: "can-i-work-remotely",
+    title: "Can I work remotely?",
+    content: [
+      "Absolutely! The event is fully hybrid, and can be joined through our discord. All you need is a computer you can work from and an internet connection!"
+    ].join(" ")
+  },
   {
     key: "whats-the-best-group",
     title: "What’s the best group size?",
@@ -145,7 +145,7 @@ const applicationPanels = [
   {
     key: "when-is-the-deadline",
     title: "When is the application deadline?",
-    content: "You can apply up until Nov 12th."
+    content: "You can apply up until Oct 30th."
   },
   {
     key: "who-can-apply",

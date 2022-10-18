@@ -36,7 +36,7 @@ class Sponsors extends Component {
       >
         <Grid.Row centered>
           <Grid.Column width={12}>
-            <h1 style={{ textAlign: "center" }} className="text-primary">
+            <h1 style={{ textAlign: "center" }} className="text-secondary">
               SPONSOR A SPECIAL WEEKEND
             </h1>
           </Grid.Column>
@@ -53,7 +53,7 @@ class Sponsors extends Component {
         {/*    />*/}
         {/*  </Grid.Column>*/}
         {/*</Grid.Row>*/}
-        <Divider horizontal>GOLD</Divider>
+        {/*<Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={6}>
             <Image
@@ -95,7 +95,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row>
+      </Grid.Row>*/}
         {/* <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={3}>
@@ -135,10 +135,14 @@ class Sponsors extends Component {
         <Grid.Row centered columns={1}>
           <Grid.Column>
             {/* <h2>SPONSOR A SPECIAL WEEKEND</h2> */}
-            <h4>
+            <h4 style={{ textAlign: "center"}}>
+              Interested in sponsoring? 
+              <br />
+              <br />
               Each year, our sponsors help us unite our community of emerging
-              developers, designers, makers and learners. Our sponsors empower
-              our hackers to build something they're proud of!
+              developers, designers, makers and learners. 
+              <br />
+              Our sponsors empower our hackers to build something they're proud of!
               <br />
               <br />
               The {EVENT_NAME} sponsorship team can be reached at:{" "}
