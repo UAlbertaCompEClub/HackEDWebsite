@@ -22,8 +22,7 @@ class About extends Component {
                 <Container>
                     <h2>WE GOT YOU</h2>
                     <p>
-                      {" "+EVENT_NAME_FULL} is happening remotely, but don't worry, it will still feature snacks, prizes, and swag,
-                      delivered to your door!
+                      {" "+EVENT_NAME_FULL} is happening both in person and remotely, but don't worry, either way it will still feature snacks, prizes, and swag!
                       {}
                     </p>
                     <br/>

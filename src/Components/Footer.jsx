@@ -76,7 +76,7 @@ class Footer extends Component {
                 <Grid.Row centered>
                     <Grid.Column>
                         <h4>
-                            ETLC 2-040M<br/>
+                            Mechanical Engineering Building, 5th Floor<br/>
                             University of Alberta<br/>
                             Edmonton, AB<br/>
                         </h4>

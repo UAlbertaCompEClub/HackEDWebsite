@@ -40,8 +40,8 @@ const generalPanels = [
     title: "Who organizes  " + EVENT_NAME + " ?",
     content: [
       EVENT_NAME +
-        " is an event by the Computer Engineering Club of the University of Alberta!",
-      "This will be the fifth time running this event and the eleventh hackathon organized overall."
+        " is an event by the Computer Engineering Club of the University of Alberta.",
+      "This will be the our 10th anniversary!."
     ].join(" ")
   },
   {
@@ -107,6 +107,14 @@ const logisticsPanels = [
   //     "dietary restrictions - we’ll ensure you’re covered."
   //   ].join(" ")
   // },
+    {
+    key: "will-there-be-food",
+    title: "Will there be food?",
+    content: [
+      "We will provide snacks at the event. We will also have food storage options available for you to bring",
+       "your own food and store it right at the event."
+    ].join(" ")
+  },
   {
     key: "will-there-be-prizes",
     title: "Will there be prizes?",
