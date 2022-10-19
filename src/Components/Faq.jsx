@@ -151,7 +151,7 @@ const applicationPanels = [
     key: "who-can-apply",
     title: "Who can apply?",
     content: `To make this specifically a beginner targeted event,
-        we allow any student who is in highschool or in their first or second year of university, 
+        we allow any student who is in highschool or in their first or second year of university, who is over the age of 18,
         and has participated in no more than one previous hackathon. Rarely, exceptions can be made if students
         are in their third year of study so long as they have not attended more than one previous hackathon.
         Contact hacked@compeclub.com for any questions regarding this.`

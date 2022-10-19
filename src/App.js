@@ -75,7 +75,7 @@ class App extends Component {
               >
                 Register Here!
               </Button>
-              <Button
+              {/*<Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
                     "https://docs.google.com/forms/d/e/1FAIpQLSduYvLxCbly1N9FeVwDCjPPvd7uipIlnzo9QeRMFTlOQBZoFQ/viewform?usp=sf_link",
@@ -99,10 +99,15 @@ class App extends Component {
                 size="lg"
               >
                 Mentor Here!
-              </Button>
+              </Button>*/}
             </Col>
             <Col></Col>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", fontSize: "16px"}}>
+            <br />
+                Interested in volunteering or mentoring? Contact us at hacked@compeclub.com
+              </h2>
           </Row>
+          
         </Container>
         <About />
         <WhereToGo />

@@ -12,7 +12,7 @@ import UniversityDepartmentLogo from '../logos/UniversityDepartment.png'
 // import StartupLogo from "../logos/StartupEdmonton.png";
 
 // import ThePodLogo from "../logos/ThePod.png";
-// import AmiiLogo from "../logos/Amii.png";
+import AmiiLogo from "../logos/Amii.png";
 // import ScopeARLogo from "../logos/ScopeAR.jpeg";
 // import DrugbankLogo from "../logos/Drugbank.png";
 
@@ -96,18 +96,18 @@ class Sponsors extends Component {
             />
           </Grid.Column>
       </Grid.Row>*/}
-        {/* <Divider horizontal>BRONZE</Divider>
+        <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={3}>
             <Image
-              src={UniversityDepartmentLogo}
+              src={AmiiLogo}
               fluid
               as="a"
               href="https://www.amii.ca/"
               target="_blank"
             />
           </Grid.Column>
-          </Grid.Row> */}
+          </Grid.Row>
         {/*<Divider horizontal>STICKERS PROVIDED BY</Divider>*/}
         {/*<Grid.Row verticalAlign="middle" centered>*/}
         {/*  <Grid.Column>*/}

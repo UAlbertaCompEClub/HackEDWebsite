@@ -14,7 +14,7 @@ class EventbriteRegistration extends Component {
         <Row>
           <Col>
             <p className="text-center">
-              <br></br>Remember that you must be in your first or second year of university, and have been in no more than one prior hackathon in order to participate.
+              <br></br>Remember that you must be over 18, in your first or second year of university, and have been in no more than one prior hackathon in order to participate.
             </p>
             <p className="text-center">
               Rare exceptions can be made if participants have little to no prior experience with hacking or programming in general.
