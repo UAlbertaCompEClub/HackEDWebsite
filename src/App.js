@@ -94,7 +94,7 @@ class App extends Component {
         <Faq />
         {/*<PresSchedule/>*/}
         {/*<Schedule />*/}
-        {/*<EventbriteRegistration />*/}
+        <EventbriteRegistration />
         <Sponsors />
         <Footer />
       </div>

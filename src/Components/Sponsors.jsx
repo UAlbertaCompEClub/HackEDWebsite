@@ -40,9 +40,21 @@ class Sponsors extends Component {
             </h1>
           </Grid.Column>
         </Grid.Row>
-        {/*
+        
         <Divider horizontal>GOLD</Divider>
+        
+        
         <Grid.Row verticalAlign="middle" centered>
+        <Grid.Column width={5}>
+            <Image
+              src={AmiiLogo}
+              fluid
+              as="a"
+              href="https://www.amii.ca/"
+              target="_blank"
+            />
+            </Grid.Column>
+          {/*
         <Grid.Column width={7}>
             <Image
               src={IntuitLogo}
@@ -79,7 +91,9 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
+      */}
         </Grid.Row>
+        {/*
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={6}>
@@ -155,7 +169,7 @@ class Sponsors extends Component {
         
         <Grid.Row centered columns={1}>
           <Grid.Column>
-            <h3 className="text-center">Interested in sponsering? </h3>
+            <h3 className="text-center">Interested in sponsoring? </h3>
             <br />
 
             <h4>
