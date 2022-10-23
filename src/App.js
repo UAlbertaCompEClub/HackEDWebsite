@@ -48,15 +48,18 @@ class App extends Component {
                 One of Alberta's Largest Student Run Hackathons
               </h2>
               <h3 className="text-center">
-                A virtual event from {EVENT_START_TIME.format("MMMM")}{" "}
+                {EVENT_START_TIME.format("MMMM")}{" "}
                 {EVENT_START_TIME.format("Do")}-{EVENT_END_TIME.format("Do")}
               </h3>
+              <h4 className="text-center">
+                {EVENT_LOCATION}
+              </h4>
             </Col>
           </Row>
           <Row style={{ paddingBottom: "20vh" }}>
             <Col></Col>
             <Col className={"text-center"} md={8}>
-              <Button
+              {/*<Button
                 onClick={(e) => this.redirectToExternalUrl(LINK_REGISTER, e)}
                 color="primary"
                 size="lg"
@@ -77,17 +80,21 @@ class App extends Component {
                 size="lg"
               >
                 Mentor Here!
-              </Button>
+              </Button>*/}
+              <h3 className="text-center">
+                Event coming soon! Stay tuned for more information.
+              </h3>
             </Col>
             <Col></Col>
           </Row>
         </Container>
         <About />
         <WhereToGo />
+        <br/>
         <Faq />
         {/*<PresSchedule/>*/}
-        <Schedule />
-        <EventbriteRegistration />
+        {/*<Schedule />*/}
+        {/*<EventbriteRegistration />*/}
         <Sponsors />
         <Footer />
       </div>

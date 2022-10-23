@@ -40,6 +40,7 @@ class Sponsors extends Component {
             </h1>
           </Grid.Column>
         </Grid.Row>
+        {/*
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
         <Grid.Column width={7}>
@@ -151,8 +152,12 @@ class Sponsors extends Component {
             />
           </Grid.Column>
         </Grid.Row> */}
+        
         <Grid.Row centered columns={1}>
           <Grid.Column>
+            <h3 className="text-center">Interested in sponsering? </h3>
+            <br />
+
             <h4>
               Each year, our sponsors help us unite our community of emerging
               developers, designers, makers and learners. Our sponsors empower

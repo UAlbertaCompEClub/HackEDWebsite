@@ -1,8 +1,11 @@
 import React, { Component } from "react";
 
+
 import { Grid, Accordion } from "semantic-ui-react";
 import {
-  EVENT_NAME,
+  EVENT_NAME, 
+  EVENT_LOCATION, 
+  EVENT_LOCATION_ADDRESS,
   LINK_VOLUNTEER
 } from "../constants";
 
@@ -21,7 +24,7 @@ const generalPanels = [
     key: "where-is-the-hackathon",
     title: "Where is " + EVENT_NAME + " hosted?",
     content: [
-      `Due to Covid-19, you can join ${EVENT_NAME} from the comfort of your home.`
+      `${EVENT_NAME} will be held at ${EVENT_LOCATION} (${EVENT_LOCATION_ADDRESS}).`
     ].join(" ")
   },
   {

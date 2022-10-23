@@ -170,13 +170,13 @@ export class HackEDMap extends Component {
         <Map
           google={this.props.google}
           initialCenter={{
-            lat: 53.545882,
-            lng: -113.499052
+            lat: 53.52833004249149,
+            lng: -113.5291788927855
           }}
           styles={silverMapStyles}
           zoom={16}
         >
-          <Marker position={{ lat: 53.545882, lng: -113.499052 }} />
+          <Marker position={{ lat: 53.52833004249149, lng: -113.5291788927855 }} />
         </Map>
       </div>
     );
