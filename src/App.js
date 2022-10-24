@@ -75,7 +75,7 @@ class App extends Component {
               >
                 Register Here!
               </Button>
-              *<Button
+              <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
                     "https://docs.google.com/forms/d/e/1FAIpQLSeHfAIU7_Xx7TywxpMjT5AKH-Q2VWyMi_siHhdnQAE9j7gv2Q/viewform",
@@ -99,7 +99,7 @@ class App extends Component {
                 size="lg"
               >
                 Mentor Here!
-              </Button>*
+              </Button>
             </Col>
             <Col></Col>
           </Row>
