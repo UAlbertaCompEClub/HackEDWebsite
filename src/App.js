@@ -75,10 +75,10 @@ class App extends Component {
               >
                 Register Here!
               </Button>
-              {/*<Button
+              *<Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
-                    "https://docs.google.com/forms/d/e/1FAIpQLSduYvLxCbly1N9FeVwDCjPPvd7uipIlnzo9QeRMFTlOQBZoFQ/viewform?usp=sf_link",
+                    "https://docs.google.com/forms/d/e/1FAIpQLSeHfAIU7_Xx7TywxpMjT5AKH-Q2VWyMi_siHhdnQAE9j7gv2Q/viewform",
                     e
                   )
                 }
@@ -91,7 +91,7 @@ class App extends Component {
               <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
-                    "https://docs.google.com/forms/d/e/1FAIpQLSeLNp_m_XwMgPclRQQIRIlAJfP0aNVk1QHNb7MbgN2eQ9bVQw/viewform?usp=sf_link",
+                    "https://docs.google.com/forms/d/e/1FAIpQLSeL2swY9CeaBcbDoy37m6ADxBdAz-plGC2iVsPynYIWWabTOQ/viewform",
                     e
                   )
                 }
@@ -99,13 +99,9 @@ class App extends Component {
                 size="lg"
               >
                 Mentor Here!
-              </Button>*/}
+              </Button>*
             </Col>
             <Col></Col>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", fontSize: "16px"}}>
-            <br />
-                Interested in volunteering or mentoring? Contact us at hacked@compeclub.com
-              </h2>
           </Row>
           
         </Container>
