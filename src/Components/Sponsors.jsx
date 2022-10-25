@@ -15,6 +15,8 @@ import IsaicLogo from "../logos/ISAIC.jpg"
 import InnovateEdmontonLogo from "../logos/InnovateEdmonton.png"
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
+import SpartanControlLogo from "../logos/SpartanControls.jpg";
+
 import { EVENT_NAME } from "../constants";
 
 class Sponsors extends Component {
@@ -93,10 +95,20 @@ class Sponsors extends Component {
           </Grid.Column>
       */}
         </Grid.Row>
-        {/*
+        
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={6}>
+            <Image
+              src={SpartanControlLogo}
+              fluid
+              as="a"
+              href="https://www.spartancontrols.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+         {/* 
+         <Grid.Column width={6}>
             <Image
               src={G2VLogo}
               fluid
@@ -105,7 +117,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column width={6}>
+         <Grid.Column width={6}>
             <Image
               src={GeneralDynamicsLogo}
               fluid
@@ -131,9 +143,9 @@ class Sponsors extends Component {
               href="https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html"
               target="_blank"
             />
-          </Grid.Column>
+    </Grid.Column>*/}
         </Grid.Row>
-        <Divider horizontal>SPECIAL THANKS TO</Divider>
+        {/*<Divider horizontal>SPECIAL THANKS TO</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={5}>
             <Image
