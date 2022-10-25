@@ -7,6 +7,7 @@ import GarminLogo from '../logos/Garmin.png'
 import RunWithItLogo from '../logos/RunWithIt.png'
 import UniversityDepartmentLogo from '../logos/UniversityDepartment.png'
 
+
 // import IntuitLogo from "../logos/Intuit.png";
 // import ServusLogo from "../logos/Servus.jpg";
 // import StartupLogo from "../logos/StartupEdmonton.png";
@@ -83,7 +84,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row>
+        </Grid.Row>*/}
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered >
           <Grid.Column width={4}>
@@ -95,7 +96,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-      </Grid.Row>*/}
+      </Grid.Row>
         <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={3}>
