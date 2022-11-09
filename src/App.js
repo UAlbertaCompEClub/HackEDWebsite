@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
 import { Container, Row, Col, Button } from "reactstrap";
-import HackEDLogo from "./logos/HackED.svg";
+import HackEDLogo from "./logos/HackedLogo.png";
 import HackEDLogoSponsor from "./logos/HackEDIntuit.svg";
 import About from "./Components/About";
 import WhereToGo from "./Components/WhereToGo";
@@ -13,6 +13,7 @@ import Schedule from "./Components/Schedule";
 import PresentationSchedule from "./Components/PresentationSchedule";
 import PresSchedule from "./Components/PresScedule";
 import EventbriteRegistration from "./Components/EventbriteRegistration";
+import IntuitLogo from "./logos/Intuit.png";
 import "./constants";
 import {
   EVENT_LOCATION,
@@ -35,7 +36,7 @@ class App extends Component {
         <Container className="bg-primary-gradient hero" fluid={true}>
           <Row style={{ paddingTop: "10vh" }}>
             <Col></Col>
-            <Col sm={10} md={10} lg={8} xl={6}>
+            <Col sm={15} md={15} lg={12} xl={9}>
               <div className="hero-logo">
                 <Image src={HackEDLogo} fluid />
               </div>
@@ -44,16 +45,15 @@ class App extends Component {
           </Row>
           <Row>
             <Col className="pt-4 pb-4">
-              <h2 className="text-center">
+              <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
                 One of Alberta's Largest Student Run Hackathons
               </h2>
-              <h3 className="text-center">
+              <h3 style={{ textAlign: "center", color: "#FFFFFF"}}>
                 {EVENT_START_TIME.format("MMMM")}{" "}
                 {EVENT_START_TIME.format("Do")}-{EVENT_END_TIME.format("Do")}
-              </h3>
-              <h4 className="text-center">
+                <br />
                 {EVENT_LOCATION}
-              </h4>
+              </h3>
             </Col>
           </Row>
           <Row style={{ paddingBottom: "20vh" }}>
@@ -81,7 +81,7 @@ class App extends Component {
               >
                 Mentor Here!
               </Button>*/}
-              <h3 className="text-center">
+              <h3 style={{ textAlign: "center", color: "#FFFFFF"}}>
                 Event coming soon! Stay tuned for more information.
               </h3>
             </Col>

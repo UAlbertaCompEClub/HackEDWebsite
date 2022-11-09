@@ -3,7 +3,7 @@ import React from 'react';
 class Header extends React.Component {
     render() {
         return (
-              <nav className="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+              <nav className="navbar sticky-top navbar-expand-lg navbar-light bg-secondary">
                   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                           aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                       <span className="navbar-toggler-icon"/>
@@ -18,10 +18,10 @@ class Header extends React.Component {
                           </li>
                           {/* <li className="nav-item">
                               <a className="nav-link" href="#presentationSchedule">Presentation Schedule</a>
-                          </li> */}
+                          </li> 
                           <li className="nav-item">
                               <a className="nav-link" href="#Schedule">Schedule</a>
-                          </li>
+                          </li>*/}
                           <li className="nav-item">
                               <a className="nav-link" href="#Sponsors">Sponsors</a>
                           </li>

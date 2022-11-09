@@ -145,23 +145,31 @@ class Sponsors extends Component {
             />
     </Grid.Column>*/}
         </Grid.Row>
-        {/*<Divider horizontal>SPECIAL THANKS TO</Divider>
+        <Divider horizontal>SPECIAL THANKS TO</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={5}>
-            <Image
-              src={IsaicLogo}
+          <Image
+              src={IntuitLogo}
               fluid
               as="a"
-              href="https://isaic.ece.ualberta.ca/"
+              href="https://www.intuit.com/"
               target="_blank"
             />
-          </Grid.Column>
+
+          </Grid.Column>{/*
           <Grid.Column width={5}>
             <Image
               src={InnovateEdmontonLogo}
               fluid
               as="a"
               href="https://innovateedmonton.com/"
+              target="_blank"
+            />
+            <Image
+              src={IsaicLogo}
+              fluid
+              as="a"
+              href="https://isaic.ece.ualberta.ca/"
               target="_blank"
             />
           </Grid.Column>
@@ -176,8 +184,8 @@ class Sponsors extends Component {
               href="https://www.brandmakers.com/"
               target="_blank"
             />
-          </Grid.Column>
-        </Grid.Row> */}
+          </Grid.Column>*/}
+        </Grid.Row> 
         
         <Grid.Row centered columns={1}>
           <Grid.Column>

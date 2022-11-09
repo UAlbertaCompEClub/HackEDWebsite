@@ -8,7 +8,7 @@ import { EVENT_START_TIME, EVENT_END_TIME } from "../constants";
 
 const scheduleItems = [
     {
-        fullDate: "January 14, 2022 (Friday)"
+        fullDate: "January 7, 2023 (Saturday)"
     },
     {
         title: "Team Mingling",

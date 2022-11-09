@@ -17,6 +17,7 @@ class WhereToGo extends Component {
 
 
                 <HackEDMap/>
+                <h4 style={{textAlign: 'center', padding: 50}}>HackED 2023 is a hybrid event! Join us online on discord to get the full experience from anywhere you'd like.</h4>
             </div>
         );
     }
