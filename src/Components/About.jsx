@@ -22,13 +22,13 @@ class About extends Component {
                 <Container>
                     <h2>WE GOT YOU</h2>
                     <p>
-                        A box full of swag for each participant will be available to each participant, able to be picked up at the CompE clubroom, full of swag from our sponsors, and some special treats from us to keep you coding all night! There will be challenges, games, and trivia questions, and the winners will be eligible for mini prizes too!
+                        A box full of swag will be available to each participant, distributed at the beginning of the event, full of swag from our sponsors, and some special treats from us to keep you coding all night! There will be challenges, games, and trivia questions, and the winners will be eligible for mini prizes too!
                     </p>
                     <br />
                 </Container>
                 <Container>
                     <h2>GET READY</h2>
-                    <p>Join us over the weekend of {EVENT_START_TIME.format("MMMM Do")} to hack your way to something new, whether you’re learning to code for the first time or flexing your hacking muscle trying to build the next big thing. Bring on the challenge, bring your ideas to life.</p>
+                    <p>Join us over the weekend of {EVENT_START_TIME.format("MMMM Do")} to hack your way to something new, whether you're learning to code for the first time or flexing your hacking muscle trying to build the next big thing. Bring on the challenge, bring your ideas to life.</p>
                     <br/>
                 </Container>
             </div>

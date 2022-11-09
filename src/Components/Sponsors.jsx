@@ -42,6 +42,20 @@ class Sponsors extends Component {
             </h1>
           </Grid.Column>
         </Grid.Row>
+
+        <Divider horizontal>SPECIAL THANKS TO</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+          <Grid.Column width={5}>
+          <Image
+              src={IntuitLogo}
+              fluid
+              as="a"
+              href="https://www.intuit.com/"
+              target="_blank"
+            />
+
+          </Grid.Column>
+          </Grid.Row> 
         
         <Divider horizontal>GOLD</Divider>
         
@@ -56,6 +70,7 @@ class Sponsors extends Component {
               target="_blank"
             />
             </Grid.Column>
+            </Grid.Row>
           {/*
         <Grid.Column width={7}>
             <Image
@@ -94,7 +109,7 @@ class Sponsors extends Component {
             />
           </Grid.Column>
       */}
-        </Grid.Row>
+        
         
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
@@ -107,6 +122,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
+          </Grid.Row>
          {/* 
          <Grid.Column width={6}>
             <Image
@@ -144,19 +160,9 @@ class Sponsors extends Component {
               target="_blank"
             />
     </Grid.Column>*/}
-        </Grid.Row>
-        <Divider horizontal>SPECIAL THANKS TO</Divider>
-        <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={5}>
-          <Image
-              src={IntuitLogo}
-              fluid
-              as="a"
-              href="https://www.intuit.com/"
-              target="_blank"
-            />
-
-          </Grid.Column>{/*
+        
+        
+          {/*
           <Grid.Column width={5}>
             <Image
               src={InnovateEdmontonLogo}
@@ -185,7 +191,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>*/}
-        </Grid.Row> 
+        
         
         <Grid.Row centered columns={1}>
           <Grid.Column>
