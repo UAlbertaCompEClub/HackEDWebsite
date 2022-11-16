@@ -51,6 +51,9 @@ class App extends Component {
           <Row style={{ paddingBottom: "20vh" }}>
             <Col></Col>
             <Col className={"text-center"} md={8}>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
+                Thank you all for an amazing event, we hope to see you next year!
+              </h2>
               {/* <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
@@ -62,7 +65,7 @@ class App extends Component {
                 size="lg"
               >
                 Registrations Open Soon!
-              </Button> */}
+              </Button>
               <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
@@ -99,7 +102,7 @@ class App extends Component {
                 size="lg"
               >
                 Mentor Here!
-              </Button>
+              </Button> */}
             </Col>
             <Col></Col>
           </Row>
