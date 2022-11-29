@@ -71,7 +71,17 @@ class Sponsors extends Component {
               target="_blank"
             />
             </Grid.Column>
-            </Grid.Row>
+            
+        <Grid.Column width={7}>
+            <Image
+              src={ServusLogo}
+              fluid
+              as="a"
+              href="https://www.servus.ca/life"
+              target="_blank"
+            />
+        </Grid.Column>
+        </Grid.Row>
           {/*
         <Grid.Column width={7}>
             <Image

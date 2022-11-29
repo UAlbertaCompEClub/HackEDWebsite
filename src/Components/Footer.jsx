@@ -45,12 +45,12 @@ class Footer extends Component {
                 </Grid.Row>
                 <Grid.Row centered>
                     <Grid.Column width={16}>
-                        {/*<a style={{textAlign: "center"}} 
+                        <a style={{textAlign: "center"}} 
                             href="http://mlh.io/code-of-conduct" 
                             target="_blank"
                             rel="noopener noreferrer">
                                 <h4>MLH Code of Conduct</h4>
-                            </a>*/}
+                            </a>
                         <p style={{textAlign: "center"}}>© University of Alberta Computer Engineering Club</p>
                     </Grid.Column>
                 </Grid.Row>
