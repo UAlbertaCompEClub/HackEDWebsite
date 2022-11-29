@@ -16,6 +16,7 @@ import InnovateEdmontonLogo from "../logos/InnovateEdmonton.png"
 import StickerMuleLogo from "../logos/StickerMule.png";
 import BrandMakersLogo from "../logos/BrandMakers.png";
 import SpartanControlLogo from "../logos/SpartanControls.jpg";
+import DarkHorseLogo from "../logos/DarkhorseAnalytics.png";
 
 import { EVENT_NAME } from "../constants";
 
@@ -123,17 +124,17 @@ class Sponsors extends Component {
             />
           </Grid.Column>
           </Grid.Row>
-         {/* 
+        
          <Grid.Column width={6}>
             <Image
-              src={G2VLogo}
+              src={DarkHorseLogo}
               fluid
               as="a"
-              href="https://g2voptics.com/"
+              href="https://www.darkhorseanalytics.com/"
               target="_blank"
             />
           </Grid.Column>
-         <Grid.Column width={6}>
+          {/* <Grid.Column width={6}>
             <Image
               src={GeneralDynamicsLogo}
               fluid
