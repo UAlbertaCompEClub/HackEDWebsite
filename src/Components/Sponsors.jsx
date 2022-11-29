@@ -46,7 +46,7 @@ class Sponsors extends Component {
 
         <Divider horizontal>SPECIAL THANKS TO</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={5}>
+          <Grid.Column width={7}>
           <Image
               src={IntuitLogo}
               fluid
@@ -62,7 +62,7 @@ class Sponsors extends Component {
         
         
         <Grid.Row verticalAlign="middle" centered>
-        <Grid.Column width={5}>
+        <Grid.Column width={4}>
             <Image
               src={AmiiLogo}
               fluid
@@ -72,7 +72,7 @@ class Sponsors extends Component {
             />
             </Grid.Column>
             
-        <Grid.Column width={7}>
+        <Grid.Column width={5}>
             <Image
               src={ServusLogo}
               fluid
@@ -124,7 +124,7 @@ class Sponsors extends Component {
         
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={6}>
+          <Grid.Column width={5}>
             <Image
               src={SpartanControlLogo}
               fluid
@@ -133,9 +133,8 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          </Grid.Row>
-        
-         <Grid.Column width={6}>
+          
+         <Grid.Column width={5}>
             <Image
               src={DarkHorseLogo}
               fluid
@@ -144,6 +143,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
+          </Grid.Row>
           {/* <Grid.Column width={6}>
             <Image
               src={GeneralDynamicsLogo}
