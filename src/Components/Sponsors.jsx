@@ -9,6 +9,7 @@ import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
 import AmiiLogo from "../logos/Amii.png";
+import EdmontonUnlimited from "../logos/EdmontonUnlimited.png";
 import G2VLogo from "../logos/G2V.png";
 import ECEDepartmentLogo from "../logos/ECEDepartmentLogo.png";
 import IsaicLogo from "../logos/ISAIC.jpg"
@@ -81,6 +82,17 @@ class Sponsors extends Component {
               target="_blank"
             />
         </Grid.Column>
+
+        <Grid.Column width={5}>
+            <Image
+              src={EdmontonUnlimited}
+              fluid
+              as="a"
+              href="https://edmontonunlimited.com/"
+              target="_blank"
+            />
+            </Grid.Column>
+
         </Grid.Row>
           {/*
         <Grid.Column width={7}>

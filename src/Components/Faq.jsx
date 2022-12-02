@@ -135,11 +135,11 @@ const applicationPanels = [
   {
     key: 'where-do-i-apply',
     title: 'Where do I apply?',
-    content: 'Applications will open in December'
+    content: 'Sign ups will open in December'
   },
   {
     key: 'when-is-the-deadline',
-    title: 'When is the application deadline?',
+    title: 'When is the sign up deadline?',
     content: 'TBD',
   },
   {
@@ -284,7 +284,7 @@ class Faq extends Component {
           <Grid.Column width={1} />
           <Grid.Column>
             <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>
-              Application
+              Sign up
             </h2>
             <Accordion
               style={{ color: "#f2f2f2" }}
