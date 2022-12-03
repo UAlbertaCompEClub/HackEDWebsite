@@ -8,6 +8,7 @@ import GeneralDynamicsLogo from "../logos/MissionSystems.jpg";
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
+import PasswordLogo from "../logos/OnePassword.png";
 import AmiiLogo from "../logos/Amii.png";
 import EdmontonUnlimited from "../logos/EdmontonUnlimited.png";
 import G2VLogo from "../logos/G2V.png";
@@ -89,6 +90,16 @@ class Sponsors extends Component {
               fluid
               as="a"
               href="https://edmontonunlimited.com/"
+              target="_blank"
+            />
+            </Grid.Column>
+
+        <Grid.Column width={5}>
+            <Image
+              src={PasswordLogo}
+              fluid
+              as="a"
+              href="https://1password.com/"
               target="_blank"
             />
             </Grid.Column>
