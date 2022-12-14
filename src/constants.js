@@ -8,7 +8,7 @@ export const EVENT_LOCATION = "Donadeo Innovation Centre for Engineering - Unive
 export const EVENT_LOCATION_ADDRESS = "8th Floor, 116 St NW, Edmonton, AB T6G 2E1";
 export const PARTICIPANT_COUNT = "500";
 export const LINK_REGISTER =
-  "https://www.eventbrite.ca/e/hacked-2022-registration-230093153817";
+  "https://www.eventbrite.ca/e/hacked-2023-tickets-482585394907";
 export const LINK_VOLUNTEER =
   "https://docs.google.com/forms/d/e/1FAIpQLSev7C5i0lfR-2aMtDkXsLgDrtEpillDKJ_ZYt9ALbx5BU7xNw/viewform?usp=sf_link";
 export const LINK_MENTOR =
