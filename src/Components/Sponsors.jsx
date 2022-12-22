@@ -11,6 +11,8 @@ import ServusLogo from "../logos/Servus.jpg";
 import PasswordLogo from "../logos/OnePassword.png";
 import AmiiLogo from "../logos/Amii.png";
 import EdmontonUnlimited from "../logos/EdmontonUnlimited.png";
+import ECELogo from "../logos/ECELogo.png";
+import ICELogo from "../logos/ICELogo.png";
 import G2VLogo from "../logos/G2V.png";
 import ECEDepartmentLogo from "../logos/ECEDepartmentLogo.png";
 import IsaicLogo from "../logos/ISAIC.jpg"
@@ -147,7 +149,7 @@ class Sponsors extends Component {
         
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={5}>
+          <Grid.Column width={6}>
             <Image
               src={SpartanControlLogo}
               fluid
@@ -157,12 +159,32 @@ class Sponsors extends Component {
             />
           </Grid.Column>
           
-         <Grid.Column width={5}>
+         <Grid.Column width={6}>
             <Image
               src={DarkHorseLogo}
               fluid
               as="a"
               href="https://www.darkhorseanalytics.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+
+          <Grid.Column width={6}>
+            <Image
+              src={ICELogo}
+              fluid
+              as="a"
+              href="https://www.iceincubator.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+
+          <Grid.Column width={3}>
+            <Image
+              src={ECELogo}
+              fluid
+              as="a"
+              href="https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html"
               target="_blank"
             />
           </Grid.Column>
