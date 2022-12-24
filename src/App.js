@@ -49,8 +49,7 @@ class App extends Component {
                 One of Alberta's Largest Student Run Hackathons
               </h2>
               <h3 style={{ textAlign: "center", color: "#FFFFFF"}}>
-                {EVENT_START_TIME.format("MMMM")}{" "}
-                {EVENT_START_TIME.format("Do")}-{EVENT_END_TIME.format("Do")}
+                January 7th-8th
                 <br />
                 {EVENT_LOCATION}
               </h3>
