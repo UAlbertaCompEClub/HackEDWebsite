@@ -83,7 +83,7 @@ class App extends Component {
               
               <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
               <br></br>
-              Thank you all for an amazing event, we hope to see you next year!
+                  Thank you all for an amazing event, we hope to see you next year!
               </h2>
               
             </Col>
