@@ -58,14 +58,14 @@ class App extends Component {
           <Row style={{ paddingBottom: "20vh" }}>
             <Col></Col>
             <Col className={"text-center"} md={8}>
-              {<Button
+              {/*<Button
                 onClick={(e) => this.redirectToExternalUrl(LINK_REGISTER, e)}
                 color="secondary"
                 size="lg"
               >
                 Sign up!
               </Button>
-              /*<Button
+              <Button
                 onClick={(e) => this.redirectToExternalUrl(LINK_VOLUNTEER, e)}
                 color="primary"
                 size="lg"
@@ -81,10 +81,10 @@ class App extends Component {
                 Mentor Here!
               </Button>*/}
               
-              <h4 style={{ textAlign: "center", color: "#FFFFFF"}}>
+              <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
               <br></br>
-                Interested in being a volunteer or mentor? Contact us at hacked@compeclub.com
-              </h4>
+              Thank you all for an amazing event, we hope to see you next year!
+              </h2>
               
             </Col>
             <Col></Col>
