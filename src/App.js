@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
 import { Container, Row, Col, Button } from "reactstrap";
-import HackEDLogo from "./logos/HackED.png";
+import HackEDLogo from "./logos/hacked.png";
+import Background from "./logos/background2.jpg";
 import About from "./Components/About";
 import WhereToGo from "./Components/WhereToGo";
 import Faq from "./Components/Faq";
@@ -23,37 +24,39 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <Header />
-        <Container className="bg-primary-gradient hero" fluid={true}>
-          <Row style={{ paddingTop: "10vh" }}>
-            <Col></Col>
-            <Col sm={15} md={15} lg={12} xl={9}>
-              <div className="hero-logo">
+        <Container style={{ backgroundImage: `url(${Background})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}fluid={true} >
+          <Row style={{ paddingTop: "5vh" }}>
+            
+            <Col style={{ paddingLeft: "4%" }} sm={15} md={15} lg={12} xl={6}>
+              <div>
                 <Image src={HackEDLogo} fluid />
               </div>
             </Col>
-            <Col></Col>
           </Row>
-          <Row>
+          <Row style={{ paddingLeft: "8%" }}>
             <Col className="pt-4 pb-4">
-              <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
+              <h2 style={{ color: "#FFFFFF"}}>
                 Alberta's Friendliest Beginner Hackathon
-              </h2>
-              <br />
-              <h3 style={{ textAlign: "center", color: "#FFFFFF"}}>
+                </h2>
+              <h1 style={{ color: "#FFFFFF"}}>
                 {EVENT_START_TIME.format("MMMM")}{" "}
-                {EVENT_START_TIME.format("Do")}-{EVENT_END_TIME.format("Do")}
-                <br />
-                {EVENT_LOCATION}
+                {EVENT_START_TIME.format("Do")}-{EVENT_END_TIME.format("Do")}</h1>
+              <hr style={{color: "#FFFFFF", width: "40%", }}>
+              </hr>
+              <h5 style={{ color: "#FFFFFF"}} >{EVENT_LOCATION}
+              </h5>  
+              
+              <h3 style={{color: "#FFFFFF"}}>
+              <br></br> <br></br>
+                  Registration opening soon!
               </h3>
             </Col>
           </Row>
           <Row style={{ paddingBottom: "20vh" }}>
             <Col></Col>
             <Col className={"text-center"} md={8}>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
-                Registration opening soon!
-              </h2>
               {/* <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
