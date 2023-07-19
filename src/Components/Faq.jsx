@@ -42,7 +42,6 @@ const generalPanels = [
     content: [
       EVENT_NAME +
       " is an event by the Computer Engineering Club of the University of Alberta.",
-      "This will be the our 10th anniversary!"
     ].join(" ")
   },
   {

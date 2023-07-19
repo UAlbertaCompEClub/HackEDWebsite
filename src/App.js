@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
 import { Container, Row, Col, Button } from "reactstrap";
-import HackEDLogo from "./logos/HackedLogo.png";
+import HackEDLogo from "./logos/hacked.png";
 import HackEDLogoSponsor from "./logos/HackEDIntuit.svg";
 import About from "./Components/About";
 import WhereToGo from "./Components/WhereToGo";
@@ -49,8 +49,8 @@ class App extends Component {
                 One of Alberta's Largest Student Run Hackathons
               </h2>
               <h3 style={{ textAlign: "center", color: "#FFFFFF"}}>
-                January 7th-8th
-                <br />
+                January 6th-7th
+                <br></br><br></br>
                 {EVENT_LOCATION}
               </h3>
             </Col>
@@ -83,7 +83,7 @@ class App extends Component {
               
               <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
               <br></br>
-                  Thank you all for an amazing event, we hope to see you next year!
+                  Registration opening soon!
               </h2>
               
             </Col>
@@ -96,7 +96,7 @@ class App extends Component {
         <Faq />
         {/*<PresSchedule/>*/}
         {/*<Schedule />*/}
-        <EventbriteRegistration />
+        {/*<EventbriteRegistration />*/}
         <Sponsors />
         <Footer />
       </div>
