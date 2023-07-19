@@ -5,7 +5,7 @@
 // Override default variables before the import
 //$body-bg: #000;
 $primary:#000000;
-$secondary:#09b7ae;
+$secondary:#04d3c9;
 //$tertiary:#86C246;
 //$success:#FEC100;
 //$danger:#703B3B;
@@ -31,4 +31,9 @@ $secondary:#09b7ae;
 .hero-logo{
   margin-left: 10vh;
   margin-right: 10vh;
+}
+
+.circle-logo{
+  margin-left: 2vh;
+  margin-right: 2vh;
 }
