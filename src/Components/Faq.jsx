@@ -109,7 +109,7 @@ const logisticsPanels = [
     title: 'Will there be food?',
     content: [
       'Of course! We will provide snacks and drinks (coffee is key!) throughout the event. Dinner will be',
-      'provided Saturday evening, as well as breakfast and lunch on Sunday. Please let us know if you have',
+      'provided Saturday evening, as well as breakfast on Sunday. Please let us know if you have',
       'dietary restrictions - we’ll ensure you’re covered.'
     ].join(' '),
   },
@@ -124,8 +124,7 @@ const logisticsPanels = [
     key: 'whats-the-best-group',
     title: 'What’s the best group size?',
     content: [
-      'You can have a max group size of 5, but we recommend 4 hackers.',
-      'Please note that prizes are designed for groups of 4, so larger groups may have to share.'
+      'You can have an absolute max group size of 5 hackers (different from previous years!)'
     ].join(' '),
   },
 ];
