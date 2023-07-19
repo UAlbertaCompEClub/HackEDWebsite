@@ -133,7 +133,7 @@ const logisticsPanels = [
     key: "whats-the-best-group",
     title: "What’s the best group size?",
     content: [
-      "You can have a max group size of 5, but we recommend 4 hackers, as the prizes are based on a team of 4."
+      "You can have an absolute max group size of 5 hackers (different from previous years!)"
     ].join(" ")
   }
 ];
@@ -147,7 +147,7 @@ const applicationPanels = [
   {
     key: "how-much-is-the-event",
     title: "How much is the event?",
-    content: "Entry is $5 CAD."
+    content: "Entry fee is $5 CAD."
   },
   {
     key: "when-is-the-deadline",
