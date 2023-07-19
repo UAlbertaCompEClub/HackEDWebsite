@@ -11,7 +11,7 @@ class WhereToGo extends Component {
             <div>
                 <h1 style={{textAlign: 'center', padding: 50}}>{EVENT_LOCATION_ADDRESS}</h1>
                 <HackEDMap/> 
-                <h4 style={{textAlign: 'center', padding: 50}}>Hacked Beta 2022 is a hybrid event! Join us online on discord to get the full experience from anywhere you'd like.</h4>
+                <h4 style={{textAlign: 'center', padding: 50}}>Hacked Beta 2023 is a hybrid event! Join us online on discord to get the full experience from anywhere you'd like.</h4>
             </div>
         );
     }

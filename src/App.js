@@ -52,7 +52,7 @@ class App extends Component {
             <Col></Col>
             <Col className={"text-center"} md={8}>
             <h2 style={{ textAlign: "center", color: "#FFFFFF"}}>
-                Thank you all for an amazing event, we hope to see you next year!
+                Registration opening soon!
               </h2>
               {/* <Button
                 onClick={(e) =>
@@ -113,7 +113,7 @@ class App extends Component {
         <Faq />
         {/* <PresentationSchedule /> */}
         {/* <Schedule /> */}
-        <EventbriteRegistration />
+        {/* <EventbriteRegistration />*/}
         <Sponsors />
         <Footer />
       </div>

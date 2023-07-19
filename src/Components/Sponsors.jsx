@@ -42,19 +42,19 @@ class Sponsors extends Component {
             </h1>
           </Grid.Column>
         </Grid.Row>
-        {/*<Divider horizontal>TITLE</Divider>*/}
-        {/*<Grid.Row verticalAlign="middle" centered>*/}
-        {/*  <Grid.Column>*/}
-        {/*    <Image*/}
-        {/*      src={IntuitLogo}*/}
-        {/*      fluid*/}
-        {/*      as="a"*/}
-        {/*      href="https://www.intuit.com/"*/}
-        {/*      target="_blank"*/}
-        {/*    />*/}
-        {/*  </Grid.Column>*/}
-        {/*</Grid.Row>*/}
-        {/*<Divider horizontal>GOLD</Divider>
+        {/*<Divider horizontal>TITLE</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+          <Grid.Column>
+            <Image
+              src={IntuitLogo}
+              fluid
+              as="a"
+              href="https://www.intuit.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+        </Grid.Row>
+        <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={6}>
             <Image
@@ -84,7 +84,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row>*/}
+        </Grid.Row>
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered >
           <Grid.Column width={4}>
@@ -109,33 +109,33 @@ class Sponsors extends Component {
             />
           </Grid.Column>
           </Grid.Row>
-        {/*<Divider horizontal>STICKERS PROVIDED BY</Divider>*/}
-        {/*<Grid.Row verticalAlign="middle" centered>*/}
-        {/*  <Grid.Column>*/}
-        {/*    <Image*/}
-        {/*      src={StickerMuleLogo}*/}
-        {/*      fluid*/}
-        {/*      as="a"*/}
-        {/*      href="http://hackp.ac/mlh-stickermule-hackathons"*/}
-        {/*      target="_blank"*/}
-        {/*    />*/}
-        {/*  </Grid.Column>*/}
-        {/*</Grid.Row>*/}
-        {/*<Divider horizontal>SHIRTS PROVIDED BY</Divider>*/}
-        {/*<Grid.Row verticalAlign="middle" centered>*/}
-        {/*  <Grid.Column>*/}
-        {/*    <Image*/}
-        {/*      src={BrandMakersLogo}*/}
-        {/*      fluid*/}
-        {/*      as="a"*/}
-        {/*      href="https://www.brandmakers.com/"*/}
-        {/*      target="_blank"*/}
-        {/*    />*/}
-        {/*  </Grid.Column>*/}
-        {/*</Grid.Row>*/}
+        <Divider horizontal>STICKERS PROVIDED BY</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+          <Grid.Column>
+            <Image
+              src={StickerMuleLogo}
+              fluid
+              as="a"
+              href="http://hackp.ac/mlh-stickermule-hackathons"
+              target="_blank"
+            />
+          </Grid.Column>
+        </Grid.Row>
+        <Divider horizontal>SHIRTS PROVIDED BY</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+          <Grid.Column>
+            <Image
+              src={BrandMakersLogo}
+              fluid
+              as="a"
+              href="https://www.brandmakers.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+        </Grid.Row> */}
         <Grid.Row centered columns={1}>
           <Grid.Column>
-            {/* <h2>SPONSOR A SPECIAL WEEKEND</h2> */}
+            
             <h4 style={{ textAlign: "center"}}>
               Interested in sponsoring? 
               <br />

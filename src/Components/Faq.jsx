@@ -41,7 +41,6 @@ const generalPanels = [
     content: [
       EVENT_NAME +
         " is an event by the Computer Engineering Club of the University of Alberta.",
-      "This will be the our 10th anniversary!."
     ].join(" ")
   },
   {
@@ -153,7 +152,7 @@ const applicationPanels = [
   {
     key: "when-is-the-deadline",
     title: "When is the application deadline?",
-    content: "You can apply up until Nov 3rd."
+    content: "TBD."
   },
   {
     key: "who-can-apply",
@@ -219,8 +218,7 @@ const helpPanels = [
     title: "Can I volunteer instead?",
     content: [
       <span key="volunteer-text">
-        Of course! You can apply to volunteer with the link at the top of the
-        page.
+        Of course! You can email hacked@compeclub.com if you're interested!
       </span>
     ]
   },
