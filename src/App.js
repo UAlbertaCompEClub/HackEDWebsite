@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
 import { Container, Row, Col, Button } from "reactstrap";
-import HackEDLogo from "./logos/hacked.png";
+import HackEDLogo from "./logos/HackED.png";
 import Background from "./logos/background2.jpg";
 import About from "./Components/About";
 import WhereToGo from "./Components/WhereToGo";
@@ -52,6 +52,9 @@ class App extends Component {
               <br></br> <br></br>
                   Registration opening soon!
               </h3>
+              <h5 style={{color: "#FFFFFF"}}>
+              Looking for more events? Check out <a style={{color: "#FFFFFF"}} href="https://hacked.compeclub.com/">HackED</a> in January.
+              </h5>
             </Col>
           </Row>
           <Row style={{ paddingBottom: "20vh" }}>

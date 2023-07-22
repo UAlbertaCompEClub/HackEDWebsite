@@ -101,6 +101,10 @@ class Footer extends Component {
                                 icon='instagram'
                                 content={<a href='https://www.instagram.com/compeclub/'>@CompEClub</a>}
                             />
+                            <List.Item
+                                icon='instagram'
+                                content={<a href='https://www.instagram.com/hacked_compeclub/'>@hacked_compeclub</a>}
+                            />
                         </List>
                     </Grid.Column>
                 </Grid.Row>
