@@ -143,7 +143,7 @@ const applicationPanels = [
   {
     key: 'who-can-apply',
     title: 'Who can apply?',
-    content: 'Any student, new grads of up to 1 year, and graduate students.',
+    content: 'Any student (from any school), new grads of up to 1 year, and graduate students. Participants must be at least 18 years old.',
   },
   {
     key: 'are-there-any-fees',
