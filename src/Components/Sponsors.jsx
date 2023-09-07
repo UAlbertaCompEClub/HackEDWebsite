@@ -143,7 +143,7 @@ class Sponsors extends Component {
               href="https://www.startupedmonton.com/"
               target="_blank"
             />
-          </Grid.Column>
+      </Grid.Column>*/}
       
         
         
@@ -158,7 +158,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          
+          </Grid.Row>{/*
          <Grid.Column width={6}>
             <Image
               src={DarkHorseLogo}
@@ -188,7 +188,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          </Grid.Row>
+          
           <Grid.Column width={6}>
             <Image
               src={GeneralDynamicsLogo}
