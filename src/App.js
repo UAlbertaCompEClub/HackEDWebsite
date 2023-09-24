@@ -46,20 +46,39 @@ class App extends Component {
               <hr style={{color: "#FFFFFF", width: "40%", }}>
               </hr>
               <h5 style={{ color: "#FFFFFF"}} >{EVENT_LOCATION}
-              </h5>  
-              
+              </h5> 
+
               <h3 style={{color: "#FFFFFF"}}>
               <br></br> <br></br>
                   Registration opening soon!
               </h3>
+              
               <h5 style={{color: "#FFFFFF"}}>
               Looking for more events? Check out <a style={{color: "#FFFFFF"}} href="https://hacked.compeclub.com/">HackED</a> in January.
               </h5>
+              <br></br>
+              <Button
+                onClick={(e) =>
+                  this.redirectToExternalUrl(
+                    "https://docs.google.com/forms/d/e/1FAIpQLScmJqlIryQ51-GIum1T_ZZC4ZEEQ6-ZlhtwbsGXKqhl6KlpGg/viewform",
+                    e
+                  )
+                }
+                color="secondary"
+                size="lg"
+                className={"mx-6"}
+              >
+                Volunteer Here!
+              </Button>
+
             </Col>
           </Row>
           <Row style={{ paddingBottom: "20vh" }}>
-            <Col></Col>
+            
             <Col className={"text-center"} md={8}>
+
+              
+
               {/* <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(

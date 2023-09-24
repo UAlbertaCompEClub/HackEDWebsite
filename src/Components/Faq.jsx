@@ -218,7 +218,7 @@ const helpPanels = [
     title: "Can I volunteer instead?",
     content: [
       <span key="volunteer-text">
-        Of course! You can email hacked@compeclub.com if you're interested!
+        Of course! You can sign up <a style={{color: "#FFFFFF"}} href="https://docs.google.com/forms/d/e/1FAIpQLScmJqlIryQ51-GIum1T_ZZC4ZEEQ6-ZlhtwbsGXKqhl6KlpGg/viewform">here</a>, or email hacked@compeclub.com if you're interested!
       </span>
     ]
   },
