@@ -15,7 +15,9 @@ const generalPanels = [
       "For 24 hours, participants work together in teams of 1 to 5 people to build a project.",
       "Teams can work on hardware or software projects. There is no limit on creativity. This hackathon",
       "acts as a sort of incubator to your mini projects as it provides a focused time to work on your idea",
-      "with mentors and workshops to help you along."
+      "with mentors and workshops to help you along.",
+      "For the project, absolutely no code can be written before or after the 24 hour window, but feel free to plan or research before hand!",
+      "At the end of the event, each team will present their work and will be judged for prizes."
     ].join(" ")
   },
   {
