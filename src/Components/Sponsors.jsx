@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { Grid, Image, Divider } from "semantic-ui-react";
 
 import CyberaLogo from '../logos/Cybera.png'
+import ATBLogo from '../logos/ATB.jpg'
 import GarminLogo from '../logos/Garmin.png'
 import RunWithItLogo from '../logos/RunWithIt.png'
 import UniversityDepartmentLogo from '../logos/UniversityDepartment.png'
@@ -53,39 +54,21 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row>
+      </Grid.Row>*/}
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={6}>
+          <Grid.Column width={5}>
             <Image
-              src={CyberaLogo}
+              src={ATBLogo}
               fluid
               as="a"
-              href="https://www.cybera.ca/"
+              href="https://www.atb.com/"
               target="_blank"
             />
           </Grid.Column>
-          <Grid.Column width={8}>
-            <Image
-              src={GarminLogo}
-              fluid
-              as="a"
-              href="https://www.garmin.com/en-CA/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={6}>
-            <Image
-              src={RunWithItLogo}
-              fluid
-              rounded
-              as="a"
-              href="https://rwisynthetics.com/"
-              target="_blank"
-            />
-          </Grid.Column>
+          
         </Grid.Row>
-        <Divider horizontal>SILVER</Divider>
+        {/*<Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered >
           <Grid.Column width={4}>
             <Image
