@@ -61,7 +61,7 @@ class App extends Component {
                   Registration opening soon!
               </h3>
               <h5 style={{color: "#FFFFFF"}}>
-              Can't wait? Check out <a style={{color: "#FFFFFF"}} href="https://hackedbeta.compeclub.com/">Hacked Beta</a> in November.
+              Can't wait? Check out <a style={{color: "#FFFFFF"}} href="https://hackedbeta.compeclub.com/">HackED Beta</a> in November.
               </h5>
             </Col>
           </Row>

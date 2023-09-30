@@ -1,6 +1,6 @@
 import moment from "moment";
 
-export const EVENT_NAME = "HackEd";
+export const EVENT_NAME = "HackED";
 export const EVENT_NAME_FULL = EVENT_NAME + " 2024";
 export const EVENT_START_TIME = moment("2024-01-6 09:30");
 export const EVENT_END_TIME = moment("2024-01-7 05:30");
