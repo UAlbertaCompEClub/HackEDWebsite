@@ -4,6 +4,7 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 
 import CyberaLogo from '../logos/Cybera.png'
 import ATBLogo from '../logos/ATB.jpg'
+import ICELogo from '../logos/ICELogo.png'
 import GarminLogo from '../logos/Garmin.png'
 import RunWithItLogo from '../logos/RunWithIt.png'
 import UniversityDepartmentLogo from '../logos/UniversityDepartment.png'
@@ -68,19 +69,19 @@ class Sponsors extends Component {
           </Grid.Column>
           
         </Grid.Row>
-        {/*<Divider horizontal>SILVER</Divider>
+        <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered >
-          <Grid.Column width={4}>
+          <Grid.Column width={7}>
             <Image
-              src={UniversityDepartmentLogo}
+              src={ICELogo}
               fluid
               as="a"
-              href="https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html"
+              href="https://www.ualberta.ca/engineering/innovation-creativity-entrepreneurship/index.html?utm_medium=vanity&utm_source=rebrandly&utm_campaign=uab.ca%2F&utm_content=ice"
               target="_blank"
             />
           </Grid.Column>
       </Grid.Row>
-        <Divider horizontal>BRONZE</Divider>
+       {/* <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={3}>
             <Image
