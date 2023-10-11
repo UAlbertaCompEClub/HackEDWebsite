@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import { Grid, Image, Divider } from "semantic-ui-react";
+import { Grid, Image, Divider, GridRow } from "semantic-ui-react";
 
 import CyberaLogo from '../logos/Cybera.png'
 import ATBLogo from '../logos/ATB.jpg'
@@ -71,7 +71,7 @@ class Sponsors extends Component {
         </Grid.Row>
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered >
-          <Grid.Column width={7}>
+          <Grid.Column width={11}>
             <Image
               src={ICELogo}
               fluid
@@ -81,6 +81,7 @@ class Sponsors extends Component {
             />
           </Grid.Column>
       </Grid.Row>
+      
        {/* <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={3}>
