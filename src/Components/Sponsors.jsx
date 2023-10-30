@@ -4,7 +4,7 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 
 import IntuitLogo from "../logos/Intuit.png";
 
-import GeneralDynamicsLogo from "../logos/MissionSystems.jpg";
+import GeneralDynamicsLogo from "../logos/General-Dynamics-logo.png";
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
@@ -61,11 +61,23 @@ class Sponsors extends Component {
 
           </Grid.Column>
           </Grid.Row> 
-        
+      */}
         <Divider horizontal>GOLD</Divider>
         
         
         <Grid.Row verticalAlign="middle" centered>
+
+        <Grid.Column width={10}>
+            <Image
+              src={GeneralDynamicsLogo}
+              fluid
+              as="a"
+              href="https://www.gd.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+          </Grid.Row>
+{/*
         <Grid.Column width={4}>
             <Image
               src={AmiiLogo}
