@@ -49,13 +49,26 @@ class App extends Component {
               </h5> 
 
               <h3 style={{color: "#FFFFFF"}}>
-              <br></br> <br></br>
-                  Registration opening soon!
+              <br></br> 
+                  Registration is now open!
               </h3>
               
-              <h5 style={{color: "#FFFFFF"}}>
-              Looking for more events? Check out <a style={{color: "#FFFFFF"}} href="https://hacked.compeclub.com/">HackED</a> in January.
-              </h5>
+              
+              <br></br>
+              <Button
+                onClick={(e) =>
+                  this.redirectToExternalUrl(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSeYNzaRRa3A_f9lbcpF39HCQip1dqdoJxt6CWgRhVMmiG3Ogg/viewform",
+                    e
+                  )
+                }
+                color="secondary"
+                size="lg"
+                className={"mx-6"}
+              >
+                Register Here!
+              </Button>
+              <br></br>
               <br></br>
               <Button
                 onClick={(e) =>
@@ -70,6 +83,11 @@ class App extends Component {
               >
                 Volunteer Here!
               </Button>
+              <br></br>
+              <br></br>
+              <h5 style={{color: "#FFFFFF"}}>
+              Looking for more events? Check out <a style={{color: "#FFFFFF"}} href="https://hacked.compeclub.com/">HackED</a> in January.
+              </h5>
 
             </Col>
           </Row>
