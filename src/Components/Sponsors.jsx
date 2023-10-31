@@ -5,6 +5,7 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 import IntuitLogo from "../logos/Intuit.png";
 
 import GeneralDynamicsLogo from "../logos/General-Dynamics-logo.png";
+import mecSimCalc from "../logos/MecSim.png"
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
@@ -170,17 +171,17 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          </Grid.Row>{/*
-         <Grid.Column width={6}>
+          
+         <Grid.Column width={5}>
             <Image
-              src={DarkHorseLogo}
+              src={mecSimCalc}
               fluid
               as="a"
-              href="https://www.darkhorseanalytics.com/"
+              href="https://mecsimcalc.com/"
               target="_blank"
             />
           </Grid.Column>
-
+          </Grid.Row>{/*
           <Grid.Column width={6}>
             <Image
               src={ICELogo}
