@@ -68,7 +68,7 @@ class Sponsors extends Component {
         
         <Grid.Row verticalAlign="middle" centered>
 
-        <Grid.Column width={10}>
+        <Grid.Column width={11}>
             <Image
               src={GeneralDynamicsLogo}
               fluid
@@ -79,15 +79,7 @@ class Sponsors extends Component {
           </Grid.Column>
           </Grid.Row>
 {/*
-        <Grid.Column width={4}>
-            <Image
-              src={AmiiLogo}
-              fluid
-              as="a"
-              href="https://www.amii.ca/"
-              target="_blank"
-            />
-            </Grid.Column>
+        
             
         <Grid.Column width={5}>
             <Image
@@ -181,6 +173,16 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
+
+          <Grid.Column width={4}>
+            <Image
+              src={AmiiLogo}
+              fluid
+              as="a"
+              href="https://www.amii.ca/"
+              target="_blank"
+            />
+            </Grid.Column>
           </Grid.Row>{/*
           <Grid.Column width={6}>
             <Image
