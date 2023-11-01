@@ -59,7 +59,7 @@ class Sponsors extends Component {
       </Grid.Row>*/}
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={5}>
+          <Grid.Column width={6}>
             <Image
               src={ATBLogo}
               fluid
@@ -92,11 +92,7 @@ class Sponsors extends Component {
             />
           </Grid.Column>
 
-      </Grid.Row>
-      
-       {/* <Divider horizontal>BRONZE</Divider>
-        <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={3}>
+          <Grid.Column width={4}>
             <Image
               src={AmiiLogo}
               fluid
@@ -105,6 +101,12 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
+
+      </Grid.Row>
+      
+       {/* <Divider horizontal>BRONZE</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+          
           </Grid.Row>
         <Divider horizontal>STICKERS PROVIDED BY</Divider>
         <Grid.Row verticalAlign="middle" centered>
