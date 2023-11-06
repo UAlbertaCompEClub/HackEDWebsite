@@ -5,7 +5,7 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 import IntuitLogo from "../logos/Intuit.png";
 
 import GeneralDynamicsLogo from "../logos/General-Dynamics-logo.png";
-import mecSimCalc from "../logos/MecSim.png"
+import mecSimCalc from "../logos/mecSimCalc.png"
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
