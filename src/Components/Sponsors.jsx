@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { Grid, Image, Divider, GridRow } from "semantic-ui-react";
 
 import CyberaLogo from '../logos/Cybera.png'
-import mecSim from '../logos/MecSim.png'
+import mecSimCalc from "../logos/mecSimCalc.png"
 import ATBLogo from '../logos/ATB.jpg'
 import ICELogo from '../logos/ICELogo.png'
 import GarminLogo from '../logos/Garmin.png'
@@ -84,7 +84,7 @@ class Sponsors extends Component {
 
           <Grid.Column width={5}>
             <Image
-              src={mecSim}
+              src={mecSimCalc}
               fluid
               as="a"
               href="https://mecsimcalc.com/"
