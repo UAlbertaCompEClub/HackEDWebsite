@@ -6,6 +6,7 @@ import CyberaLogo from '../logos/Cybera.png'
 import mecSimCalc from "../logos/mecSimCalc.png"
 import ATBLogo from '../logos/ATB.jpg'
 import ICELogo from '../logos/ICELogo.png'
+import Samdesk from '../logos/samdesk.png'
 import Chiropractor from '../logos/chiropractor.png'
 import GarminLogo from '../logos/Garmin.png'
 import RunWithItLogo from '../logos/RunWithIt.png'
@@ -109,6 +110,16 @@ class Sponsors extends Component {
               fluid
               as="a"
               href="https://www.garneauchiropractic.ca/"
+              target="_blank"
+            />
+          </Grid.Column>
+
+          <Grid.Column width={6}>
+            <Image
+              src={Samdesk}
+              fluid
+              as="a"
+              href="https://www.samdesk.io/"
               target="_blank"
             />
           </Grid.Column>
