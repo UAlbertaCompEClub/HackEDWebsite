@@ -6,6 +6,7 @@ import CyberaLogo from '../logos/Cybera.png'
 import mecSimCalc from "../logos/mecSimCalc.png"
 import ATBLogo from '../logos/ATB.jpg'
 import ICELogo from '../logos/ICELogo.png'
+import Chiropractor from '../logos/chiropractor.png'
 import GarminLogo from '../logos/Garmin.png'
 import RunWithItLogo from '../logos/RunWithIt.png'
 import UniversityDepartmentLogo from '../logos/UniversityDepartment.png'
@@ -98,6 +99,16 @@ class Sponsors extends Component {
               fluid
               as="a"
               href="https://www.amii.ca/"
+              target="_blank"
+            />
+          </Grid.Column>
+
+          <Grid.Column width={4}>
+            <Image
+              src={Chiropractor}
+              fluid
+              as="a"
+              href="https://www.garneauchiropractic.ca/"
               target="_blank"
             />
           </Grid.Column>
