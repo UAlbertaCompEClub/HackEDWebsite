@@ -104,15 +104,6 @@ class Sponsors extends Component {
             />
           </Grid.Column>
 
-          <Grid.Column width={4}>
-            <Image
-              src={Chiropractor}
-              fluid
-              as="a"
-              href="https://www.garneauchiropractic.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
 
           <Grid.Column width={6}>
             <Image
