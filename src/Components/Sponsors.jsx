@@ -11,6 +11,8 @@ import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
 import PasswordLogo from "../logos/OnePassword.png";
 import AmiiLogo from "../logos/Amii.png";
+import UofALogo from "../logos/UofA.png";
+
 import EdmontonUnlimited from "../logos/EdmontonUnlimited.png";
 import ECELogo from "../logos/ECELogo.png";
 import ICELogo from "../logos/ICELogo.png";
@@ -68,6 +70,17 @@ class Sponsors extends Component {
         
         <Grid.Row verticalAlign="middle" centered>
 
+
+        <Grid.Column width={7}>
+            <Image
+              src={UofALogo}
+              fluid
+              as="a"
+              href="https://www.gd.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+
         <Grid.Column width={11}>
             <Image
               src={GeneralDynamicsLogo}
@@ -77,7 +90,12 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
+
+          
+
           </Grid.Row>
+
+          
 {/*
         
             
@@ -164,15 +182,6 @@ class Sponsors extends Component {
             />
           </Grid.Column>
           
-         <Grid.Column width={5}>
-            <Image
-              src={mecSimCalc}
-              fluid
-              as="a"
-              href="https://mecsimcalc.com/"
-              target="_blank"
-            />
-          </Grid.Column>
 
           <Grid.Column width={4}>
             <Image
@@ -183,6 +192,17 @@ class Sponsors extends Component {
               target="_blank"
             />
             </Grid.Column>
+
+            <Grid.Column width={5}>
+            <Image
+              src={mecSimCalc}
+              fluid
+              as="a"
+              href="https://mecsimcalc.com/"
+              target="_blank"
+            />
+          </Grid.Column>
+
           </Grid.Row>{/*
           <Grid.Column width={6}>
             <Image
