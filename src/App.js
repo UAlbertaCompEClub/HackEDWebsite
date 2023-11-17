@@ -50,11 +50,11 @@ class App extends Component {
 
               <h3 style={{color: "#FFFFFF"}}>
               <br></br> 
-                  Registration is now open!
+                  Registration is now closed!
               </h3>
               
               
-              <br></br>
+              {/* <br></br>
               <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
@@ -67,7 +67,7 @@ class App extends Component {
                 className={"mx-6"}
               >
                 Register Here!
-              </Button>
+              </Button> 
               <br></br>
               <br></br>
               <Button
@@ -82,7 +82,7 @@ class App extends Component {
                 className={"mx-6"}
               >
                 Volunteer Here!
-              </Button>
+              </Button>*/}
               <br></br>
               <br></br>
               <h5 style={{color: "#FFFFFF"}}>
