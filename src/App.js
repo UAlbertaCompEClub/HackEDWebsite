@@ -55,12 +55,30 @@ class App extends Component {
               <hr style={{color: "#FFFFFF", width: "40%", }}></hr>
               <h5 style={{ color: "#FFFFFF"}} >{EVENT_LOCATION}
               </h5>  
-              
+
               <h3 style={{color: "#FFFFFF"}}>
-              <br></br> <br></br>
-                  Registration opening soon!
+              <br></br> 
+                  Registration is now open!
               </h3>
-              <h5 style={{color: "#FFFFFF"}}>
+              
+              
+              <br></br>
+              <Button
+                onClick={(e) =>
+                  this.redirectToExternalUrl(
+                    "https://docs.google.com/forms/d/e/1FAIpQLSf9PCmiH0cPLMaUsqo9GRQSZuJYJqxnJIgKfh9JZIeqywlaGg/viewform?usp=sf_link",
+                    e
+                  )
+                }
+                color="secondary"
+                size="lg"
+                className={"mx-6"}
+              >
+                Register Here!
+              </Button> 
+              <br></br>
+              <br></br>
+              {/* <h5 style={{color: "#FFFFFF"}}>
               Can't wait? Check out <a style={{color: "#FFFFFF"}} href="https://hackedbeta.compeclub.com/">HackED Beta</a> in November.
               </h5>
             </Col>
