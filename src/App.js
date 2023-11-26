@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Image } from "semantic-ui-react";
 import { Container, Row, Col, Button } from "reactstrap";
-import HackEDLogo from "./logos/hacked.png";
+import HackEDLogo from "./logos/HackEDhorizontalblue.png";
 import Background from "./logos/background2.jpg";
 import HackEDLogoSponsor from "./logos/HackEDIntuit.svg";
 import About from "./Components/About";
