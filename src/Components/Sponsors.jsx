@@ -6,6 +6,9 @@ import IntuitLogo from "../logos/Intuit.png";
 
 import GeneralDynamicsLogo from "../logos/General-Dynamics-logo.png";
 import mecSimCalc from "../logos/mecSimCalc.png"
+import TelusLogo from "../logos/telus.png"
+import LanternLogo from "../logos/lantern.png"
+import SICLogo from "../logos/SIC.png"
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
@@ -50,36 +53,26 @@ class Sponsors extends Component {
             </h1>
           </Grid.Column>
         </Grid.Row>
-{/*
+
         <Divider horizontal>SPECIAL THANKS TO</Divider>
         <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column width={7}>
-          <Image
-              src={IntuitLogo}
+
+        <Grid.Column width={12}>
+            <Image
+              src={LanternLogo}
               fluid
               as="a"
-              href="https://www.intuit.com/"
+              href="https://www.devfacto.com/"
               target="_blank"
             />
-
           </Grid.Column>
+          
           </Grid.Row> 
-      */}
+      
         <Divider horizontal>GOLD</Divider>
         
         
         <Grid.Row verticalAlign="middle" centered>
-
-
-        <Grid.Column width={7}>
-            <Image
-              src={UofALogo}
-              fluid
-              as="a"
-              href="https://www.gd.com/"
-              target="_blank"
-            />
-          </Grid.Column>
 
         <Grid.Column width={11}>
             <Image
@@ -89,9 +82,49 @@ class Sponsors extends Component {
               href="https://www.gd.com/"
               target="_blank"
             />
+                      <br></br>
+
           </Grid.Column>
 
+
+
+        <Grid.Column width={7}>
+            <Image
+              src={UofALogo}
+              fluid
+              as="a"
+              href="https://www.ualberta.ca/research/index.html"
+              target="_blank"
+            />
+            <br></br>
+          <br></br>
+          </Grid.Column>
           
+
+          <Grid.Column width={7}>
+          <Image
+              src={TelusLogo}
+              fluid
+              as="a"
+              href="https://www.telus.com/en"
+              target="_blank"
+            />
+          <br></br>
+          <br></br>
+
+          </Grid.Column>
+        
+          <Grid.Column width={6}>
+            <Image
+              src={SICLogo}
+              fluid
+              as="a"
+              href="https://www.ualberta.ca/student-innovation-centre/index.html"
+              target="_blank"
+            />
+          </Grid.Column>
+
+
 
           </Grid.Row>
 
