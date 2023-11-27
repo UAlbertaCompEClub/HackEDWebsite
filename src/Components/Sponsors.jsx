@@ -62,7 +62,7 @@ class Sponsors extends Component {
               src={LanternLogo}
               fluid
               as="a"
-              href="https://www.devfacto.com/"
+              href="https://lanternstudios.com/"
               target="_blank"
             />
           </Grid.Column>
@@ -123,7 +123,6 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-
 
 
           </Grid.Row>
@@ -235,6 +234,19 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
+
+          <Grid.Column width={6}>
+            <br></br>
+            <Image
+              src={EdmontonUnlimited}
+              fluid
+              as="a"
+              href="https://edmontonunlimited.com/"
+              target="_blank"
+            />
+            <br></br>
+            <br></br>
+            </Grid.Column>
 
           </Grid.Row>{/*
           <Grid.Column width={6}>
