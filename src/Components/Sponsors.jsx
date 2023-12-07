@@ -9,6 +9,7 @@ import mecSimCalc from "../logos/mecSimCalc.png"
 import TelusLogo from "../logos/telus.png"
 import LanternLogo from "../logos/lantern.png"
 import SICLogo from "../logos/SIC.png"
+import garmin from "../logos/garmin.png"
 import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
 import NventLogo from "../logos/Nvent.png";
 import ServusLogo from "../logos/Servus.jpg";
@@ -242,6 +243,19 @@ class Sponsors extends Component {
               fluid
               as="a"
               href="https://edmontonunlimited.com/"
+              target="_blank"
+            />
+            <br></br>
+            <br></br>
+            </Grid.Column>
+
+            <Grid.Column width={6}>
+            <br></br>
+            <Image
+              src={garmin}
+              fluid
+              as="a"
+              href="https://www.garmin.com/en-CA/"
               target="_blank"
             />
             <br></br>

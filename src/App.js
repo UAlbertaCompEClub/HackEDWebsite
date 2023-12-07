@@ -63,6 +63,7 @@ class App extends Component {
               
               
               <br></br>
+              
               <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
@@ -76,6 +77,25 @@ class App extends Component {
               >
                 Register Here!
               </Button> 
+
+              <Button
+              
+                onClick={(e) =>
+                  this.redirectToExternalUrl(
+                    "https://forms.gle/fkzE6WzWrzacxUpq8",
+                    e
+                  )
+                }
+                color="secondary"
+                size="lg"
+                className={"mx-6"}
+                style={{ marginLeft: '30px' }}
+              >
+                Volunteer Here!
+                
+              </Button> 
+
+              
               <br></br>
               <br></br>
               {/* <h5 style={{color: "#FFFFFF"}}>
@@ -112,6 +132,7 @@ class App extends Component {
 
               
             </Col>
+            
             <Col></Col>
           </Row>
         </Container>
