@@ -77,7 +77,8 @@ class App extends Component {
               >
                 Register Here!
               </Button> 
-
+              <br></br>
+              <br></br>
               <Button
               
                 onClick={(e) =>
@@ -89,7 +90,6 @@ class App extends Component {
                 color="secondary"
                 size="lg"
                 className={"mx-6"}
-                style={{ marginLeft: '30px' }}
               >
                 Volunteer Here!
                 
