@@ -22,14 +22,15 @@ class Header extends React.Component {
                               <a className="nav-link" href="#about">About</a>
                           </li>
                           <li style={{ paddingLeft: "5%", fontSize: 'large' }} className="nav-item">
+                              <a className="nav-link" href="#Schedule">Schedule</a>
+                          </li>
+                          <li style={{ paddingLeft: "5%", fontSize: 'large' }} className="nav-item">
                               <a className="nav-link" href="#FAQ">FAQ</a>
                           </li>
                           {/* <li className="nav-item">
                               <a className="nav-link" href="#presentationSchedule">Presentation Schedule</a>
-                          </li> 
-                          <li className="nav-item">
-                              <a className="nav-link" href="#Schedule">Schedule</a>
-                          </li>*/}
+                          </li> */}
+                        
                           <li style={{ paddingLeft: "5%", fontSize: 'large' }} className="nav-item">
                               <a className="nav-link" href="#Sponsors">Sponsors</a>
                           </li>

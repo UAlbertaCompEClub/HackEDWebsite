@@ -138,10 +138,12 @@ class App extends Component {
         </Container>
         <About />
         <WhereToGo />
-        <br/>
+        <Schedule />
+        <br></br><br></br>
+        <br></br><br></br>
+
         <Faq />
         {/*<PresSchedule/>*/}
-        {/*<Schedule />*/}
         {/*<EventbriteRegistration />*/}
         <Sponsors />
         <Footer />
