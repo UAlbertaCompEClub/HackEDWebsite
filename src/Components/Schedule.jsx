@@ -56,7 +56,7 @@ const scheduleItems = [
     // },
 
     {
-        fullDate: EVENT_END_TIME.format("MMMM Do, YYYY (dddd)")
+        fullDate: "January 7, 2024 (Sunday)"
     },
     {
         title: "Breakfast",
