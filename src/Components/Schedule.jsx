@@ -12,7 +12,7 @@ const scheduleItems = [
     },
     {
         title: "Sign in - Doors open",
-        date: "Saturday 9:00am - 10:00am",
+        date: "Saturday 9:00am - 10:30am",
         icon: 'clipboard',
     },
     {
