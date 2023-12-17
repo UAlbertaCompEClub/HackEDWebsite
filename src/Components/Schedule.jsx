@@ -17,7 +17,7 @@ const scheduleItems = [
     },
     {
         title: "Opening Ceremonies",
-        date: "Saturday 10:30pm",
+        date: "Saturday 10:30am",
         icon: 'star'
     },
     {
