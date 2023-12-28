@@ -12,12 +12,12 @@ const scheduleItems = [
     },
     {
         title: "Sign in - Doors open",
-        date: "Saturday 9:00am - 10:30am",
+        date: "Saturday 8:15am - 10:00am",
         icon: 'clipboard',
     },
     {
         title: "Opening Ceremonies",
-        date: "Saturday 10:30am",
+        date: "Saturday - TBD",
         icon: 'star'
     },
     {
@@ -65,7 +65,7 @@ const scheduleItems = [
     },
     {
         title: "Registration for Judging and Devpost Submission Deadline",
-        date: "Sunday 11:00am",
+        date: "Sunday - TBD",
         icon: 'exclamation triangle',
         description: "Must be done to be considered for prizes!"
     },
@@ -76,12 +76,12 @@ const scheduleItems = [
     },
     {
         title: "Judging Begins",
-        date: "Sunday 11:30pm",
+        date: "Sunday - TBD",
         icon: 'winner'
     },
     {
         title: "Judging Ends",
-        date: "Sunday 4:30pm",
+        date: "Sunday - TBD",
         icon: 'winner'
     },
     {
