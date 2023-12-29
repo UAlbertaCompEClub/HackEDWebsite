@@ -10,24 +10,12 @@ import TelusLogo from "../logos/telus.png"
 import LanternLogo from "../logos/lantern.png"
 import SICLogo from "../logos/SIC.png"
 import garmin from "../logos/garmin.png"
-import StartupEdmontonLogo from "../logos/StartupEdmonton.png";
-import NventLogo from "../logos/Nvent.png";
-import ServusLogo from "../logos/Servus.jpg";
-import PasswordLogo from "../logos/OnePassword.png";
+import AltaML from "../logos/AltaML.jpg"
 import AmiiLogo from "../logos/Amii.png";
 import UofALogo from "../logos/UofA.png";
 
 import EdmontonUnlimited from "../logos/EdmontonUnlimited.png";
-import ECELogo from "../logos/ECELogo.png";
-import ICELogo from "../logos/ICELogo.png";
-import G2VLogo from "../logos/G2V.png";
-import ECEDepartmentLogo from "../logos/ECEDepartmentLogo.png";
-import IsaicLogo from "../logos/ISAIC.jpg"
-import InnovateEdmontonLogo from "../logos/InnovateEdmonton.png"
-import StickerMuleLogo from "../logos/StickerMule.png";
-import BrandMakersLogo from "../logos/BrandMakers.png";
 import SpartanControlLogo from "../logos/SpartanControls.jpg";
-import DarkHorseLogo from "../logos/DarkhorseAnalytics.png";
 
 import { EVENT_NAME } from "../constants";
 
@@ -55,7 +43,7 @@ class Sponsors extends Component {
           </Grid.Column>
         </Grid.Row>
 
-        <Divider horizontal>SPECIAL THANKS TO</Divider>
+        <Divider horizontal>Title</Divider>
         <Grid.Row verticalAlign="middle" centered>
 
         <Grid.Column width={12}>
@@ -128,81 +116,7 @@ class Sponsors extends Component {
 
           </Grid.Row>
 
-          
-{/*
-        
-            
-        <Grid.Column width={5}>
-            <Image
-              src={ServusLogo}
-              fluid
-              as="a"
-              href="https://www.servus.ca/life"
-              target="_blank"
-            />
-        </Grid.Column>
-
-        <Grid.Column width={5}>
-            <Image
-              src={EdmontonUnlimited}
-              fluid
-              as="a"
-              href="https://edmontonunlimited.com/"
-              target="_blank"
-            />
-            </Grid.Column>
-
-        <Grid.Column width={5}>
-            <Image
-              src={PasswordLogo}
-              fluid
-              as="a"
-              href="https://1password.com/"
-              target="_blank"
-            />
-            </Grid.Column>
-
-        </Grid.Row>
-          
-        <Grid.Column width={7}>
-            <Image
-              src={IntuitLogo}
-              fluid
-              as="a"
-              href="https://www.intuit.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={7}>
-            <Image
-              src={ServusLogo}
-              fluid
-              as="a"
-              href="https://www.servus.ca/life"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={5}>
-            <Image
-                src={NventLogo}
-                fluid
-                as="a"
-                href="https://www.nvent.com/"
-                target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={7}>
-            <Image
-              src={StartupEdmontonLogo}
-              fluid
-              as="a"
-              href="https://www.startupedmonton.com/"
-              target="_blank"
-            />
-      </Grid.Column>*/}
       
-        
-        
         <Divider horizontal>SILVER</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={6}>
@@ -262,87 +176,22 @@ class Sponsors extends Component {
             <br></br>
             </Grid.Column>
 
-          </Grid.Row>{/*
-          <Grid.Column width={6}>
-            <Image
-              src={ICELogo}
-              fluid
-              as="a"
-              href="https://www.iceincubator.com/"
-              target="_blank"
-            />
-          </Grid.Column>
+          </Grid.Row>
 
-          <Grid.Column width={3}>
+          <Divider horizontal>Special thanks to</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+
+        <Grid.Column width={7}>
             <Image
-              src={ECELogo}
+              src={AltaML}
               fluid
               as="a"
-              href="https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html"
+              href="https://altaml.com/"
               target="_blank"
             />
           </Grid.Column>
           
-          <Grid.Column width={6}>
-            <Image
-              src={GeneralDynamicsLogo}
-              fluid
-              as="a"
-              href="https://www.gd.com/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={5}>
-            <Image
-              src={AmiiLogo}
-              fluid
-              as="a"
-              href="https://www.amii.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-          <Grid.Column width={4}>
-            <Image
-              src={ECEDepartmentLogo}
-              fluid
-              as="a"
-              href="https://www.ualberta.ca/engineering/electrical-computer-engineering/index.html"
-              target="_blank"
-            />
-    </Grid.Column>*/}
-        
-        
-          {/*
-          <Grid.Column width={5}>
-            <Image
-              src={InnovateEdmontonLogo}
-              fluid
-              as="a"
-              href="https://innovateedmonton.com/"
-              target="_blank"
-            />
-            <Image
-              src={IsaicLogo}
-              fluid
-              as="a"
-              href="https://isaic.ece.ualberta.ca/"
-              target="_blank"
-            />
-          </Grid.Column>
-        </Grid.Row>
-        {/* <Divider horizontal>SHIRTS PROVIDED BY</Divider>
-        <Grid.Row verticalAlign="middle" centered>
-          <Grid.Column>
-            <Image
-              src={BrandMakersLogo}
-              fluid
-              as="a"
-              href="https://www.brandmakers.com/"
-              target="_blank"
-            />
-          </Grid.Column>*/}
-        
-        
+          </Grid.Row> 
         <Grid.Row centered columns={1}>
           <Grid.Column>
             <h3 className="text-center">Interested in sponsoring? </h3>
