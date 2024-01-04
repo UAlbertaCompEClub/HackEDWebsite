@@ -17,7 +17,7 @@ const scheduleItems = [
     },
     {
         title: "Opening Ceremonies",
-        date: "Saturday - TBD",
+        date: "Saturday - 10:00am",
         icon: 'star'
     },
     {
@@ -33,7 +33,7 @@ const scheduleItems = [
     },
     {
         title: "Dinner",
-        date: "Saturday - TBD",
+        date: "Saturday - 7:00pm",
         icon: 'food',
     },
     // {
@@ -60,7 +60,7 @@ const scheduleItems = [
     },
     {
         title: "Breakfast",
-        date: "Sunday - TBD",
+        date: "Sunday - 9:00am",
         icon: 'food',
     },
     {

@@ -13,6 +13,8 @@ import garmin from "../logos/garmin.png"
 import AltaML from "../logos/AltaML.jpg"
 import AmiiLogo from "../logos/Amii.png";
 import UofALogo from "../logos/UofA.png";
+import chiropractor from "../logos/chropractor.png";
+
 
 import EdmontonUnlimited from "../logos/EdmontonUnlimited.png";
 import SpartanControlLogo from "../logos/SpartanControls.jpg";
@@ -190,8 +192,22 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          
           </Grid.Row> 
+
+          <Divider horizontal>Dinner provided by</Divider>
+        <Grid.Row verticalAlign="middle" centered>
+
+        <Grid.Column width={4}>
+            <Image
+              src={chiropractor}
+              fluid
+              as="a"
+              href="https://www.garneauchiropractic.ca/"
+              target="_blank"
+            />
+          </Grid.Column>
+          </Grid.Row> 
+
         <Grid.Row centered columns={1}>
           <Grid.Column>
             <h3 className="text-center">Interested in sponsoring? </h3>

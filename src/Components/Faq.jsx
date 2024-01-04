@@ -142,7 +142,7 @@ const applicationPanels = [
   {
     key: 'when-is-the-deadline',
     title: 'When is the sign up deadline?',
-    content: 'TBD',
+    content: 'Sign ups are now closed!',
   },
   {
     key: 'who-can-apply',

@@ -58,13 +58,13 @@ class App extends Component {
 
               <h3 style={{color: "#FFFFFF"}}>
               <br></br> 
-                  Registration is now open!
+                  Registration is now closed!
               </h3>
               
               
               <br></br>
               
-              <Button
+              {/* <Button
                 onClick={(e) =>
                   this.redirectToExternalUrl(
                     "https://docs.google.com/forms/d/e/1FAIpQLSf9PCmiH0cPLMaUsqo9GRQSZuJYJqxnJIgKfh9JZIeqywlaGg/viewform?usp=sf_link",
@@ -76,9 +76,9 @@ class App extends Component {
                 className={"mx-6"}
               >
                 Register Here!
-              </Button> 
+              </Button>  
               <br></br>
-              <br></br>
+              <br></br>*/}
               <Button
               
                 onClick={(e) =>
