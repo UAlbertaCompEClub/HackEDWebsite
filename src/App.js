@@ -98,10 +98,10 @@ class App extends Component {
               
               <br></br>
               <br></br>
-              {/* <h5 style={{color: "#FFFFFF"}}>
+               <h5 style={{color: "#FFFFFF"}}>
               Can't wait? Check out <a style={{color: "#FFFFFF"}} href="https://hackedbeta.compeclub.com/">HackED Beta</a> in November.
               </h5>
-            </Col>
+            {/*</Col>
           </Row>
           <Row style={{ paddingBottom: "20vh" }}>
             <Col></Col>
