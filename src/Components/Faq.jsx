@@ -257,26 +257,27 @@ class Faq extends Component {
         stackable
         relaxed="very"
         centered
+        
       >
         <Grid.Row>
           <Grid.Column>
-            <h1 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>FAQ</h1>
+            <h1 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px', fontFamily: 'Open Sans'}}>FAQ</h1>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
           <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>General</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px', fontFamily: 'Open Sans'}}>General</h2>
             <Accordion
-              style={{ color: "#f2f2f2" }}
+              style={{ color: "#f2f2f2",fontFamily: 'Open Sans' }}
               panels={generalPanels}
               exclusive={false}
               inverted
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Logistics</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px',fontFamily: 'Open Sans'}}>Logistics</h2>
             <Accordion
-              style={{ color: "#f2f2f2" }}
+              style={{ color: "#f2f2f2",fontFamily: 'Open Sans' }}
               panels={logisticsPanels}
               exclusive={false}
               inverted
@@ -285,29 +286,29 @@ class Faq extends Component {
           </Grid.Column>
           <Grid.Column width={1} />
           <Grid.Column>
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px',fontFamily: 'Open Sans'}}>
               Sign up
             </h2>
             <Accordion
-              style={{ color: "#f2f2f2" }}
+              style={{ color: "#f2f2f2",fontFamily: 'Open Sans' }}
               panels={applicationPanels}
               exclusive={false}
               inverted
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Hacking</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px',fontFamily: 'Open Sans'}}>Hacking</h2>
             <Accordion
-              style={{ color: "#f2f2f2" }}
+              style={{ color: "#f2f2f2",fontFamily: 'Open Sans' }}
               panels={hackingPanels}
               exclusive={false}
               inverted
               fluid
             />
 
-            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px'}}>Help!</h2>
+            <h2 style={{ textAlign: "center", color: "#FFFFFF", paddingTop: '20px',fontFamily: 'Open Sans'}}>Help!</h2>
             <Accordion
-              style={{ color: "#f2f2f2" }}
+              style={{ color: "#f2f2f2",fontFamily: 'Open Sans' }}
               panels={helpPanels}
               exclusive={false}
               inverted

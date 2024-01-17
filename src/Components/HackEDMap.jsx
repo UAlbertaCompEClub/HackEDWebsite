@@ -166,7 +166,7 @@ var silverMapStyles = [
 export class HackEDMap extends Component {
   render() {
     return (
-      <div style={{ width: "100%", height: "50vh", position: "relative" }}>
+      <div style={{ width: "100%", height: "50vh", position: "relative" , fontFamily: 'Open Sans'}}>
         <Map
           google={this.props.google}
           initialCenter={{

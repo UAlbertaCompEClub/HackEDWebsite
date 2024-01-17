@@ -30,7 +30,8 @@ class Sponsors extends Component {
         style={{
           background: "#FFFFFF",
           marginTop: 40,
-          marginBottom: 40
+          marginBottom: 40,
+          fontFamily: 'Open Sans',
         }}
         columns={2}
         container
@@ -39,13 +40,13 @@ class Sponsors extends Component {
       >
         <Grid.Row centered>
           <Grid.Column width={12}>
-            <h1 style={{ textAlign: "center" }} className="text-primary">
+            <h1 style={{ textAlign: "center" ,fontFamily: 'Open Sans'}} className="text-primary">
               SPONSOR A SPECIAL WEEKEND
             </h1>
           </Grid.Column>
         </Grid.Row>
 
-        <Divider horizontal>Title</Divider>
+        <Divider horizontal >Title</Divider>
         <Grid.Row verticalAlign="middle" centered>
 
         <Grid.Column width={12}>
@@ -210,10 +211,10 @@ class Sponsors extends Component {
 
         <Grid.Row centered columns={1}>
           <Grid.Column>
-            <h3 className="text-center">Interested in sponsoring? </h3>
+            <h3 style={{ fontFamily: 'Open Sans'}} className="text-center">Interested in sponsoring? </h3>
             <br />
 
-            <h4>
+            <h4 style={{ fontFamily: 'Open Sans'}} >
               Each year, our sponsors help us unite our community of emerging
               developers, designers, makers and learners. Our sponsors empower
               our hackers to build something they're proud of!

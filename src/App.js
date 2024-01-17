@@ -35,7 +35,7 @@ class App extends Component {
       <div className="App">
         
         <Header />
-        <Container style={{ backgroundImage: `url(${Background})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: "no-repeat"}}fluid={true} >
+        <Container style={{ backgroundImage: `url(${Background})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: "no-repeat", }}fluid={true} >
           <Row style={{ paddingTop: "5vh" }}>
             
             <Col style={{ paddingLeft: "4%" }} sm={15} md={15} lg={12} xl={6}>
@@ -44,19 +44,19 @@ class App extends Component {
               </div>
             </Col>
           </Row>
-          <Row style={{ paddingLeft: "8%" }}>
+          <Row style={{ paddingLeft: "8%" ,fontFamily: 'Open Sans',}}>
             <Col className="pt-4 pb-4">
-              <h2 style={{ color: "#FFFFFF"}}>
+              <h2 style={{ color: "#FFFFFF",fontFamily: 'Open Sans'}}>
                 One of Alberta's Largest Student Run Hackathons
               </h2>
-              <h1 style={{ color: "#FFFFFF"}}>
+              <h1 style={{ color: "#FFFFFF",fontFamily: 'Open Sans'}}>
                 January 6th-7th
               </h1> 
-              <hr style={{color: "#FFFFFF", width: "40%", }}></hr>
-              <h5 style={{ color: "#FFFFFF"}} >{EVENT_LOCATION}
+              <hr style={{color: "#FFFFFF", width: "40%", fontFamily: 'Open Sans'}}></hr>
+              <h5 style={{ color: "#FFFFFF",fontFamily: 'Open Sans'}} >{EVENT_LOCATION}
               </h5>  
 
-              <h3 style={{color: "#FFFFFF"}}>
+              <h3 style={{color: "#FFFFFF",fontFamily: 'Open Sans'}}>
               <br></br> 
                   Registration is now closed!
               </h3>
@@ -78,7 +78,7 @@ class App extends Component {
                 Register Here!
               </Button>  
               <br></br>
-              <br></br>*/}
+              <br></br>
               <Button
               
                 onClick={(e) =>
@@ -95,10 +95,10 @@ class App extends Component {
                 
               </Button> 
 
-              
+              */}
               <br></br>
               <br></br>
-               <h5 style={{color: "#FFFFFF"}}>
+               <h5 style={{color: "#FFFFFF",fontFamily: 'Open Sans'}}>
               Can't wait? Check out <a style={{color: "#FFFFFF"}} href="https://hackedbeta.compeclub.com/">HackED Beta</a> in November.
               </h5>
             {/*</Col>

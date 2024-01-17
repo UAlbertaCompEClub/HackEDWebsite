@@ -14,7 +14,7 @@ class Footer extends Component {
             relaxed='very'>
                 <Grid.Row centered>
                     <Grid.Column>
-                        <h4>
+                        <h4 style={{fontFamily: 'Open Sans'}}>
                         Mechanical Engineering Building, 5th Floor<br/>
                             University of Alberta<br/>
                             Edmonton, AB<br/>
@@ -22,7 +22,7 @@ class Footer extends Component {
                         
                     </Grid.Column>
                     <Grid.Column />
-                    <Grid.Column>
+                    <Grid.Column style={{fontFamily: 'Open Sans'}}>
                         <List>
                             <List.Item 
                                 icon='linkify' 
@@ -55,7 +55,7 @@ class Footer extends Component {
                             rel="noopener noreferrer">
                                 <h4>MLH Code of Conduct</h4>
                             </a> */}
-                        <p style={{textAlign: "center"}}>© University of Alberta Computer Engineering Club</p>
+                        <p style={{textAlign: "center", fontFamily: 'Open Sans'}}>© University of Alberta Computer Engineering Club</p>
                     </Grid.Column>
                 </Grid.Row>
             </Grid>

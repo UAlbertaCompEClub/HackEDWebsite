@@ -22,14 +22,14 @@ const scheduleItems = [
     },
     {
         title: "Hacking Begins",
-        date: "Saturday - When announced!",
+        date: "Saturday - 11:00am!",
         icon: 'hourglass start'
     },
     {
         title: "Workshops and Sponsor Booths",
         date: "Saturday 11:00am - 5pm",
         icon: 'pencil alternate',
-        description: "More details will be added soon!"
+        description: "More details will be available at the event!"
     },
     {
         title: "Dinner",
@@ -65,28 +65,28 @@ const scheduleItems = [
     },
     {
         title: "Registration for Judging and Devpost Submission Deadline",
-        date: "Sunday - TBD",
+        date: "Sunday - 11:00am",
         icon: 'exclamation triangle',
         description: "Must be done to be considered for prizes!"
     },
     {
         title: "Hacking Ends",
-        date: "Sunday - When announced! (24 hours after Hacking Start time)",
+        date: "Sunday - 11:00am",
         icon: 'hourglass end'
     },
     {
         title: "Judging Begins",
-        date: "Sunday - TBD",
+        date: "Sunday - 11:15",
         icon: 'winner'
     },
     {
         title: "Judging Ends",
-        date: "Sunday - TBD",
+        date: "Sunday - 5:00pm (tentative)",
         icon: 'winner'
     },
     {
         title: "Closing Ceremonies (Winners declared)",
-        date: "Sunday - When announced!",
+        date: "Sunday - 5:00pm (tentative)",
         icon: 'star'
     }
 ];
@@ -103,10 +103,10 @@ class Schedule extends Component {
             return (
                 <li className="list-group-item" key={item.title}>
                     <Grid columns={2} divided>
-                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center',fontFamily: 'Open Sans'  }}>
                             <Icon fitted size="big" name={item.icon} />
                         </Grid.Column>
-                        <Grid.Column mobile={13} tablet={13} computer={15}>
+                        <Grid.Column mobile={13} tablet={13} computer={15} style={{ fontFamily: 'Open Sans'  }}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
                             <p>{item.description}</p>
@@ -120,13 +120,13 @@ class Schedule extends Component {
             return (
                 <li className="list-group-item" key={item.title}>
                     <Grid columns={2} divided>
-                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Open Sans'  }}>
                             <Icon fitted size="big" name={item.icon} />
                         </Grid.Column>
-                        <Grid.Column mobile={13} tablet={13} computer={15}>
+                        <Grid.Column mobile={13} tablet={13} computer={15} style={{ fontFamily: 'Open Sans'  }}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
-                            <p>{item.description}</p>
+                            <p >{item.description}</p>
                         </Grid.Column>
                     </Grid>
                 </li>
@@ -136,10 +136,10 @@ class Schedule extends Component {
             return (
                 <li className="list-group-item" key={item.title}>
                     <Grid columns={2} divided>
-                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' ,fontFamily: 'Open Sans' }}>
                             <Icon fitted size="big" name={item.icon} />
                         </Grid.Column>
-                        <Grid.Column mobile={13} tablet={13} computer={15}>
+                        <Grid.Column mobile={13} tablet={13} computer={15} style={{ fontFamily: 'Open Sans'  }}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
                             <p className="text-white">{item.location}</p>
@@ -152,10 +152,10 @@ class Schedule extends Component {
             return (
                 <li className="list-group-item" key={item.title}>
                     <Grid columns={2} divided>
-                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <Grid.Column mobile={3} tablet={3} computer={1} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: 'Open Sans'  }}>
                             <Icon fitted size="big" name={item.icon} />
                         </Grid.Column>
-                        <Grid.Column mobile={13} tablet={13} computer={15}>
+                        <Grid.Column mobile={13} tablet={13} computer={15} style={{ fontFamily: 'Open Sans'  }}>
                             <b>{item.title}</b>
                             <p>{item.date}</p>
                         </Grid.Column>

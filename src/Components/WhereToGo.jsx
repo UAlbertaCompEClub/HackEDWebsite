@@ -11,13 +11,13 @@ class WhereToGo extends Component {
         return (
             <div>
                 <Container>
-                <h1 style={{ textAlign: 'center', padding: 50 }}>{EVENT_LOCATION}</h1>
-                <h4 style={{ textAlign: 'center', paddingBottom: 50 }}>{EVENT_LOCATION_ADDRESS}</h4>
+                <h1 style={{ textAlign: 'center', padding: 50 ,fontFamily: 'Open Sans'}}>{EVENT_LOCATION}</h1>
+                <h4 style={{ textAlign: 'center', paddingBottom: 50 ,fontFamily: 'Open Sans'}}>{EVENT_LOCATION_ADDRESS}</h4>
                 </Container>
 
 
                 <HackEDMap/>
-                <h4 style={{textAlign: 'center', padding: 50}}>HackED 2024 is a hybrid event! Join us online on discord to get the full experience from anywhere you'd like.</h4>
+                <h4 style={{textAlign: 'center', padding: 50,fontFamily: 'Open Sans'}}>HackED 2024 is a hybrid event! Join us online on discord to get the full experience from anywhere you'd like.</h4>
             </div>
         );
     }
