@@ -46,7 +46,7 @@ class Sponsors extends Component {
           </Grid.Column>
         </Grid.Row>
 
-        <Divider horizontal >Title</Divider>
+        {/*<Divider horizontal >Title</Divider>
         <Grid.Row verticalAlign="middle" centered>
 
         <Grid.Column width={12}>
@@ -207,7 +207,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-          </Grid.Row> 
+          </Grid.Row> */}
 
         <Grid.Row centered columns={1}>
           <Grid.Column>
