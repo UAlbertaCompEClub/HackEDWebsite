@@ -50,7 +50,7 @@ class App extends Component {
                 One of Alberta's Largest Student Run Hackathons
               </h2>
               <h1 style={{ color: "#FFFFFF",fontFamily: 'Open Sans'}}>
-                January 2025
+                January 3-5 2025
               </h1> 
               <hr style={{color: "#FFFFFF", width: "40%", fontFamily: 'Open Sans'}}></hr>
               <h5 style={{ color: "#FFFFFF",fontFamily: 'Open Sans'}} >{EVENT_LOCATION}
@@ -138,7 +138,7 @@ class App extends Component {
         </Container>
         <About />
         <WhereToGo />
-        <Schedule />
+        {/*<Schedule />*/}
         <br></br><br></br>
         <br></br><br></br>
 

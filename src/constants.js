@@ -1,9 +1,9 @@
 import moment from "moment";
 
 export const EVENT_NAME = "HackED";
-export const EVENT_NAME_FULL = EVENT_NAME + " 2024";
-export const EVENT_START_TIME = moment("2024-01-6 09:30");
-export const EVENT_END_TIME = moment("2024-01-7 05:30");
+export const EVENT_NAME_FULL = EVENT_NAME + " 2025";
+export const EVENT_START_TIME = moment("2025-01-3 09:30");
+export const EVENT_END_TIME = moment("2025-01-5 05:30");
 export const EVENT_LOCATION = "Donadeo Innovation Centre for Engineering - University of Alberta";
 export const EVENT_LOCATION_ADDRESS = "8th Floor, 116 St NW, Edmonton, AB T6G 2E1";
 export const PARTICIPANT_COUNT = "500";

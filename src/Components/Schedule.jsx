@@ -8,7 +8,7 @@ import { EVENT_START_TIME, EVENT_END_TIME } from "../constants";
 
 const scheduleItems = [
     {
-        fullDate: "January 6, 2024 (Saturday)"
+        fullDate: "January 3, 2025 (Saturday)"
     },
     {
         title: "Sign in - Doors open",
