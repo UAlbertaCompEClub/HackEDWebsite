@@ -46,7 +46,7 @@ class Sponsors extends Component {
               SPONSOR A SPECIAL WEEKEND
             </h1>
           </Grid.Column>
-        </Grid.Row>
+       {/* </Grid.Row>
         {/*<Divider horizontal>TITLE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column>
@@ -58,7 +58,7 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-      </Grid.Row>*/}
+      </Grid.Row>
         <Divider horizontal>GOLD</Divider>
         <Grid.Row verticalAlign="middle" centered>
           <Grid.Column width={6}>
@@ -117,7 +117,7 @@ class Sponsors extends Component {
 
       </Grid.Row>
       
-       {/* <Divider horizontal>BRONZE</Divider>
+        <Divider horizontal>BRONZE</Divider>
         <Grid.Row verticalAlign="middle" centered>
           
           </Grid.Row>
@@ -144,11 +144,11 @@ class Sponsors extends Component {
               target="_blank"
             />
           </Grid.Column>
-        </Grid.Row> */}
-        <Grid.Row centered columns={1}>
-          <Grid.Column>
+        </Grid.Row> 
+        <Grid.Row centered columns={1}>*/}
             
             <h4 style={{ textAlign: "center"}}>
+            <br />
               Interested in sponsoring? 
               <br />
               <br />
@@ -161,7 +161,6 @@ class Sponsors extends Component {
               The {EVENT_NAME} sponsorship team can be reached at:{" "}
               <a href="mailto:hacked@compeclub.com">hacked@compeclub.com</a>
             </h4>
-          </Grid.Column>
         </Grid.Row>
       </Grid>
     );

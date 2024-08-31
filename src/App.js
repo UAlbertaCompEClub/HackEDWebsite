@@ -50,7 +50,7 @@ class App extends Component {
 
               <h3 style={{color: "#FFFFFF"}}>
               <br></br> 
-                  Registration is now closed!
+                  Registration will open soon!
               </h3>
               
               
